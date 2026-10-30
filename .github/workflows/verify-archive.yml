@@ -13,7 +13,8 @@ jobs:
           sha256sum /tmp/h.gpg
           grep -q "$(sha256sum /tmp/h.gpg | cut -d' ' -f1)" sensitive/HARVEST-SHA256.txt && echo "SHA_MATCH"
           printf '%s' "$KEY" > /tmp/k
+          set -o pipefail
           N=$(gpg --batch --quiet --passphrase-file /tmp/k -d /tmp/h.gpg 2>/dev/null | tar -tf - | wc -l)
           echo "tar entries: $N"
-          [ "$N" -gt 600 ] && echo "DECRYPT_VERIFY_OK" || echo "DECRYPT_VERIFY_FAIL"
+          if [ "$N" -gt 600 ]; then echo "DECRYPT_VERIFY_OK"; else echo "DECRYPT_VERIFY_FAIL"; exit 1; fi
           rm -f /tmp/k /tmp/h.gpg
