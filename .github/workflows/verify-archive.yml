@@ -1,0 +1,19 @@
+name: verify-archive
+on: workflow_dispatch
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Decrypt + verify (prints verdict only)
+        env:
+          KEY: ${{ secrets.REPO_REPLAY_HARVEST_KEY }}
+        run: |
+          cat sensitive/harvest.tar.gpg.part-* > /tmp/h.gpg
+          sha256sum /tmp/h.gpg
+          grep -q "$(sha256sum /tmp/h.gpg | cut -d' ' -f1)" sensitive/HARVEST-SHA256.txt && echo "SHA_MATCH"
+          printf '%s' "$KEY" > /tmp/k
+          N=$(gpg --batch --quiet --passphrase-file /tmp/k -d /tmp/h.gpg 2>/dev/null | tar -tf - | wc -l)
+          echo "tar entries: $N"
+          [ "$N" -gt 600 ] && echo "DECRYPT_VERIFY_OK" || echo "DECRYPT_VERIFY_FAIL"
+          rm -f /tmp/k /tmp/h.gpg
