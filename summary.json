@@ -1,0 +1,562 @@
+{
+ "targets": 616,
+ "scored": 111,
+ "no_oracle": 505,
+ "rows": [
+  {
+   "target": "archwiz/activity_listener.py",
+   "pct": 48.5,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/aether.py",
+   "pct": 81.1,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/archaeo_sweep.py",
+   "pct": 94.3,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/archivist.py",
+   "pct": 97.8,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/archwiz.py",
+   "pct": 50.5,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/auto_repair.py",
+   "pct": 19.8,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/autonomous_runner.py",
+   "pct": 90.6,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/build_data_flow_manifest.py",
+   "pct": 21.6,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/correlation_scout.py",
+   "pct": 83.4,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/debug_daemon.py",
+   "pct": 99.9,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/forensic_toolchain.py",
+   "pct": 81.7,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/forge.py",
+   "pct": 95.4,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/import_session.py",
+   "pct": 6.9,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/lexicon_harvest.py",
+   "pct": 58.6,
+   "gaps": 3
+  },
+  {
+   "target": "archwiz/lexicon_mark.py",
+   "pct": 99.9,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/listener_control.py",
+   "pct": 32.0,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/live_view.py",
+   "pct": 99.1,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/metrics_viewer.py",
+   "pct": 99.9,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/mirror.py",
+   "pct": 22.8,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/name_forge.py",
+   "pct": 86.4,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/narrative.py",
+   "pct": 59.0,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/pipeline.py",
+   "pct": 88.2,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/pointer_index.py",
+   "pct": 75.3,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/probe.py",
+   "pct": 99.9,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/recon.py",
+   "pct": 80.0,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/recon_bridge.py",
+   "pct": 100.0,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/refactor_rune.py",
+   "pct": 77.1,
+   "gaps": 2
+  },
+  {
+   "target": "archwiz/reindex_pipeline.py",
+   "pct": 99.8,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/restore_version.py",
+   "pct": 99.9,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/sandbox/agent_shell_v2/agent_shell_v2.py",
+   "pct": 99.1,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/send_helper.py",
+   "pct": 73.8,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/sentinel.py",
+   "pct": 93.2,
+   "gaps": 1
+  },
+  {
+   "target": "archwiz/task_builder.py",
+   "pct": 51.0,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/tasque_declare.py",
+   "pct": 70.0,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/timeline_editor.py",
+   "pct": 99.9,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/trace_rw.py",
+   "pct": 53.8,
+   "gaps": 0
+  },
+  {
+   "target": "archwiz/trace_rw_v2.py",
+   "pct": 12.5,
+   "gaps": 0
+  },
+  {
+   "target": "central_mapper_v420.py",
+   "pct": 78.9,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/Chronos/chronos",
+   "pct": 76.7,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/account_manager.py",
+   "pct": 8.3,
+   "gaps": 1
+  },
+  {
+   "target": "cli-synthegration/backfill_elo.py",
+   "pct": 93.4,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/branch_manager.py",
+   "pct": 55.3,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/cedar_bridge.py",
+   "pct": 61.7,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/conv_branching.py",
+   "pct": 67.9,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/conv_explorer.py",
+   "pct": 57.2,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/conv_versioner.py",
+   "pct": 98.0,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/detect_paste.py",
+   "pct": 64.4,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/export_all.py",
+   "pct": 87.9,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/generate_handoff.py",
+   "pct": 12.5,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/generate_loop.py",
+   "pct": 95.8,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/loop_optimizer.py",
+   "pct": 86.5,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/pointer_sync.py",
+   "pct": 57.1,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/session_categories.py",
+   "pct": 40.4,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/sprints.py",
+   "pct": 21.0,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/success_metrics.py",
+   "pct": 92.2,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/synthegration_index.py",
+   "pct": 30.5,
+   "gaps": 2
+  },
+  {
+   "target": "cli-synthegration/token_provider.py",
+   "pct": 18.1,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/workspace/account2_expert/auto_refactor.py",
+   "pct": 2.7,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/workspace/account2_expert/token_extractor.py",
+   "pct": 75.7,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/workspace/compression_sandbox/synthegration_index.py",
+   "pct": 50.5,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/workspace/mitm_capture.py",
+   "pct": 86.3,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/workspace/staging/chronos/versioner.py",
+   "pct": 95.5,
+   "gaps": 0
+  },
+  {
+   "target": "cli-synthegration/workspace/staging/time_loop_accelerator.py",
+   "pct": 99.9,
+   "gaps": 0
+  },
+  {
+   "target": "colab-cli/bin/colab",
+   "pct": 50.0,
+   "gaps": 0
+  },
+  {
+   "target": "deepcli-tui/tui.py",
+   "pct": 48.0,
+   "gaps": 0
+  },
+  {
+   "target": "deepcli/deepapi.py",
+   "pct": 13.4,
+   "gaps": 0
+  },
+  {
+   "target": "deepcli/deepcli/core.py",
+   "pct": 55.4,
+   "gaps": 1
+  },
+  {
+   "target": "deepcli/investigate.py",
+   "pct": 66.7,
+   "gaps": 0
+  },
+  {
+   "target": "deepcli/investigator/api_map.py",
+   "pct": 99.3,
+   "gaps": 0
+  },
+  {
+   "target": "deepcli/investigator/capability_focus.py",
+   "pct": 100.0,
+   "gaps": 0
+  },
+  {
+   "target": "deepcli/investigator/capability_scout.py",
+   "pct": 50.6,
+   "gaps": 0
+  },
+  {
+   "target": "deepcli/investigator/code_intel.py",
+   "pct": 99.6,
+   "gaps": 0
+  },
+  {
+   "target": "deepcli/investigator/investigate.py",
+   "pct": 96.3,
+   "gaps": 0
+  },
+  {
+   "target": "deepcli/investigator/test_failure_dump.py",
+   "pct": 11.6,
+   "gaps": 0
+  },
+  {
+   "target": "deepcli/tests/test_api.py",
+   "pct": 13.7,
+   "gaps": 1
+  },
+  {
+   "target": "harmony_hub/src/db_sync_guard.py",
+   "pct": 72.2,
+   "gaps": 1
+  },
+  {
+   "target": "harmony_hub/src/patch_router.py",
+   "pct": 79.2,
+   "gaps": 0
+  },
+  {
+   "target": "harmony_hub/src/scaffold_account.py",
+   "pct": 62.8,
+   "gaps": 2
+  },
+  {
+   "target": "harmony_hub/utility_belt/forensic-query",
+   "pct": 24.1,
+   "gaps": 0
+  },
+  {
+   "target": "harmony_hub/workspace/agent/chronomancer.py",
+   "pct": 74.3,
+   "gaps": 0
+  },
+  {
+   "target": "harmony_hub/workspace/incremental_indexer.py",
+   "pct": 86.7,
+   "gaps": 0
+  },
+  {
+   "target": "harmony_hub/workspace/tui_repair/message_adapter.py",
+   "pct": 95.9,
+   "gaps": 0
+  },
+  {
+   "target": "mapper_graph.py",
+   "pct": 58.1,
+   "gaps": 1
+  },
+  {
+   "target": "multi-ai-cli/backends/deepseek.py",
+   "pct": 89.5,
+   "gaps": 0
+  },
+  {
+   "target": "multi-ai-cli/backends/mistral_web.py",
+   "pct": 5.0,
+   "gaps": 0
+  },
+  {
+   "target": "multi-ai-cli/bridge/mistral_bridge.py",
+   "pct": 69.6,
+   "gaps": 1
+  },
+  {
+   "target": "multi-ai-cli/sandbox/backends/mistral_v1.py",
+   "pct": 78.8,
+   "gaps": 0
+  },
+  {
+   "target": "my_script.py",
+   "pct": 6.2,
+   "gaps": 0
+  },
+  {
+   "target": "serve_schema.py",
+   "pct": 0.0,
+   "gaps": 1
+  },
+  {
+   "target": "src/context_collector.py",
+   "pct": 55.2,
+   "gaps": 0
+  },
+  {
+   "target": "src/db.py",
+   "pct": 38.9,
+   "gaps": 3
+  },
+  {
+   "target": "src/orchestrator.py",
+   "pct": 8.1,
+   "gaps": 0
+  },
+  {
+   "target": "termux-multi-agent/run.py",
+   "pct": 49.8,
+   "gaps": 0
+  },
+  {
+   "target": "termux-multi-agent/src/tool_registry.py",
+   "pct": 99.9,
+   "gaps": 0
+  },
+  {
+   "target": "termux-multi-agent/workspace/clean_target.txt",
+   "pct": 63.6,
+   "gaps": 0
+  },
+  {
+   "target": "termux-multi-agent/workspace/test_script.py",
+   "pct": 93.8,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/compression_sandbox/cedrlang/cid.py",
+   "pct": 51.1,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/categorize.py",
+   "pct": 100.0,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/post_refactor.py",
+   "pct": 74.2,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/agent_shell.py",
+   "pct": 99.9,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/build_all.py",
+   "pct": 10.9,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/build_ast_hash_index.py",
+   "pct": 35.4,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/build_final_all_profile.py",
+   "pct": 7.3,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/build_graph_fast.py",
+   "pct": 61.7,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/discover_projects.py",
+   "pct": 34.3,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/finalize.py",
+   "pct": 2.4,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/func_indexer.py",
+   "pct": 75.7,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/graph_query.py",
+   "pct": 27.5,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/integrate_all.py",
+   "pct": 21.5,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/llm_mapper_pro.py",
+   "pct": 99.4,
+   "gaps": 0
+  },
+  {
+   "target": "workspace/llm_map/profile_filter.py",
+   "pct": 78.6,
+   "gaps": 0
+  }
+ ]
+}
