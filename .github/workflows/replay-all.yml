@@ -1,0 +1,44 @@
+name: replay-all
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Checkout engine (repo-replay, public)
+        uses: actions/checkout@v4
+        with:
+          repository: timerloggedout-spec/repo-replay
+          path: engine
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Decrypt harvest splice (key = repo secret)
+        env:
+          KEY: ${{ secrets.REPO_REPLAY_HARVEST_KEY }}
+        run: |
+          cat sensitive/harvest.tar.gpg.part-* > /tmp/h.gpg
+          printf '%s' "$KEY" > /tmp/k
+          mkdir -p corpus && gpg --batch --quiet --passphrase-file /tmp/k -d /tmp/h.gpg | tar -xf - -C corpus
+          rm -f /tmp/k /tmp/h.gpg
+          ls corpus/harvest/session_store | head -3
+      - name: Full-census replay (assistant-only)
+        run: |
+          mkdir -p db
+          cp db/stage_scores_assistant.db /tmp/assistant.db 2>/dev/null || true
+          python3 engine/revwright/remote_run.py corpus/harvest/session_store db/stage_scores_assistant.db
+          cp remote_summary.json summary.json
+      - name: Commit results back
+        run: |
+          git config user.name "repo-replay-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add db/stage_scores_assistant.db summary.json
+          git commit -m "remote replay-all: full census (assistant-only) [skip ci]" || echo "no changes"
+          git push
+      - uses: actions/upload-artifact@v4
+        with:
+          name: remote-summary
+          path: summary.json
