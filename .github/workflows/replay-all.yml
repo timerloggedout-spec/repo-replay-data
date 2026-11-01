@@ -25,11 +25,14 @@ jobs:
           mkdir -p corpus && gpg --batch --quiet --passphrase-file /tmp/k -d /tmp/h.gpg | tar -xf - -C corpus
           rm -f /tmp/k /tmp/h.gpg
           ls corpus/harvest/session_store | head -3
+      - name: Master tree snapshot (public repo, blobless)
+        run: |
+          git clone --filter=blob:none --no-checkout --depth 1 https://github.com/timerloggedout-spec/termux-monorepo /tmp/mono
+          git -C /tmp/mono ls-tree -r --name-only HEAD > tree.txt
+          wc -l tree.txt
       - name: Full-census replay (assistant-only)
         run: |
-          mkdir -p db
-          cp db/stage_scores_assistant.db /tmp/assistant.db 2>/dev/null || true
-          python3 engine/revwright/remote_run.py corpus/harvest/session_store db/stage_scores_assistant.db
+          python3 engine/revwright/remote_run.py corpus/harvest/session_store db/stage_scores_assistant.db 0 tree.txt
           cp remote_summary.json summary.json
       - name: Commit results back
         run: |
