@@ -1,8 +1,8 @@
 {
  "targets": 616,
- "scored": 180,
+ "scored": 182,
  "no_oracle": 278,
- "fetch_fail": 158,
+ "fetch_fail": 156,
  "rows": [
   {
    "target": ".bashrc",
@@ -587,9 +587,10 @@
   },
   {
    "target": "backends/claude.py",
-   "how": "absent",
-   "gap": "FETCH_FAIL",
-   "session": "present"
+   "resolved": "multi-ai-cli/providers/claude.py",
+   "how": "v2_snapshot",
+   "pct": 0.0,
+   "gaps": 1
   },
   {
    "target": "backends/claude_web.py",
@@ -628,9 +629,10 @@
   },
   {
    "target": "backends/mistral.py",
-   "how": "absent",
-   "gap": "FETCH_FAIL",
-   "session": "present"
+   "resolved": "multi-ai-cli/providers/mistral.py",
+   "how": "v2_snapshot",
+   "pct": 0.0,
+   "gaps": 1
   },
   {
    "target": "backends/mistral_web.py",
@@ -3882,7 +3884,7 @@
   }
  ],
  "gap_session": {
-  "present": 75,
+  "present": 73,
   "absent": 361
  }
 }
