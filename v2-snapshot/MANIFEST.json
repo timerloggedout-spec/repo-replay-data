@@ -1,0 +1,18 @@
+{
+ "source": "gitlab.com/a-group2180532/termux-monorepo",
+ "head_sha": "88cf5cc2aa3cdf46d380092fe33c1456571fa6e0",
+ "files": 3814,
+ "tar_sha256": "0b5a2ed4e127eff99a1979d35757b6d30fa19f0e2b94398a163019a589af4880",
+ "tar_bytes": 51039489,
+ "packed_at": "2026-11-02T10:35:44.650248Z",
+ "chunks": [
+  {
+   "name": "part-aa",
+   "sha256": "c903f837f5371a1aa5057466ce2bf0f288a24e27ae2557e0534f63f5b224ceaf"
+  },
+  {
+   "name": "part-ab",
+   "sha256": "28410e2d99e545a292a9056f25af8b9125878a5d171645af150b75c180f56eb4"
+  }
+ ]
+}
