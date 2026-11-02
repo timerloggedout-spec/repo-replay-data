@@ -47,15 +47,17 @@ jobs:
           ls /tmp/v2 2>/dev/null | head -3 || true
       - name: Full-census replay (assistant-only)
         run: |
-          V2ARG=""
-          if [ -d /tmp/v2 ]; then V2ARG="/tmp/v2"; fi
-          python3 engine/revwright/remote_run.py corpus/harvest/session_store db/stage_scores_assistant.db 0 tree.txt $V2ARG
+          if [ -d /tmp/v2 ]; then
+            python3 engine/revwright/remote_run.py corpus/harvest/session_store db/stage_scores_assistant.db 0 tree.txt /tmp/v2 gapfill
+          else
+            python3 engine/revwright/remote_run.py corpus/harvest/session_store db/stage_scores_assistant.db 0 tree.txt
+          fi
           cp remote_summary.json summary.json
       - name: Commit results back
         run: |
           git config user.name "repo-replay-actions"
           git config user.email "actions@users.noreply.github.com"
-          git add db/stage_scores_assistant.db summary.json
+          git add db/stage_scores_assistant.db summary.json gapfill
           git commit -m "remote replay-all: full census (assistant-only) [skip ci]" || echo "no changes"
           git push
       - uses: actions/upload-artifact@v4
