@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-fragment_provenance.py – Match code blocks to fragments (functions/classes) of source files.
+fragment_provenance.py – Match code blocks to file fragments (or whole files).
 Computes true iteration acceleration using message‑to‑message intervals.
 """
 import json, sys, re, hashlib, statistics, difflib
@@ -9,8 +9,8 @@ from datetime import datetime, timezone
 
 HOME = Path.home()
 OUT = HOME / "cli-synthegration/workspace/provenance"
-MAX_DELAY = 6 * 3600       # 6 hours
-SIMILARITY = 0.6
+MAX_DELAY = 12 * 3600       # 12 hours
+SIMILARITY = 0.5            # looser match for whole files
 MIN_FRAGMENT_LINES = 4
 
 SOURCE_DIRS = [
@@ -18,58 +18,34 @@ SOURCE_DIRS = [
     "termux-multi-agent", "synthegration-cli", "harmonizer-prod_cli",
     "chronos_checkout"
 ]
-BLOAT_PARTS = {"node_modules","__pycache__",".cache",".git","dist",
+# Exact directory names to skip (not substrings)
+BLOAT_NAMES = {"node_modules","__pycache__",".cache",".git","dist",
                "codex","blobs","browser-data",".blob","logs","tmp",
                "target","release",".fingerprint","deps","build"}
 
+def is_bloat(parts):
+    # Skip if any part exactly matches a bloat name
+    return any(p in BLOAT_NAMES for p in parts)
+
 def sha256(text):
     return hashlib.sha256(text.encode()).hexdigest()
-def normalize(text):
-    return '\n'.join(line.rstrip() for line in text.splitlines())
-def is_bloat(parts):
-    return any(p in BLOAT_PARTS for p in parts)
 
-# --- 1. Extract top‑level definitions from Python files ---
-def extract_definitions(content):
-    """Return list of (def_name, def_body) tuples for Python functions/classes."""
-    defs = []
-    lines = content.splitlines()
-    pattern = r'^\s*(def |class )(\w+)'
-    i = 0
-    while i < len(lines):
-        m = re.match(pattern, lines[i])
-        if m:
-            name = m.group(2)
-            # capture body until next top‑level def/class or end
-            body_lines = [lines[i]]
-            j = i + 1
-            while j < len(lines) and not re.match(r'^\s*(def |class |\S)', lines[j]):
-                body_lines.append(lines[j])
-                j += 1
-            body = '\n'.join(body_lines)
-            if len(body_lines) >= MIN_FRAGMENT_LINES:
-                defs.append((name, body))
-            i = j
-        else:
-            i += 1
-    return defs
-
-# --- 2. Load source files ---
-file_fragments = {}   # file -> list of (name, body)
+# --- 1. Load source files (whole file) ---
+file_info = {}
+scanned = 0
 for base in SOURCE_DIRS:
     for fp in (HOME / base).rglob('*.py'):
+        scanned += 1
         if fp.is_file() and not is_bloat(fp.parts):
             if fp.stat().st_size > 1_000_000: continue
             try:
                 content = fp.read_text()
-                defs = extract_definitions(content)
-                if defs:
-                    rel = str(fp.relative_to(HOME))
-                    file_fragments[rel] = {'mtime': fp.stat().st_mtime, 'fragments': defs}
+                rel = str(fp.relative_to(HOME))
+                file_info[rel] = {'mtime': fp.stat().st_mtime, 'content': content}
             except: pass
-print(f"Python files with definitions: {len(file_fragments)}")
+print(f"Scanned {scanned} .py files, loaded {len(file_info)} clean source files.")
 
-# --- 3. Extract code blocks from 2026 exports ---
+# --- 2. Extract code blocks from 2026 exports ---
 code_blocks = []
 for cf in [
     HOME / "storage/downloads/_doing/_1-build/DeepSeek/exports/deepseek_data-2026-05-26/conversations.json",
@@ -99,41 +75,49 @@ for cf in [
                 })
 print(f"Code blocks: {len(code_blocks)}")
 
-# --- 4. Match code blocks to file fragments ---
-file_versions = {}  # file -> list of versions, each with fragment name, delay, etc.
-for fname, finfo in file_fragments.items():
+# --- 3. Match whole files with similarity ---
+file_versions = {}
+for fname, finfo in file_info.items():
     versions = []
+    # Try exact/norm hash first (fast)
+    file_hash = sha256(finfo['content'])
+    file_norm_hash = sha256('\n'.join(line.rstrip() for line in finfo['content'].splitlines()))
     for cb in code_blocks:
         if cb['timestamp_utc'] is None: continue
         delay = finfo['mtime'] - cb['timestamp_utc']
         if 0 <= delay <= MAX_DELAY:
-            # Try to match each fragment
-            for def_name, def_body in finfo['fragments']:
-                sim = difflib.SequenceMatcher(None, def_body, cb['text']).ratio()
-                if sim >= SIMILARITY:
-                    versions.append({
-                        'fragment': def_name,
-                        'session': cb['session'],
-                        'node_id': cb['node_id'],
-                        'block_idx': cb['block_idx'],
-                        'timestamp_utc': datetime.fromtimestamp(cb['timestamp_utc'], tz=timezone.utc).isoformat(),
-                        'delay_s': delay,
-                        'similarity': round(sim, 3),
-                        'snippet': cb['text'][:200]
-                    })
+            matched = False
+            sim = 0.0
+            # Fast path: exact or normalized hash
+            if cb['hash'] == file_hash or sha256('\n'.join(line.rstrip() for line in cb['text'].splitlines())) == file_norm_hash:
+                matched = True
+                sim = 1.0
+            else:
+                # Quick line count filter
+                fl = len(finfo['content'].splitlines())
+                bl = len(cb['text'].splitlines())
+                if max(fl, bl) / (min(fl, bl) + 1) <= 3:
+                    sim = difflib.SequenceMatcher(None, finfo['content'], cb['text']).ratio()
+                    matched = sim >= SIMILARITY
+            if matched:
+                versions.append({
+                    'session': cb['session'], 'node_id': cb['node_id'],
+                    'block_idx': cb['block_idx'],
+                    'timestamp_utc': datetime.fromtimestamp(cb['timestamp_utc'], tz=timezone.utc).isoformat(),
+                    'delay_s': delay, 'similarity': round(sim, 3),
+                    'snippet': cb['text'][:200]
+                })
     if versions:
         versions.sort(key=lambda v: v['delay_s'])
         file_versions[fname] = versions
 
 with open(OUT / "fragment_provenance.json", 'w') as f:
     json.dump(file_versions, f, indent=2)
-print(f"Files with fragment‑level provenance: {len(file_versions)}")
+print(f"Files with provenance: {len(file_versions)}")
 
-# --- 5. True iteration speedup (message‑to‑message intervals) ---
-# Group versions by (file, session) and compute intervals between consecutive messages
+# --- 4. True iteration speedup (message‑to‑message intervals) ---
 session_intervals = []
 for fname, versions in file_versions.items():
-    # Group by session
     by_session = {}
     for v in versions:
         by_session.setdefault(v['session'], []).append(v)
@@ -147,21 +131,20 @@ for fname, versions in file_versions.items():
                 session_intervals.append(interval)
 
 if session_intervals:
-    true_speedup = statistics.median(session_intervals)
+    median_int = statistics.median(session_intervals)
     print(f"Message‑to‑message intervals (n={len(session_intervals)}):")
-    print(f"  Median interval: {true_speedup:.0f}s")
+    print(f"  Median interval: {median_int:.0f}s")
     print(f"  Min: {min(session_intervals):.0f}s, Max: {max(session_intervals):.0f}s")
-    
     stats = {
-        'fragment_matched_files': len(file_versions),
-        'total_fragment_versions': sum(len(v) for v in file_versions.values()),
-        'message_interval_median_s': true_speedup,
+        'files_with_provenance': len(file_versions),
+        'total_versions': sum(len(v) for v in file_versions.values()),
+        'message_interval_median_s': median_int,
         'message_interval_min_s': min(session_intervals),
         'message_interval_max_s': max(session_intervals),
-        'interpretation': f"Median {true_speedup:.0f}s between successive code blocks in the same session."
+        'interpretation': f"Median {median_int:.0f}s between successive code blocks in the same session."
     }
     with open(OUT / "true_iteration_stats.json", 'w') as f:
         json.dump(stats, f, indent=2)
     print("Stats saved to true_iteration_stats.json")
 else:
-    print("No multi‑version files in the same session — try lowering SIMILARITY.")
+    print("No multi‑version files in the same session — try lowering SIMILARITY further.")

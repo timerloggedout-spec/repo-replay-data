@@ -7,8 +7,10 @@ from typing import List, Dict, Optional, Tuple
 import requests
 from dateutil.parser import parse as parse_date
 
+# ---------- config ----------
 CHECKPOINT_FILE = ".perfect_sync.state"
 CACHE_FILE = ".issue_cache.json"
+# ----------------------------
 
 @dataclass
 class Issue:
@@ -22,7 +24,7 @@ class Issue:
 
 @dataclass
 class LagEntry:
-    type: str
+    type: str  # "broken_commit" or "issue"
     ref: str
     summary: str
     detail: str = ""
@@ -38,27 +40,15 @@ class TrunkBuilder:
         self.since = parse_date(since_date) if since_date else None
         self.issues: List[Issue] = []
         self.commit_list = []
+        self.valid_commits = []  # (sha, tree_hash, msg, author_info, date)
         self.checkpoint = self._load_checkpoint()
         self.cached_issues = self._load_cache()
-        self.default_branch = self._get_default_branch()
 
-    def _get_default_branch(self):
-        try:
-            out = subprocess.check_output(["git", "-C", self.src, "symbolic-ref", "HEAD"], text=True).strip()
-            return out.replace("refs/heads/", "")
-        except:
-            for branch in ["main", "master"]:
-                try:
-                    subprocess.check_output(["git", "-C", self.src, "rev-parse", "--verify", branch], stderr=subprocess.DEVNULL)
-                    return branch
-                except:
-                    continue
-            return "main"
-
-    def _run_git(self, *args, cwd=None, capture=True):
-        cwd = cwd or self.src
-        cmd = ["git", "-C", cwd] + list(args)
-        res = subprocess.run(cmd, capture_output=capture, text=True)
+    def _run_git(self, *args, cwd=None, env=None, capture=True):
+        env = env or os.environ.copy()
+        env["GIT_DIR"] = os.path.join(self.src, ".git")
+        cmd = ["git"] + list(args)
+        res = subprocess.run(cmd, cwd=cwd or self.src, env=env, capture_output=capture, text=True)
         if res.returncode != 0 and capture:
             raise RuntimeError(f"Git error: {res.stderr}")
         return res.stdout.strip() if capture else res
@@ -116,7 +106,7 @@ class TrunkBuilder:
                 if not data:
                     break
                 for item in data:
-                    if "pull_request" in item:
+                    if "pull_request" in item:  # skip PRs
                         continue
                     issue = Issue(
                         id=str(item["number"]),
@@ -134,22 +124,20 @@ class TrunkBuilder:
             print(f"✅ Fetched {len(self.issues)} issues")
             self._save_cache()
         else:
-            print("⚠️  Only 'github:owner/repo' is supported. Skipping issues.")
+            print("⚠️  Only 'github:owner/repo' is supported for now. Skipping issues.")
 
     def get_commits(self):
-        # Get all commits in chronological order (oldest first)
+        # chronological by committer date (oldest first)
         out = self._run_git("log", "--all", "--reverse", "--format=%H %ct %an %ae %at %s")
         if not out:
-            print("⚠️  No commits found. Is the repo empty?")
             return
         for line in out.splitlines():
-            # 6 fields: hash, committer time, author name, author email, author time, subject
-            parts = line.split(" ", 5)
+            parts = line.split(" ", 4)  # hash, timestamp, name, email, unixtime, subject
             if len(parts) < 6:
                 continue
-            sha, ct, name, email, uts, subject = parts[0], parts[1], parts[2], parts[3], parts[4], parts[5]
+            sha, ct, name, email, uts, subject = parts[0], parts[1], parts[2], parts[3], parts[4], " ".join(parts[5:])
             dt = datetime.fromtimestamp(int(uts), tz=timezone.utc)
-            # resume from checkpoint
+            # checkpoint resume
             if self.checkpoint["last_sha"] and sha == self.checkpoint["last_sha"]:
                 self.commit_list = []
                 continue
@@ -157,41 +145,45 @@ class TrunkBuilder:
         print(f"📜 Found {len(self.commit_list)} commits to process")
 
     def snapshot_tree(self, sha) -> Tuple[str, str]:
+        """return (tree_hash, author_info)"""
+        # get tree hash
         tree = self._run_git("show", "-s", "--format=%T", sha)
+        # get author full
         author = self._run_git("show", "-s", "--format=%an <%ae> %ad", sha)
         return tree, author
 
     def validate_commit(self, sha):
+        """checkout snapshot to temp dir and run validate_cmd"""
         with tempfile.TemporaryDirectory(prefix="trunk_val_") as tmp:
-            self._run_git("checkout-index", "-a", f"--prefix={tmp}/", capture=False)
+            # checkout files
+            self._run_git("checkout-index", "-a", f"--prefix={tmp}/", cwd=tmp, env={"GIT_DIR": os.path.join(self.src, ".git"), "GIT_WORK_TREE": tmp}, capture=False)
+            # prepare
             if self.prepare_cmd:
                 subprocess.run(self.prepare_cmd, shell=True, cwd=tmp, capture_output=True, text=True)
+            # validate
             res = subprocess.run(self.validate_cmd, shell=True, cwd=tmp, capture_output=True, text=True)
             return res.returncode == 0, res.stdout[:200] + "..." if len(res.stdout) > 200 else res.stdout, res.stderr[:200] + "..." if len(res.stderr) > 200 else res.stderr
 
     def build_perfect_trunk(self):
+        # init target repo
         os.makedirs(self.tgt, exist_ok=True)
-        if not os.listdir(self.tgt):
-            subprocess.run(["git", "init", "--bare", self.tgt], check=True, capture_output=True)
-        else:
-            if not os.path.exists(os.path.join(self.tgt, "HEAD")):
-                raise RuntimeError(f"Target {self.tgt} exists but is not a Git repository.")
-
+        subprocess.run(["git", "init", "--bare", self.tgt], check=True, capture_output=True)
+        # we'll work with a non-bare clone for commit creation
         work_tgt = self.tgt + "_work"
         if os.path.exists(work_tgt):
             shutil.rmtree(work_tgt)
         subprocess.run(["git", "clone", self.tgt, work_tgt], check=True, capture_output=True)
         os.chdir(work_tgt)
-
-        # ensure initial commit exists
-        if subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True).returncode != 0:
+        # ensure we have a dummy initial commit if none
+        if not os.path.exists(".git"):
+            subprocess.run(["git", "init"], check=True)
             with open("README.md", "w") as f:
                 f.write("# Perfect Trunk\n")
             subprocess.run(["git", "add", "."], check=True)
             subprocess.run(["git", "commit", "-m", "root"], check=True)
-            subprocess.run(["git", "push", "origin", self.default_branch], check=True, capture_output=True)
+            subprocess.run(["git", "push", "origin", "main"], check=True)
         else:
-            subprocess.run(["git", "checkout", self.default_branch], check=True)
+            subprocess.run(["git", "checkout", "main"], check=True)
 
         parent = None
         lag_pool = []
@@ -200,8 +192,11 @@ class TrunkBuilder:
 
         for sha, dt, name, email, subject in self.commit_list:
             print(f"⏳ Processing {sha[:8]} - {subject[:40]}...")
+            # find issues that fall in the time window since last valid
+            # we'll just check if issues have dates between previous valid and now (handled later)
             ok, stdout, stderr = self.validate_commit(sha)
             if ok:
+                # gather lag from pool
                 lag_str = ""
                 if lag_pool:
                     lag_str = "[LAG BLOCK]\n"
@@ -211,29 +206,38 @@ class TrunkBuilder:
                         elif entry.type == "issue":
                             lag_str += f"  - ISSUE {entry.ref}: {entry.summary}\n"
                     lag_str += "\n"
+                # reset pool after consuming
                 lag_pool = []
 
+                # get tree and author
                 tree, author = self.snapshot_tree(sha)
+                # create commit in target repo
                 if parent:
                     cmd = ["git", "commit-tree", tree, "-p", parent, "-m", f"[VALID] {subject}\n\n{lag_str}[ORIGINAL] {sha}\n[AUTHOR] {author}\n[VALIDATION] ok\n{stderr}"]
                 else:
                     cmd = ["git", "commit-tree", tree, "-m", f"[VALID] {subject}\n\n{lag_str}[ORIGINAL] {sha}\n[AUTHOR] {author}\n[VALIDATION] ok\n{stderr}"]
                 new_sha = subprocess.check_output(cmd, text=True).strip()
-                subprocess.run(["git", "update-ref", f"refs/heads/{self.default_branch}", new_sha], check=True)
+                # update branch
+                subprocess.run(["git", "update-ref", "refs/heads/main", new_sha], check=True)
                 parent = new_sha
                 valid_count += 1
                 manifest.append({
                     "new_hash": new_sha,
                     "source_hash": sha,
-                    "skipped_commits": [e.ref for e in lag_pool if e.type == "broken"],
+                    "skipped_commits": [],  # not fully tracking per-commit to keep it simple
                     "linked_issues": [e.ref for e in lag_pool if e.type == "issue"]
                 })
-                subprocess.run(["git", "push", "origin", self.default_branch], check=True, capture_output=True)
+                # push each commit to bare
+                subprocess.run(["git", "push", "origin", "main"], check=True, capture_output=True)
                 self._save_checkpoint(sha, dt)
                 print(f"✅ Valid commit {new_sha[:8]} (source {sha[:8]})")
+
             else:
+                # broken – add to pool
                 lag_pool.append(LagEntry("broken", sha[:8], subject, stderr))
-                # look for issue references in subject
+                # correlate with issues if any mention in commit subject/body
+                # we'll just check subject for #digits
+                import re
                 found = re.findall(r'#(\d+)', subject)
                 for num in found:
                     issue = next((i for i in self.issues if i.id == num), None)
@@ -241,6 +245,7 @@ class TrunkBuilder:
                         lag_pool.append(LagEntry("issue", f"#{issue.id}", issue.title, issue.url))
                 print(f"❌ Broken commit {sha[:8]} added to lag pool")
 
+        # write manifest
         with open(os.path.join(self.tgt, "lag_manifest.ndjson"), "w") as f:
             for entry in manifest:
                 f.write(json.dumps(entry) + "\n")
@@ -260,10 +265,7 @@ def main():
                            args.issues_source, args.issues_token, args.since_date)
     builder.fetch_issues()
     builder.get_commits()
-    if builder.commit_list:
-        builder.build_perfect_trunk()
-    else:
-        print("⚠️  No commits to process. Exiting.")
+    builder.build_perfect_trunk()
 
 if __name__ == "__main__":
     main()

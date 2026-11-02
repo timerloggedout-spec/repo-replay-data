@@ -1,13 +1,22 @@
-#!/bin/bash
-# Export all cached sessions that don't have an export yet
-CACHE="$HOME/.deepcli/session_store"
-EXPORTS="$HOME/storage/downloads/synthegration_exports"
-count=0
-for f in "$CACHE"/*.json; do
-  sid=$(basename "$f" .json)
-  if [ ! -d "$EXPORTS/$sid" ]; then
-    echo "📤 Exporting $sid..."
-    python3 "$HOME/cli-synthegration/synthegration_index.py" export "$sid" 2>/dev/null && count=$((count+1))
-  fi
-done
-echo "✅ Exported $count new sessions."
+#!/data/data/com.termux/files/usr/bin/bash
+# Export code blocks from ALL live sessions or offline manifest
+set -euo pipefail
+OUT="${1:-$HOME/storage/downloads/synthegration_batch}"
+mkdir -p "$OUT"
+
+if [ "${2:-}" = "--offline" ] && [ -n "${3:-}" ]; then
+    python3 ~/cli-synthegration/conv_explorer.py --offline "$3" --list | while read -r line; do
+        sid=$(echo "$line" | cut -d'|' -f1 | tr -d ' ')
+        [ -z "$sid" ] && continue
+        echo "Exporting offline: $sid"
+        python3 ~/cli-synthegration/conv_explorer.py --offline "$3" --export "$sid" --output "$OUT/$sid"
+    done
+else
+    python3 ~/cli-synthegration/conv_explorer.py --list | head -100 | while read -r line; do
+        sid=$(echo "$line" | cut -d'|' -f1 | tr -d ' ')
+        [ -z "$sid" ] && continue
+        echo "Exporting live: $sid"
+        python3 ~/cli-synthegration/conv_explorer.py --export "$sid" --output "$OUT/$sid"
+    done
+fi
+echo "Done: $OUT"

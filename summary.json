@@ -7,28 +7,28 @@
   {
    "target": ".bashrc",
    "resolved": ".bashrc",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 50.3,
    "gaps": 0
   },
   {
    "target": ".config/bat/syntaxes/maxup.sublime-syntax",
    "resolved": ".config/bat/syntaxes/maxup.sublime-syntax",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 44.8,
    "gaps": 0
   },
   {
    "target": ".zshrc",
    "resolved": ".zshrc",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 29.8,
    "gaps": 0
   },
   {
    "target": "CHANGELOG.md",
    "resolved": "workspace/llm_map/CHANGELOG.md",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 78.9,
    "gaps": 0
   },
@@ -41,21 +41,21 @@
   {
    "target": "Cargo.toml",
    "resolved": "appliedSxi/maxc/Cargo.toml",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 99.4,
    "gaps": 0
   },
   {
    "target": "README.md",
    "resolved": "README.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 1.2,
    "gaps": 0
   },
   {
    "target": "REFERENCE.md",
    "resolved": "workspace/llm_map/REFERENCE.md",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 64.8,
    "gaps": 0
   },
@@ -67,22 +67,22 @@
   },
   {
    "target": "TOOL_INDEX.md",
-   "resolved": "workspace/llm_map/TOOL_INDEX.md",
-   "how": "ambiguous/whole",
-   "pct": 50.4,
+   "resolved": "archwiz/TOOL_INDEX.md",
+   "how": "ambiguous/whole_path",
+   "pct": 1.7,
    "gaps": 0
   },
   {
    "target": "TUI_ARCHAEOLOGY.md",
    "resolved": "workspace/llm_map/TUI_ARCHAEOLOGY.md",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "access_policy.json",
    "resolved": "workspace/llm_map/access_policy.json",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -96,161 +96,171 @@
   {
    "target": "apply_chunked_refactors.py",
    "resolved": "workspace/llm_map/apply_chunked_refactors.py",
-   "how": "basename_unique",
-   "pct": 38.4,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 38.4
   },
   {
    "target": "archaeologist.py",
    "resolved": "workspace/llm_map/archaeologist.py",
-   "how": "ambiguous",
-   "pct": 21.3,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 91.7,
+   "gaps": 0,
+   "arbitrated_from": 21.3
   },
   {
    "target": "archwiz/ARCHWIZARD_TASKS.md",
    "resolved": "archwiz/ARCHWIZARD_TASKS.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "archwiz/CONCEPT_INDEX.md",
    "resolved": "archwiz/CONCEPT_INDEX.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 92.8,
    "gaps": 0
   },
   {
    "target": "archwiz/CONSIDERATIONS.md",
    "resolved": "archwiz/CONSIDERATIONS.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 26.2,
    "gaps": 0
   },
   {
    "target": "archwiz/LEARNINGS.md",
    "resolved": "archwiz/LEARNINGS.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "archwiz/METHODOLOGY_INDEX.md",
    "resolved": "archwiz/METHODOLOGY_INDEX.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 90.6,
    "gaps": 0
   },
   {
    "target": "archwiz/POINTER_INDEX.md",
    "resolved": "archwiz/POINTER_INDEX.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "archwiz/ROADMAP.md",
    "resolved": "archwiz/ROADMAP.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "archwiz/TOOL_INDEX.md",
    "resolved": "archwiz/TOOL_INDEX.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 35.1,
    "gaps": 0
   },
   {
    "target": "archwiz/USER_MANUAL.md",
    "resolved": "archwiz/USER_MANUAL.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 86.5,
    "gaps": 0
   },
   {
    "target": "archwiz/activity_listener.py",
    "resolved": "archwiz/activity_listener.py",
-   "how": "exact",
-   "pct": 48.5,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 67.8,
+   "gaps": 0,
+   "arbitrated_from": 48.5
   },
   {
    "target": "archwiz/aether.py",
    "resolved": "archwiz/aether.py",
-   "how": "exact",
-   "pct": 81.1,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 92.2,
+   "gaps": 0,
+   "arbitrated_from": 81.1
   },
   {
    "target": "archwiz/agent_shell.py",
    "resolved": "archwiz/agent_shell.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 2.6,
    "gaps": 0
   },
   {
    "target": "archwiz/archaeo_sweep.py",
    "resolved": "archwiz/archaeo_sweep.py",
-   "how": "exact",
-   "pct": 94.3,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 94.4,
+   "gaps": 0,
+   "arbitrated_from": 94.3
   },
   {
    "target": "archwiz/archivist.py",
    "resolved": "archwiz/archivist.py",
-   "how": "exact",
-   "pct": 97.8,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 99.8,
+   "gaps": 0,
+   "arbitrated_from": 97.8
   },
   {
    "target": "archwiz/archwiz.py",
    "resolved": "archwiz/archwiz.py",
-   "how": "exact",
-   "pct": 50.5,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 50.6,
+   "gaps": 0,
+   "arbitrated_from": 50.5
   },
   {
    "target": "archwiz/archwiz.sh",
    "resolved": "archwiz/archwiz.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 84.8,
    "gaps": 0
   },
   {
    "target": "archwiz/audit_aliases.py",
    "resolved": "archwiz/audit_aliases.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "archwiz/auto_repair.py",
    "resolved": "archwiz/auto_repair.py",
-   "how": "exact",
-   "pct": 19.8,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 19.8
   },
   {
    "target": "archwiz/autonomous_runner.py",
    "resolved": "archwiz/autonomous_runner.py",
-   "how": "exact",
-   "pct": 90.6,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 90.7,
+   "gaps": 0,
+   "arbitrated_from": 90.6
   },
   {
    "target": "archwiz/build_data_flow_manifest.py",
    "resolved": "archwiz/build_data_flow_manifest.py",
-   "how": "exact",
-   "pct": 21.6,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 99.1,
+   "gaps": 0,
+   "arbitrated_from": 21.6
   },
   {
    "target": "archwiz/build_reference_hub.py",
    "resolved": "archwiz/build_reference_hub.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -263,7 +273,7 @@
   {
    "target": "archwiz/check_provenance_against_downloads.py",
    "resolved": "archwiz/check_provenance_against_downloads.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -282,56 +292,58 @@
   {
    "target": "archwiz/commit_notes.py",
    "resolved": "termux-multi-agent/workspace/commit_notes.py",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 9.7,
    "gaps": 0
   },
   {
    "target": "archwiz/compare_exports_by_sha.py",
    "resolved": "archwiz/compare_exports_by_sha.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "archwiz/correlation_scout.py",
    "resolved": "archwiz/correlation_scout.py",
-   "how": "exact",
-   "pct": 83.4,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 83.4
   },
   {
    "target": "archwiz/dangle_detector.py",
    "resolved": "archwiz/dangle_detector.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 96.2,
    "gaps": 0
   },
   {
    "target": "archwiz/debug_daemon.py",
    "resolved": "archwiz/debug_daemon.py",
-   "how": "exact",
-   "pct": 99.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.9
   },
   {
    "target": "archwiz/dedup_zshrc.py",
    "resolved": "archwiz/dedup_zshrc.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "archwiz/export_poller.sh",
    "resolved": "archwiz/export_poller.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "archwiz/find_dup_exports.sh",
    "resolved": "archwiz/find_dup_exports.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -352,100 +364,112 @@
   {
    "target": "archwiz/import_session.py",
    "resolved": "archwiz/import_session.py",
-   "how": "exact",
-   "pct": 6.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 18.9,
+   "gaps": 0,
+   "arbitrated_from": 6.9
   },
   {
    "target": "archwiz/lexicon_harvest.py",
    "resolved": "archwiz/lexicon_harvest.py",
-   "how": "exact",
-   "pct": 58.6,
-   "gaps": 3
+   "how": "exact/whole_path",
+   "pct": 59.6,
+   "gaps": 3,
+   "arbitrated_from": 58.6
   },
   {
    "target": "archwiz/lexicon_mark.py",
    "resolved": "archwiz/lexicon_mark.py",
-   "how": "exact",
-   "pct": 99.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.9
   },
   {
    "target": "archwiz/listener_control.py",
    "resolved": "archwiz/listener_control.py",
-   "how": "exact",
-   "pct": 32.0,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 64.9,
+   "gaps": 0,
+   "arbitrated_from": 32.0
   },
   {
    "target": "archwiz/live_view.py",
    "resolved": "archwiz/live_view.py",
-   "how": "exact",
-   "pct": 99.1,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 99.5,
+   "gaps": 0,
+   "arbitrated_from": 99.1
   },
   {
    "target": "archwiz/manifest_to_cache.py",
    "resolved": "archwiz/manifest_to_cache.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 92.4,
    "gaps": 0
   },
   {
    "target": "archwiz/metrics_viewer.py",
    "resolved": "archwiz/metrics_viewer.py",
-   "how": "exact",
-   "pct": 99.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.9
   },
   {
    "target": "archwiz/mirror.py",
    "resolved": "archwiz/mirror.py",
-   "how": "exact",
-   "pct": 22.8,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 92.2,
+   "gaps": 0,
+   "arbitrated_from": 22.8
   },
   {
    "target": "archwiz/name_forge.py",
    "resolved": "archwiz/name_forge.py",
-   "how": "exact",
-   "pct": 86.4,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 86.4
   },
   {
    "target": "archwiz/narrative.py",
    "resolved": "archwiz/narrative.py",
-   "how": "exact",
-   "pct": 59.0,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 89.9,
+   "gaps": 0,
+   "arbitrated_from": 59.0
   },
   {
    "target": "archwiz/pipeline.py",
    "resolved": "archwiz/pipeline.py",
-   "how": "exact",
-   "pct": 88.2,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 88.2
   },
   {
    "target": "archwiz/pipeline_update.sh",
    "resolved": "archwiz/pipeline_update.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "archwiz/pointer_index.py",
    "resolved": "archwiz/pointer_index.py",
-   "how": "exact",
-   "pct": 75.3,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 75.4,
+   "gaps": 0,
+   "arbitrated_from": 75.3
   },
   {
    "target": "archwiz/probe.py",
    "resolved": "archwiz/probe.py",
-   "how": "exact",
-   "pct": 99.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.9
   },
   {
    "target": "archwiz/recon.py",
@@ -464,147 +488,158 @@
   {
    "target": "archwiz/refactor_dispatch.py",
    "resolved": "archwiz/refactor_dispatch.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "archwiz/refactor_rune.py",
    "resolved": "archwiz/refactor_rune.py",
-   "how": "exact",
-   "pct": 77.1,
-   "gaps": 2
+   "how": "exact/whole_path",
+   "pct": 82.1,
+   "gaps": 2,
+   "arbitrated_from": 77.1
   },
   {
    "target": "archwiz/reindex_pipeline.py",
    "resolved": "archwiz/reindex_pipeline.py",
-   "how": "exact",
-   "pct": 99.8,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.8
   },
   {
    "target": "archwiz/restore_version.py",
    "resolved": "archwiz/restore_version.py",
-   "how": "exact",
-   "pct": 99.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.9
   },
   {
    "target": "archwiz/sandbox/agent_shell_v2/agent_shell_v2.py",
    "resolved": "archwiz/sandbox/agent_shell_v2/agent_shell_v2.py",
-   "how": "exact",
-   "pct": 99.1,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 99.2,
+   "gaps": 0,
+   "arbitrated_from": 99.1
   },
   {
    "target": "archwiz/sandbox/agent_shell_v2/patches/cockpit_integration.sh",
    "resolved": "archwiz/sandbox/agent_shell_v2/patches/cockpit_integration.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.7,
    "gaps": 0
   },
   {
    "target": "archwiz/send_helper.py",
    "resolved": "archwiz/send_helper.py",
-   "how": "exact",
-   "pct": 73.8,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 73.8
   },
   {
    "target": "archwiz/sentinel.py",
    "resolved": "archwiz/sentinel.py",
-   "how": "exact",
-   "pct": 93.2,
-   "gaps": 1
+   "how": "exact/whole_path",
+   "pct": 93.3,
+   "gaps": 1,
+   "arbitrated_from": 93.2
   },
   {
    "target": "archwiz/task_builder.py",
    "resolved": "archwiz/task_builder.py",
-   "how": "exact",
-   "pct": 51.0,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 51.0
   },
   {
    "target": "archwiz/tasque_declare.py",
    "resolved": "archwiz/tasque_declare.py",
-   "how": "exact",
-   "pct": 70.0,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 70.0
   },
   {
    "target": "archwiz/test_archwiz.sh",
    "resolved": "archwiz/test_archwiz.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "archwiz/timeline_editor.py",
    "resolved": "archwiz/timeline_editor.py",
-   "how": "exact",
-   "pct": 99.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.9
   },
   {
    "target": "archwiz/trace_data_flow.py",
    "resolved": "archwiz/trace_data_flow.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "archwiz/trace_data_flow_safe.py",
    "resolved": "archwiz/trace_data_flow_safe.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "archwiz/trace_db_writers.py",
    "resolved": "archwiz/trace_db_writers.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "archwiz/trace_jsonl_writers.py",
    "resolved": "archwiz/trace_jsonl_writers.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "archwiz/trace_rw.py",
    "resolved": "archwiz/trace_rw.py",
-   "how": "exact",
-   "pct": 53.8,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 53.8
   },
   {
    "target": "archwiz/trace_rw_v2.py",
    "resolved": "archwiz/trace_rw_v2.py",
-   "how": "exact",
-   "pct": 12.5,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 12.5
   },
   {
    "target": "archwiz/vision_1337.py",
    "resolved": "archwiz/vision_1337.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "archwiz/xref_exports.py",
    "resolved": "archwiz/xref_exports.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "ast_diagnostic.py",
    "resolved": "workspace/llm_map/ast_diagnostic.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -623,30 +658,34 @@
   {
    "target": "backends/base.py",
    "resolved": "multi-ai-cli/backends/base.py",
-   "how": "ambiguous",
-   "pct": 91.3,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 99.8,
+   "gaps": 0,
+   "arbitrated_from": 91.3
   },
   {
    "target": "backends/claude.py",
    "resolved": "multi-ai-cli/providers/claude.py",
-   "how": "v2_snapshot",
-   "pct": 0.0,
-   "gaps": 1
+   "how": "v2_snapshot/whole_path",
+   "pct": 6.4,
+   "gaps": 1,
+   "arbitrated_from": 0.0
   },
   {
    "target": "backends/claude_web.py",
    "resolved": "multi-ai-cli/backends/claude_web.py",
-   "how": "basename_unique",
-   "pct": 71.1,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 74.0,
+   "gaps": 0,
+   "arbitrated_from": 71.1
   },
   {
    "target": "backends/colab.py",
    "resolved": "multi-ai-cli/backends/colab.py",
-   "how": "basename_unique",
-   "pct": 73.7,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 76.2,
+   "gaps": 0,
+   "arbitrated_from": 73.7
   },
   {
    "target": "backends/deepseek.py",
@@ -658,37 +697,42 @@
   {
    "target": "backends/gemini.py",
    "resolved": "deepcli/deepcli/llm/adapters/gemini.py",
-   "how": "basename_unique",
-   "pct": 0.0,
-   "gaps": 1
+   "how": "basename_unique/whole_path",
+   "pct": 6.7,
+   "gaps": 1,
+   "arbitrated_from": 0.0
   },
   {
    "target": "backends/gemini_web.py",
    "resolved": "multi-ai-cli/backends/gemini_web.py",
-   "how": "basename_unique",
-   "pct": 75.0,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 77.4,
+   "gaps": 0,
+   "arbitrated_from": 75.0
   },
   {
    "target": "backends/mistral.py",
    "resolved": "multi-ai-cli/providers/mistral.py",
-   "how": "v2_snapshot",
-   "pct": 0.0,
-   "gaps": 1
+   "how": "v2_snapshot/whole_path",
+   "pct": 4.0,
+   "gaps": 1,
+   "arbitrated_from": 0.0
   },
   {
    "target": "backends/mistral_web.py",
    "resolved": "multi-ai-cli/backends/mistral_web.py",
-   "how": "basename_unique",
-   "pct": 5.0,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 22.1,
+   "gaps": 0,
+   "arbitrated_from": 5.0
   },
   {
    "target": "batch_resumer.py",
    "resolved": "sandbox/chunking_refactor/batch_resumer.py",
-   "how": "ambiguous",
-   "pct": 74.9,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 80.0,
+   "gaps": 0,
+   "arbitrated_from": 74.9
   },
   {
    "target": "bin/cedar-bridge",
@@ -699,14 +743,14 @@
   {
    "target": "bin/cedar-forge",
    "resolved": "bin/cedar-forge",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 26.7,
    "gaps": 0
   },
   {
    "target": "bin/cedrlang",
    "resolved": "bin/cedrlang",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 28.2,
    "gaps": 0
   },
@@ -719,21 +763,21 @@
   {
    "target": "capture-pow-solver.js",
    "resolved": "deepseek-cli/capture-pow-solver.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "capture-upload-account2.cjs",
    "resolved": "deepseek-cli/capture-upload-account2.cjs",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 72.4,
    "gaps": 0
   },
   {
    "target": "capture-upload-api.js",
    "resolved": "deepseek-cli/capture-upload-api.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -746,30 +790,34 @@
   {
    "target": "cedar_forge/capture/recorder.py",
    "resolved": "workspace/cedar_forge/cedar_forge/capture/recorder.py",
-   "how": "basename_unique",
-   "pct": 94.3,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 94.3
   },
   {
    "target": "cedar_forge/core/compression.py",
    "resolved": "workspace/cedar_forge/cedar_forge/core/compression.py",
-   "how": "basename_unique",
-   "pct": 88.7,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 88.7
   },
   {
    "target": "cedar_forge/core/executor.py",
    "resolved": "workspace/cedar_forge/cedar_forge/core/executor.py",
-   "how": "ambiguous",
-   "pct": 51.1,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 51.1
   },
   {
    "target": "cedar_forge/llm/client.py",
    "resolved": "workspace/cedar_forge/cedar_forge/llm/client.py",
-   "how": "ambiguous",
-   "pct": 94.0,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 94.0
   },
   {
    "target": "cedrlang.py",
@@ -787,44 +835,50 @@
   {
    "target": "central_mapper_v420.py",
    "resolved": "central_mapper_v420.py",
-   "how": "exact",
-   "pct": 78.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 90.9,
+   "gaps": 0,
+   "arbitrated_from": 78.9
   },
   {
    "target": "chunk_json.py",
    "resolved": "workspace/llm_map/chunk_json.py",
-   "how": "basename_unique",
-   "pct": 80.7,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 86.8,
+   "gaps": 0,
+   "arbitrated_from": 80.7
   },
   {
    "target": "chunked_reader.py",
    "resolved": "sandbox/chunking_refactor/chunked_reader.py",
-   "how": "ambiguous",
-   "pct": 45.2,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 45.2
   },
   {
    "target": "cli-synthegration/Chronos/chronos",
    "resolved": "cli-synthegration/Chronos/chronos",
-   "how": "exact",
-   "pct": 76.7,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 76.7
   },
   {
    "target": "cli-synthegration/account_manager.py",
    "resolved": "cli-synthegration/account_manager.py",
-   "how": "exact",
-   "pct": 8.3,
-   "gaps": 1
+   "how": "exact/whole_path",
+   "pct": 54.3,
+   "gaps": 1,
+   "arbitrated_from": 8.3
   },
   {
    "target": "cli-synthegration/backfill_elo.py",
    "resolved": "cli-synthegration/backfill_elo.py",
-   "how": "exact",
-   "pct": 93.4,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 93.4
   },
   {
    "target": "cli-synthegration/batch_export.sh",
@@ -835,30 +889,32 @@
   {
    "target": "cli-synthegration/batch_export_all.py",
    "resolved": "cli-synthegration/batch_export_all.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.3,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/branch_manager.py",
    "resolved": "cli-synthegration/branch_manager.py",
-   "how": "exact",
-   "pct": 55.3,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 55.7,
+   "gaps": 0,
+   "arbitrated_from": 55.3
   },
   {
    "target": "cli-synthegration/capture-expert-version.js",
    "resolved": "cli-synthegration/capture-expert-version.js",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/cedar_bridge.py",
    "resolved": "cli-synthegration/cedar_bridge.py",
-   "how": "exact",
-   "pct": 61.7,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 61.7
   },
   {
    "target": "cli-synthegration/codex/blobs/e1e8c0f671b812da.blob",
@@ -869,42 +925,47 @@
   {
    "target": "cli-synthegration/conv_branching.py",
    "resolved": "cli-synthegration/conv_branching.py",
-   "how": "exact",
-   "pct": 67.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 87.4,
+   "gaps": 0,
+   "arbitrated_from": 67.9
   },
   {
    "target": "cli-synthegration/conv_explorer.py",
    "resolved": "cli-synthegration/conv_explorer.py",
-   "how": "exact",
-   "pct": 57.2,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 74.0,
+   "gaps": 0,
+   "arbitrated_from": 57.2
   },
   {
    "target": "cli-synthegration/conv_versioner.py",
    "resolved": "cli-synthegration/conv_versioner.py",
-   "how": "exact",
-   "pct": 98.0,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 98.0
   },
   {
    "target": "cli-synthegration/detect_paste.py",
    "resolved": "cli-synthegration/detect_paste.py",
-   "how": "exact",
-   "pct": 64.4,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 99.7,
+   "gaps": 0,
+   "arbitrated_from": 64.4
   },
   {
    "target": "cli-synthegration/export_all.py",
    "resolved": "cli-synthegration/export_all.py",
-   "how": "exact",
-   "pct": 87.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 87.9
   },
   {
    "target": "cli-synthegration/extract_bearer_from_cookies.js",
    "resolved": "cli-synthegration/extract_bearer_from_cookies.js",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -917,14 +978,14 @@
   {
    "target": "cli-synthegration/extract_expert_headers.py",
    "resolved": "cli-synthegration/extract_expert_headers.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/extract_from_official_export.py",
    "resolved": "cli-synthegration/extract_from_official_export.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 43.8,
    "gaps": 0
   },
@@ -938,14 +999,15 @@
   {
    "target": "cli-synthegration/generate_loop.py",
    "resolved": "cli-synthegration/generate_loop.py",
-   "how": "exact",
-   "pct": 95.8,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 99.9,
+   "gaps": 0,
+   "arbitrated_from": 95.8
   },
   {
    "target": "cli-synthegration/http_sniffer.js",
    "resolved": "cli-synthegration/http_sniffer.js",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 70.8,
    "gaps": 0
   },
@@ -958,44 +1020,47 @@
   {
    "target": "cli-synthegration/live_export.py",
    "resolved": "cli-synthegration/live_export.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/live_message_search.py",
    "resolved": "harmonizer-prod_cli/workspace/staging/live_message_search.py",
-   "how": "basename_unique/whole",
-   "pct": 94.7,
+   "how": "basename_unique/whole_path",
+   "pct": 51.4,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/live_search.py",
    "resolved": "cli-synthegration/live_search.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/loop_optimizer.py",
    "resolved": "cli-synthegration/loop_optimizer.py",
-   "how": "exact",
-   "pct": 86.5,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 86.5
   },
   {
    "target": "cli-synthegration/mitm_capture.py",
    "resolved": "cli-synthegration/workspace/mitm_capture.py",
-   "how": "basename_unique",
-   "pct": 86.3,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 99.9,
+   "gaps": 0,
+   "arbitrated_from": 86.3
   },
   {
    "target": "cli-synthegration/pointer_sync.py",
    "resolved": "cli-synthegration/pointer_sync.py",
-   "how": "exact",
-   "pct": 57.1,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 99.9,
+   "gaps": 0,
+   "arbitrated_from": 57.1
   },
   {
    "target": "cli-synthegration/rules/funcs.yml",
@@ -1006,42 +1071,45 @@
   {
    "target": "cli-synthegration/rules/list-funcs.yml",
    "resolved": "cli-synthegration/rules/list-funcs.yml",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.7,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/session_categories.py",
    "resolved": "cli-synthegration/session_categories.py",
-   "how": "exact",
-   "pct": 40.4,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 40.4
   },
   {
    "target": "cli-synthegration/sprints.py",
    "resolved": "cli-synthegration/sprints.py",
-   "how": "exact",
-   "pct": 21.0,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 81.1,
+   "gaps": 0,
+   "arbitrated_from": 21.0
   },
   {
    "target": "cli-synthegration/success_metrics.py",
    "resolved": "cli-synthegration/success_metrics.py",
-   "how": "exact",
-   "pct": 92.2,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 92.2
   },
   {
    "target": "cli-synthegration/sync/selective_sync.py",
    "resolved": "cli-synthegration/sync/selective_sync.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/sync_pipeline.py",
    "resolved": "cli-synthegration/sync_pipeline.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -1068,28 +1136,31 @@
   {
    "target": "cli-synthegration/token_provider.py",
    "resolved": "cli-synthegration/token_provider.py",
-   "how": "exact",
-   "pct": 18.1,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 27.9,
+   "gaps": 0,
+   "arbitrated_from": 18.1
   },
   {
    "target": "cli-synthegration/workspace/account2_expert/auto_refactor.py",
    "resolved": "cli-synthegration/workspace/account2_expert/auto_refactor.py",
-   "how": "exact",
-   "pct": 2.7,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 2.7
   },
   {
    "target": "cli-synthegration/workspace/account2_expert/token_extractor.py",
    "resolved": "cli-synthegration/workspace/account2_expert/token_extractor.py",
-   "how": "exact",
-   "pct": 75.7,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 75.7
   },
   {
    "target": "cli-synthegration/workspace/cedarscript/CEDARSCRIPT_REFERENCE.md",
    "resolved": "cli-synthegration/workspace/cedarscript/CEDARSCRIPT_REFERENCE.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 0.9,
    "gaps": 0
   },
@@ -1102,7 +1173,7 @@
   {
    "target": "cli-synthegration/workspace/compression_sandbox/generate_loop.py",
    "resolved": "cli-synthegration/workspace/compression_sandbox/generate_loop.py",
-   "how": "exact/whole",
+   "how": "exact/whole_base",
    "pct": 91.4,
    "gaps": 0
   },
@@ -1129,8 +1200,8 @@
   {
    "target": "cli-synthegration/workspace/provenance/REFERENCE.md",
    "resolved": "workspace/llm_map/REFERENCE.md",
-   "how": "basename_unique/whole",
-   "pct": 64.8,
+   "how": "basename_unique/whole_path",
+   "pct": 3.2,
    "gaps": 0
   },
   {
@@ -1142,9 +1213,10 @@
   {
    "target": "cli-synthegration/workspace/provenance/build_all_versions.py",
    "resolved": "cli-synthegration/workspace/compression_sandbox/build_all_versions.py",
-   "how": "basename_unique",
-   "pct": 5.5,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 5.5
   },
   {
    "target": "cli-synthegration/workspace/provenance/build_final_map.py",
@@ -1377,7 +1449,7 @@
   {
    "target": "cli-synthegration/workspace/provenance_mapper.py",
    "resolved": "provenance_mapper.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 0.9,
    "gaps": 0
   },
@@ -1390,30 +1462,32 @@
   {
    "target": "cli-synthegration/workspace/staging/chronos/__init__.py",
    "resolved": "cli-synthegration/workspace/staging/chronos/__init__.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.7,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/staging/chronos/versioner.py",
    "resolved": "cli-synthegration/workspace/staging/chronos/versioner.py",
-   "how": "exact",
-   "pct": 95.5,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 95.5
   },
   {
    "target": "cli-synthegration/workspace/staging/live_message_search.py",
    "resolved": "harmonizer-prod_cli/workspace/staging/live_message_search.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 94.7,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/staging/time_loop_accelerator.py",
    "resolved": "cli-synthegration/workspace/staging/time_loop_accelerator.py",
-   "how": "exact",
-   "pct": 99.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.9
   },
   {
    "target": "cli-synthegration/workspace/staging/workspace_tree.sh",
@@ -1424,7 +1498,7 @@
   {
    "target": "cli-synthegration/workspace/time_loop_accelerator/accelerator.py",
    "resolved": "cli-synthegration/workspace/time_loop_accelerator/accelerator.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -1443,28 +1517,28 @@
   {
    "target": "cli-synthegration/workspace/time_loop_accelerator/auto_refactor.py",
    "resolved": "cli-synthegration/workspace/time_loop_accelerator/auto_refactor.py",
-   "how": "exact/whole",
-   "pct": 23.7,
+   "how": "exact/whole_path",
+   "pct": 15.5,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/time_loop_accelerator/inspect_chronos.py",
    "resolved": "cli-synthegration/workspace/time_loop_accelerator/inspect_chronos.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/time_loop_accelerator/integrate_chronos.py",
    "resolved": "cli-synthegration/workspace/time_loop_accelerator/integrate_chronos.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/time_loop_accelerator/session_productivity.py",
    "resolved": "cli-synthegration/workspace/time_loop_accelerator/session_productivity.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -1478,65 +1552,70 @@
   {
    "target": "colab-cli/bin/colab",
    "resolved": "colab-cli/bin/colab",
-   "how": "exact",
-   "pct": 50.0,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 59.2,
+   "gaps": 0,
+   "arbitrated_from": 50.0
   },
   {
    "target": "colab-cli/config/settings.yaml",
    "resolved": "colab-cli/config/settings.yaml",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.8,
    "gaps": 0
   },
   {
    "target": "colab-cli/scripts/validate.sh",
    "resolved": "colab-cli/scripts/validate.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "config.yaml",
    "resolved": "multi-ai-cli/config.yaml",
-   "how": "basename_unique/whole",
-   "pct": 18.8,
+   "how": "basename_unique/whole_path",
+   "pct": 15.7,
    "gaps": 0
   },
   {
    "target": "context_cache.py",
    "resolved": "workspace/llm_map/context_cache.py",
-   "how": "basename_unique",
-   "pct": 99.8,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.8
   },
   {
    "target": "context_cache.sh",
    "resolved": "workspace/llm_map/context_cache.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "core/cache.py",
    "resolved": "multi-ai-cli/core/cache.py",
-   "how": "basename_unique",
-   "pct": 30.9,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 31.0,
+   "gaps": 0,
+   "arbitrated_from": 30.9
   },
   {
    "target": "core/chat_dispatcher.py",
    "resolved": "multi-ai-cli/core/chat_dispatcher.py",
-   "how": "basename_unique",
-   "pct": 62.8,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 62.8
   },
   {
    "target": "core/session_manager.py",
    "resolved": "multi-ai-cli/core/session_manager.py",
-   "how": "ambiguous",
-   "pct": 71.1,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 75.3,
+   "gaps": 0,
+   "arbitrated_from": 71.1
   },
   {
    "target": "cpr.py",
@@ -1547,7 +1626,7 @@
   {
    "target": "current_task.txt",
    "resolved": "sandbox/run_patch_test/current_task.txt",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 99.7,
    "gaps": 0
   },
@@ -1560,7 +1639,7 @@
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/ECOSYSTEM_MAPPER_DOCS.md",
    "resolved": "workspace/llm_map/ECOSYSTEM_MAPPER_DOCS.md",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_base",
    "pct": 51.6,
    "gaps": 0
   },
@@ -1588,7 +1667,7 @@
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/ast_snippets.json",
    "resolved": "workspace/llm_map/ast_snippets.json",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 0.7,
    "gaps": 0
   },
@@ -1602,7 +1681,7 @@
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/commit_notes.py",
    "resolved": "termux-multi-agent/workspace/commit_notes.py",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_base",
    "pct": 9.7,
    "gaps": 0
   },
@@ -1623,7 +1702,7 @@
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/expert_probe_task.py",
    "resolved": "termux-multi-agent/workspace/expert_probe_task.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_base",
    "pct": 99.9,
    "gaps": 0
   },
@@ -1727,7 +1806,7 @@
   {
    "target": "dedup_react_helper.py",
    "resolved": "deepseek-cli/workspace/dedup_react_helper.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 98.2,
    "gaps": 0
   },
@@ -1747,49 +1826,52 @@
   {
    "target": "deepcli.py",
    "resolved": "deepcli/deepcli.py",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 99.8,
    "gaps": 0
   },
   {
    "target": "deepcli/README.md",
    "resolved": "deepcli/README.md",
-   "how": "exact/whole",
+   "how": "exact/whole_base",
    "pct": 2.9,
    "gaps": 0
   },
   {
    "target": "deepcli/__init__.py",
    "resolved": "deepcli/__init__.py",
-   "how": "exact/whole",
-   "pct": 19.6,
+   "how": "exact/whole_path",
+   "pct": 11.5,
    "gaps": 0
   },
   {
    "target": "deepcli/cli.py",
    "resolved": "deepcli/workspace/reference/deepcli/cli.py",
-   "how": "ambiguous",
-   "pct": 97.6,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 97.6
   },
   {
    "target": "deepcli/core.py",
    "resolved": "deepcli/workspace/reference/deepcli/core.py",
-   "how": "ambiguous",
-   "pct": 74.5,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 78.1,
+   "gaps": 0,
+   "arbitrated_from": 74.5
   },
   {
    "target": "deepcli/deepapi.py",
    "resolved": "deepcli/deepapi.py",
-   "how": "exact",
-   "pct": 13.4,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 13.4
   },
   {
    "target": "deepcli/deepcli.py",
    "resolved": "deepcli/deepcli.py",
-   "how": "exact/whole",
+   "how": "exact/whole_base",
    "pct": 99.8,
    "gaps": 0
   },
@@ -1803,37 +1885,39 @@
   {
    "target": "deepcli/investigate.py",
    "resolved": "deepcli/investigate.py",
-   "how": "exact",
-   "pct": 66.7,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 66.7
   },
   {
    "target": "deepcli/investigate_summary.patch",
    "resolved": "deepcli/investigate_summary.patch",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/add_goodbye.py",
    "resolved": "deepcli/investigator/add_goodbye.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/add_tui_back.py",
    "resolved": "deepcli/investigator/add_tui_back.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/api_map.py",
    "resolved": "deepcli/investigator/api_map.py",
-   "how": "exact",
-   "pct": 99.3,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.3
   },
   {
    "target": "deepcli/investigator/capability_focus.py",
@@ -1845,154 +1929,157 @@
   {
    "target": "deepcli/investigator/capability_scout.py",
    "resolved": "deepcli/investigator/capability_scout.py",
-   "how": "exact",
-   "pct": 50.6,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 50.6
   },
   {
    "target": "deepcli/investigator/code_intel.py",
    "resolved": "deepcli/investigator/code_intel.py",
-   "how": "exact",
-   "pct": 99.6,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.6
   },
   {
    "target": "deepcli/investigator/final_fix.py",
    "resolved": "deepcli/investigator/final_fix.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/finalize_tui.py",
    "resolved": "deepcli/investigator/finalize_tui.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/finalize_v2.py",
    "resolved": "deepcli/investigator/finalize_v2.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_all_remaining.py",
    "resolved": "deepcli/investigator/fix_all_remaining.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_attach_errors.py",
    "resolved": "deepcli/investigator/fix_attach_errors.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_attach_tui.py",
    "resolved": "deepcli/investigator/fix_attach_tui.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_branch_and_branches.py",
    "resolved": "deepcli/investigator/fix_branch_and_branches.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_flicker.py",
    "resolved": "deepcli/investigator/fix_flicker.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_history_race.py",
    "resolved": "deepcli/investigator/fix_history_race.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_import_select_persist.py",
    "resolved": "deepcli/investigator/fix_import_select_persist.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_remaining.py",
    "resolved": "deepcli/investigator/fix_remaining.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_test_branch.py",
    "resolved": "deepcli/investigator/fix_test_branch.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_tui_final.py",
    "resolved": "deepcli/investigator/fix_tui_final.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/investigate.py",
    "resolved": "deepcli/investigator/investigate.py",
-   "how": "exact",
-   "pct": 96.3,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 96.7,
+   "gaps": 0,
+   "arbitrated_from": 96.3
   },
   {
    "target": "deepcli/investigator/patch_branch_api.py",
    "resolved": "deepcli/investigator/patch_branch_api.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_deepcli.py",
    "resolved": "deepcli/investigator/patch_deepcli.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_deepcli_v2.py",
    "resolved": "deepcli/investigator/patch_deepcli_v2.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_deepcli_v3.py",
    "resolved": "deepcli/investigator/patch_deepcli_v3.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_deepcli_v4.py",
    "resolved": "deepcli/investigator/patch_deepcli_v4.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_fork_error.py",
    "resolved": "deepcli/investigator/patch_fork_error.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2005,42 +2092,42 @@
   {
    "target": "deepcli/investigator/patch_fork_test_v2.py",
    "resolved": "deepcli/investigator/patch_fork_test_v2.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_remaining_fork_refs.py",
    "resolved": "deepcli/investigator/patch_remaining_fork_refs.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_session_persist.py",
    "resolved": "deepcli/investigator/patch_session_persist.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_test_api.py",
    "resolved": "deepcli/investigator/patch_test_api.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_test_branch.py",
    "resolved": "deepcli/investigator/patch_test_branch.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_tui_branch.py",
    "resolved": "deepcli/investigator/patch_tui_branch.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2059,7 +2146,7 @@
   {
    "target": "deepcli/investigator/patch_tui_tree_v2.py",
    "resolved": "deepcli/investigator/patch_tui_tree_v2.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2072,28 +2159,30 @@
   {
    "target": "deepcli/investigator/read_sse_sources.py",
    "resolved": "deepcli/investigator/read_sse_sources.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "deepcli/investigator/test_failure_dump.py",
    "resolved": "deepcli/investigator/test_failure_dump.py",
-   "how": "exact",
-   "pct": 11.6,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 81.8,
+   "gaps": 0,
+   "arbitrated_from": 11.6
   },
   {
    "target": "deepcli/organizer.py",
    "resolved": "deepcli/deepcli/organizer.py",
-   "how": "ambiguous",
-   "pct": 99.6,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.6
   },
   {
    "target": "deepcli/tests/debug_fork.py",
    "resolved": "deepcli/tests/debug_fork.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.5,
    "gaps": 0
   },
@@ -2119,14 +2208,14 @@
   {
    "target": "deepseek-cli/capture-account2-final.cjs",
    "resolved": "deepseek-cli/capture-account2-final.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-expert-headers.cjs",
    "resolved": "deepseek-cli/capture-expert-headers.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2139,35 +2228,35 @@
   {
    "target": "deepseek-cli/capture-expert-v2.cjs",
    "resolved": "deepseek-cli/capture-expert-v2.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-expert-v3.cjs",
    "resolved": "deepseek-cli/capture-expert-v3.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-expert-v4.cjs",
    "resolved": "deepseek-cli/capture-expert-v4.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-fresh-account2.cjs",
    "resolved": "deepseek-cli/capture-fresh-account2.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-fresh-ua.cjs",
    "resolved": "deepseek-cli/capture-fresh-ua.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2180,42 +2269,42 @@
   {
    "target": "deepseek-cli/capture-token-v2.cjs",
    "resolved": "deepseek-cli/capture-token-v2.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-upload-account2-v2.cjs",
    "resolved": "deepseek-cli/capture-upload-account2-v2.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-upload-account2.cjs",
    "resolved": "deepseek-cli/capture-upload-account2.cjs",
-   "how": "exact/whole",
-   "pct": 72.4,
+   "how": "exact/whole_path",
+   "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-via-proxy.sh",
    "resolved": "deepseek-cli/capture-via-proxy.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "deepseek-cli/extract-2nd-token.cjs",
    "resolved": "deepseek-cli/extract-2nd-token.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-cli/extract-account2-token-final.cjs",
    "resolved": "deepseek-cli/extract-account2-token-final.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2246,7 +2335,7 @@
   {
    "target": "deepseek-cli/inject-cookies.cjs",
    "resolved": "deepseek-cli/inject-cookies.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2259,7 +2348,7 @@
   {
    "target": "deepseek-cli/manual-login-account2.js",
    "resolved": "deepseek-cli/manual-login-account2.js",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -2272,7 +2361,7 @@
   {
    "target": "deepseek-cli/probe-expert-abc.mjs",
    "resolved": "deepseek-cli/probe-expert-abc.mjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2291,35 +2380,35 @@
   {
    "target": "deepseek-cli/test/api_probe.test.js",
    "resolved": "deepseek-cli/test/api_probe.test.js",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 1.6,
    "gaps": 0
   },
   {
    "target": "deepseek-debug-send.js",
    "resolved": "deepseek-cli/deepseek-debug-send.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-debug.js",
    "resolved": "deepseek-cli/deepseek-debug.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-debug2.js",
    "resolved": "deepseek-cli/deepseek-debug2.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-debug3.js",
    "resolved": "deepseek-cli/deepseek-debug3.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2332,35 +2421,35 @@
   {
    "target": "deepseek-diag.js",
    "resolved": "deepseek-cli/deepseek-diag.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-fork-inspect.js",
    "resolved": "deepseek-cli/deepseek-fork-inspect.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-inspect.js",
    "resolved": "deepseek-cli/deepseek-inspect.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-manual-login-x11.js",
    "resolved": "deepseek-cli/deepseek-manual-login-x11.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 60.3,
    "gaps": 0
   },
   {
    "target": "deepseek-manual-login.js",
    "resolved": "deepseek-cli/deepseek-manual-login.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2373,35 +2462,35 @@
   {
    "target": "deepseek-record-interactions.js",
    "resolved": "deepseek-cli/deepseek-record-interactions.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-send-detective.js",
    "resolved": "deepseek-cli/deepseek-send-detective.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek-stable.js",
    "resolved": "deepseek-cli/deepseek-stable.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek.js",
    "resolved": "deepseek-cli/deepseek.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "deepseek_harmonizer.sh",
    "resolved": "deepseek_harmonizer.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2414,56 +2503,56 @@
   {
    "target": "diagnose_branches.py",
    "resolved": "workspace/llm_map/diagnose_branches.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "diagnose_memory.sh",
    "resolved": "workspace/llm_map/diagnose_memory.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "discover-upload.js",
    "resolved": "deepseek-cli/discover-upload.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "discover_bloat.sh",
    "resolved": "cli-synthegration/workspace/caveman_map/discover_bloat.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 91.2,
    "gaps": 0
   },
   {
    "target": "dispatch_adaptive.sh",
    "resolved": "workspace/llm_map/dispatch_adaptive.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 52.0,
    "gaps": 0
   },
   {
    "target": "dispatch_all.sh",
    "resolved": "workspace/llm_map/dispatch_all.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 99.8,
    "gaps": 0
   },
   {
    "target": "dispatch_parallel.sh",
    "resolved": "workspace/llm_map/dispatch_parallel.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "dispatch_queue.sh",
    "resolved": "workspace/llm_map/dispatch_queue.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -2477,28 +2566,29 @@
   {
    "target": "ecosystem_prompt.sh",
    "resolved": "workspace/llm_map/ecosystem_prompt.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "estimate_mem.py",
    "resolved": "workspace/llm_map/estimate_mem.py",
-   "how": "basename_unique",
-   "pct": 38.0,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 38.0
   },
   {
    "target": "expand_sig_map.sh",
    "resolved": "workspace/llm_map/expand_sig_map.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "extract-token.js",
    "resolved": "deepcli/extract-token.js",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2524,21 +2614,22 @@
   {
    "target": "find_stale_files.py",
    "resolved": "workspace/llm_map/find_stale_files.py",
-   "how": "basename_unique",
-   "pct": 11.8,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 81.0,
+   "gaps": 0,
+   "arbitrated_from": 11.8
   },
   {
    "target": "fix_tui.py",
    "resolved": "workspace/llm_map/fix_tui.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "fix_tui_syntax.py",
    "resolved": "workspace/llm_map/fix_tui_syntax.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2594,7 +2685,7 @@
   {
    "target": "foxfire_demo.max",
    "resolved": "foxfire_demo.max",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.8,
    "gaps": 0
   },
@@ -2607,7 +2698,7 @@
   {
    "target": "frontend/package.json",
    "resolved": "deepcli/package.json",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 32.4,
    "gaps": 0
   },
@@ -2626,9 +2717,10 @@
   {
    "target": "gemini.py",
    "resolved": "deepcli/deepcli/llm/adapters/gemini.py",
-   "how": "basename_unique",
-   "pct": 0.0,
-   "gaps": 1
+   "how": "basename_unique/whole_path",
+   "pct": 2.0,
+   "gaps": 1,
+   "arbitrated_from": 0.0
   },
   {
    "target": "gemini_wrapper.py",
@@ -2639,9 +2731,10 @@
   {
    "target": "generate_diff_report.py",
    "resolved": "termux-multi-agent/workspace/generate_diff_report.py",
-   "how": "ambiguous",
-   "pct": 27.1,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 56.8,
+   "gaps": 0,
+   "arbitrated_from": 27.1
   },
   {
    "target": "get-cookies-devtools.js",
@@ -2652,8 +2745,8 @@
   {
    "target": "harmonizer-prod_cli/src/main.rs",
    "resolved": "harmonizer-prod_cli/src/main.rs",
-   "how": "exact/whole",
-   "pct": 7.8,
+   "how": "exact/whole_path",
+   "pct": 100.0,
    "gaps": 0
   },
   {
@@ -2665,56 +2758,56 @@
   {
    "target": "harmonizer-prod_cli/workspace/reference/MODULES.toml",
    "resolved": "harmonizer-prod_cli/workspace/reference/MODULES.toml",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "harmonizer-prod_cli/workspace/staging/live_message_search.py",
    "resolved": "harmonizer-prod_cli/workspace/staging/live_message_search.py",
-   "how": "exact/whole",
-   "pct": 94.7,
+   "how": "exact/whole_path",
+   "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "harmonizer-prod_cli/workspace/sync/selective_sync.py",
    "resolved": "cli-synthegration/sync/selective_sync.py",
-   "how": "ambiguous/whole",
-   "pct": 100.0,
+   "how": "ambiguous/whole_path",
+   "pct": 55.8,
    "gaps": 0
   },
   {
    "target": "harmony_hub/bin/fts_search.sh",
    "resolved": "harmony_hub/bin/fts_search.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.8,
    "gaps": 0
   },
   {
    "target": "harmony_hub/config/AGENT_TOOL_MATRIX.md",
    "resolved": "harmony_hub/config/AGENT_TOOL_MATRIX.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "harmony_hub/config/GRIMOIRE_DICTIONARY.md",
    "resolved": "harmony_hub/config/GRIMOIRE_DICTIONARY.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 8.0,
    "gaps": 0
   },
   {
    "target": "harmony_hub/config/grimoire/1337_D1CT10N4RY.md",
    "resolved": "harmony_hub/config/grimoire/1337_D1CT10N4RY.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.1,
    "gaps": 0
   },
   {
    "target": "harmony_hub/config/prune_rules.md",
    "resolved": "harmony_hub/config/prune_rules.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -2734,28 +2827,30 @@
   {
    "target": "harmony_hub/src/patch_router.py",
    "resolved": "harmony_hub/src/patch_router.py",
-   "how": "exact",
-   "pct": 79.2,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 81.3,
+   "gaps": 0,
+   "arbitrated_from": 79.2
   },
   {
    "target": "harmony_hub/src/scaffold_account.py",
    "resolved": "harmony_hub/src/scaffold_account.py",
-   "how": "exact",
-   "pct": 62.8,
-   "gaps": 2
+   "how": "exact/whole_path",
+   "pct": 70.5,
+   "gaps": 2,
+   "arbitrated_from": 62.8
   },
   {
    "target": "harmony_hub/utility_belt/README.md",
    "resolved": "harmony_hub/utility_belt/README.md",
-   "how": "exact/whole",
-   "pct": 0.7,
+   "how": "exact/whole_path",
+   "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/account-activity",
    "resolved": "harmony_hub/utility_belt/account-activity",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -2768,56 +2863,57 @@
   {
    "target": "harmony_hub/utility_belt/export_session.sh",
    "resolved": "harmony_hub/utility_belt/export_session.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.8,
    "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/fetch-session.py",
    "resolved": "harmony_hub/utility_belt/fetch-session.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/find-fork-point.py",
    "resolved": "harmony_hub/utility_belt/find-fork-point.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/forensic-query",
    "resolved": "harmony_hub/utility_belt/forensic-query",
-   "how": "exact",
-   "pct": 24.1,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 79.0,
+   "gaps": 0,
+   "arbitrated_from": 24.1
   },
   {
    "target": "harmony_hub/utility_belt/fts-query",
    "resolved": "harmony_hub/utility_belt/fts-query",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/list-messages.py",
    "resolved": "harmony_hub/utility_belt/list-messages.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/list-sessions.py",
    "resolved": "harmony_hub/utility_belt/list-sessions.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.7,
    "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/map-query.sh",
    "resolved": "harmony_hub/utility_belt/map-query.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -2830,84 +2926,84 @@
   {
    "target": "harmony_hub/utility_belt/session-search",
    "resolved": "harmony_hub/utility_belt/session-search",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/system-health",
    "resolved": "harmony_hub/utility_belt/system-health",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/task-gantt",
    "resolved": "harmony_hub/utility_belt/task-gantt",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/verify-session.py",
    "resolved": "harmony_hub/utility_belt/verify-session.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/workflow",
    "resolved": "harmony_hub/utility_belt/workflow",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/workspace-check",
    "resolved": "harmony_hub/utility_belt/workspace-check",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/PROTOCOL.md",
    "resolved": "harmony_hub/workspace/PROTOCOL.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/SYSTEM_MAP.md",
    "resolved": "harmony_hub/workspace/SYSTEM_MAP.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 98.7,
    "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/CHRONOMANCER_SPEC.md",
    "resolved": "harmony_hub/workspace/agent/CHRONOMANCER_SPEC.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/LINGUIST_SPEC.md",
    "resolved": "harmony_hub/workspace/agent/LINGUIST_SPEC.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/TASK_QUEUE.md",
    "resolved": "harmony_hub/workspace/agent/TASK_QUEUE.md",
-   "how": "exact/whole",
-   "pct": 2.5,
+   "how": "exact/whole_path",
+   "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/TIME_LOOP_AGENT_SPEC.md",
    "resolved": "harmony_hub/workspace/agent/TIME_LOOP_AGENT_SPEC.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2921,21 +3017,21 @@
   {
    "target": "harmony_hub/workspace/agent/direct_task.py",
    "resolved": "harmony_hub/workspace/agent/direct_task.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 6.5,
    "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/promote.py",
    "resolved": "harmony_hub/workspace/agent/promote.py",
-   "how": "exact/whole",
-   "pct": 2.4,
+   "how": "exact/whole_path",
+   "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/task_with_context.py",
    "resolved": "harmony_hub/workspace/agent/task_with_context.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -2955,9 +3051,10 @@
   {
    "target": "harmony_hub/workspace/tui_repair/message_adapter.py",
    "resolved": "harmony_hub/workspace/tui_repair/message_adapter.py",
-   "how": "exact",
-   "pct": 95.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 95.9
   },
   {
    "target": "harmony_hub/workspace/tui_repair/tui_field_fix.cedar",
@@ -3005,7 +3102,7 @@
   {
    "target": "inject_ast_hashes.py",
    "resolved": "workspace/llm_map/inject_ast_hashes.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 97.0,
    "gaps": 0
   },
@@ -3037,23 +3134,25 @@
   {
    "target": "manager_agent.py",
    "resolved": "workspace/llm_map/manager_agent.py",
-   "how": "basename_unique",
-   "pct": 99.9,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.9
   },
   {
    "target": "map_final_with_watch.sh",
    "resolved": "cli-synthegration/workspace/caveman_map/map_final_with_watch.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 87.5,
    "gaps": 0
   },
   {
    "target": "mapper_graph.py",
    "resolved": "mapper_graph.py",
-   "how": "exact",
-   "pct": 58.1,
-   "gaps": 1
+   "how": "exact/whole_path",
+   "pct": 60.2,
+   "gaps": 1,
+   "arbitrated_from": 58.1
   },
   {
    "target": "modules/apply_auto_tags.py",
@@ -3089,7 +3188,7 @@
   {
    "target": "modules/taxapply.py",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/taxapply.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -3102,42 +3201,45 @@
   {
    "target": "multi-ai-cli/backends/deepseek.py",
    "resolved": "multi-ai-cli/backends/deepseek.py",
-   "how": "exact",
-   "pct": 89.5,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 91.5,
+   "gaps": 0,
+   "arbitrated_from": 89.5
   },
   {
    "target": "multi-ai-cli/backends/mistral_web.py",
    "resolved": "multi-ai-cli/backends/mistral_web.py",
-   "how": "exact",
-   "pct": 5.0,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 29.4,
+   "gaps": 0,
+   "arbitrated_from": 5.0
   },
   {
    "target": "multi-ai-cli/bridge/mistral_bridge.py",
    "resolved": "multi-ai-cli/bridge/mistral_bridge.py",
-   "how": "exact",
-   "pct": 69.6,
-   "gaps": 1
+   "how": "exact/whole_path",
+   "pct": 82.3,
+   "gaps": 1,
+   "arbitrated_from": 69.6
   },
   {
    "target": "multi-ai-cli/config.yaml",
    "resolved": "multi-ai-cli/config.yaml",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 18.8,
    "gaps": 0
   },
   {
    "target": "multi-ai-cli/harvesters/capture-mistral-token.cjs",
    "resolved": "multi-ai-cli/harvesters/capture-mistral-token.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.1,
    "gaps": 0
   },
   {
    "target": "multi-ai-cli/harvesters/diag-mistral.cjs",
    "resolved": "multi-ai-cli/harvesters/diag-mistral.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -3174,37 +3276,39 @@
   {
    "target": "multi-ai-cli/harvesters/mistral_cookies.cjs",
    "resolved": "multi-ai-cli/harvesters/mistral_cookies.cjs",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "multi-ai-cli/sandbox/backends/mistral_v1.py",
    "resolved": "multi-ai-cli/sandbox/backends/mistral_v1.py",
-   "how": "exact",
-   "pct": 78.8,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 78.8
   },
   {
    "target": "multi-ai-cli/utils/debug_deepseek.py",
    "resolved": "multi-ai-cli/utils/debug_deepseek.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "multi-ai-cli/utils/promote_backend.sh",
    "resolved": "multi-ai-cli/utils/promote_backend.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "my_script.py",
    "resolved": "my_script.py",
-   "how": "exact",
-   "pct": 6.2,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 52.4,
+   "gaps": 0,
+   "arbitrated_from": 6.2
   },
   {
    "target": "organize_flywheel.sh",
@@ -3227,14 +3331,14 @@
   {
    "target": "populate_reliability.py",
    "resolved": "workspace/llm_map/populate_reliability.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "pow_solver.js",
    "resolved": "deepcli/pow_solver.js",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -3254,8 +3358,8 @@
   {
    "target": "provenance_mapper.py",
    "resolved": "provenance_mapper.py",
-   "how": "exact/whole",
-   "pct": 0.9,
+   "how": "exact/whole_path",
+   "pct": 97.7,
    "gaps": 0
   },
   {
@@ -3298,16 +3402,17 @@
   {
    "target": "reliability_db.py",
    "resolved": "workspace/llm_map/reliability_db.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "reliability_scan.py",
    "resolved": "workspace/llm_map/reliability_scan.py",
-   "how": "basename_unique",
-   "pct": 5.3,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 5.3
   },
   {
    "target": "report-1779418415307.json",
@@ -3319,28 +3424,29 @@
   {
    "target": "requirements.txt",
    "resolved": "_1-Projects/a/requirements.txt",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 22.9,
    "gaps": 0
   },
   {
    "target": "roles_custom.json",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/roles_custom.json",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 33.3,
    "gaps": 0
   },
   {
    "target": "router_agent.py",
    "resolved": "workspace/llm_map/router_agent.py",
-   "how": "basename_unique",
-   "pct": 89.0,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 90.1,
+   "gaps": 0,
+   "arbitrated_from": 89.0
   },
   {
    "target": "run_agent.sh",
    "resolved": "termux-multi-agent/run_agent.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -3353,9 +3459,10 @@
   {
    "target": "safe_chunk_parallel.py",
    "resolved": "workspace/llm_map/safe_chunk_parallel.py",
-   "how": "basename_unique",
-   "pct": 99.9,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.9
   },
   {
    "target": "sandbox/session_bridge/bridge_session_ids.py",
@@ -3378,9 +3485,10 @@
   {
    "target": "scripts/cedar-forge",
    "resolved": "workspace/cedar_forge/scripts/cedar-forge",
-   "how": "ambiguous",
-   "pct": 27.0,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 27.0
   },
   {
    "target": "scripts/compile_run.sh",
@@ -3404,16 +3512,18 @@
   {
    "target": "session_associate.py",
    "resolved": "workspace/llm_map/session_associate.py",
-   "how": "basename_unique",
-   "pct": 70.7,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 70.7
   },
   {
    "target": "session_title_refiner.py",
    "resolved": "workspace/llm_map/session_title_refiner.py",
-   "how": "basename_unique",
-   "pct": 57.9,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 57.9
   },
   {
    "target": "simple_agent.py",
@@ -3425,16 +3535,17 @@
   {
    "target": "spec.max",
    "resolved": "workspace/maxc/spec.max",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 0.2,
    "gaps": 0
   },
   {
    "target": "src/context_collector.py",
    "resolved": "src/context_collector.py",
-   "how": "exact",
-   "pct": 55.2,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 64.6,
+   "gaps": 0,
+   "arbitrated_from": 55.2
   },
   {
    "target": "src/db.py",
@@ -3446,14 +3557,14 @@
   {
    "target": "src/emitter.rs",
    "resolved": "appliedSxi/maxc/src_prototype_bidir/emitter.rs",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 88.7,
    "gaps": 0
   },
   {
    "target": "src/emitter_leptos.rs",
    "resolved": "appliedSxi/maxc/src_prototype_bidir/emitter_leptos.rs",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 90.2,
    "gaps": 0
   },
@@ -3466,7 +3577,7 @@
   {
    "target": "src/lexer.rs",
    "resolved": "appliedSxi/maxc/src/lexer.rs",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 81.6,
    "gaps": 0
   },
@@ -3479,21 +3590,22 @@
   {
    "target": "src/main.rs",
    "resolved": "appliedSxi/maxc/src_prototype_bidir/main.rs",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 84.1,
    "gaps": 0
   },
   {
    "target": "src/orchestrator.py",
    "resolved": "src/orchestrator.py",
-   "how": "exact",
-   "pct": 8.1,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 82.2,
+   "gaps": 0,
+   "arbitrated_from": 8.1
   },
   {
    "target": "src/parser.rs",
    "resolved": "appliedSxi/maxc/src_prototype_bidir/parser.rs",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 89.3,
    "gaps": 0
   },
@@ -3525,28 +3637,29 @@
   {
    "target": "synthegration-cli/src/main.rs",
    "resolved": "synthegration-cli/src/main.rs",
-   "how": "exact/whole",
-   "pct": 2.7,
+   "how": "exact/whole_path",
+   "pct": 64.3,
    "gaps": 0
   },
   {
    "target": "task_runner.py",
    "resolved": "workspace/llm_map/task_runner.py",
-   "how": "basename_unique",
-   "pct": 99.9,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.9
   },
   {
    "target": "task_watcher.sh",
    "resolved": "termux-multi-agent/workspace/task_watcher.sh",
-   "how": "ambiguous/whole",
+   "how": "ambiguous/whole_path",
    "pct": 72.9,
    "gaps": 0
   },
   {
    "target": "termux-multi-agent/cedar-mcp-server.js",
    "resolved": "termux-multi-agent/cedar-mcp-server.js",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -3560,23 +3673,25 @@
   {
    "target": "termux-multi-agent/sgconfig.yml",
    "resolved": "termux-multi-agent/sgconfig.yml",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.5,
    "gaps": 0
   },
   {
    "target": "termux-multi-agent/src/orchestrator.py",
    "resolved": "termux-multi-agent/workspace/reference/src/orchestrator.py",
-   "how": "ambiguous",
-   "pct": 95.9,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 95.9
   },
   {
    "target": "termux-multi-agent/src/parallel_agents.py",
    "resolved": "termux-multi-agent/workspace/reference/src/parallel_agents.py",
-   "how": "ambiguous",
-   "pct": 92.3,
-   "gaps": 0
+   "how": "ambiguous/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 92.3
   },
   {
    "target": "termux-multi-agent/src/tool_registry.py",
@@ -3588,14 +3703,15 @@
   {
    "target": "termux-multi-agent/workspace/clean_target.txt",
    "resolved": "termux-multi-agent/workspace/clean_target.txt",
-   "how": "exact",
-   "pct": 63.6,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 99.4,
+   "gaps": 0,
+   "arbitrated_from": 63.6
   },
   {
    "target": "termux-multi-agent/workspace/expert_probe_task.py",
    "resolved": "termux-multi-agent/workspace/expert_probe_task.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -3639,9 +3755,10 @@
   {
    "target": "tool_logger.py",
    "resolved": "workspace/llm_map/tool_logger.py",
-   "how": "basename_unique",
-   "pct": 56.6,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 56.6
   },
   {
    "target": "tools/mapper.sh",
@@ -3664,9 +3781,10 @@
   {
    "target": "validate_promotion.py",
    "resolved": "workspace/llm_map/validate_promotion.py",
-   "how": "basename_unique",
-   "pct": 99.9,
-   "gaps": 0
+   "how": "basename_unique/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 99.9
   },
   {
    "target": "vault/secure_token.py",
@@ -3677,37 +3795,38 @@
   {
    "target": "workspace/CAVEMAN_INDEX.md",
    "resolved": "workspace/CAVEMAN_INDEX.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 92.7,
    "gaps": 0
   },
   {
    "target": "workspace/FORGE_OVERSIGHT.md",
    "resolved": "workspace/FORGE_OVERSIGHT.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "workspace/README.md",
    "resolved": "workspace/README.md",
-   "how": "exact/whole",
-   "pct": 1.6,
+   "how": "exact/whole_path",
+   "pct": 99.8,
    "gaps": 0
   },
   {
    "target": "workspace/cedar_forge/PLAN.md",
    "resolved": "workspace/cedar_forge/PLAN.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 64.0,
    "gaps": 0
   },
   {
    "target": "workspace/compression_sandbox/cedrlang/cid.py",
    "resolved": "workspace/compression_sandbox/cedrlang/cid.py",
-   "how": "exact",
-   "pct": 51.1,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 51.1
   },
   {
    "target": "workspace/compression_sandbox/prompts/cedr_system_prompt.txt",
@@ -3718,84 +3837,84 @@
   {
    "target": "workspace/deepcli-tui/TASK_QUEUE.md",
    "resolved": "harmony_hub/workspace/agent/TASK_QUEUE.md",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 2.5,
    "gaps": 0
   },
   {
    "target": "workspace/deepcli-tui/taDone.md",
    "resolved": "workspace/deepcli-tui/taDone.md",
-   "how": "exact/whole",
-   "pct": 4.1,
+   "how": "exact/whole_path",
+   "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "workspace/deepcli/taDone.md",
    "resolved": "workspace/deepcli/taDone.md",
-   "how": "exact/whole",
-   "pct": 14.1,
+   "how": "exact/whole_path",
+   "pct": 99.6,
    "gaps": 0
   },
   {
    "target": "workspace/deepseek-cli/TASK_QUEUE.md",
    "resolved": "harmony_hub/workspace/agent/TASK_QUEUE.md",
-   "how": "basename_unique/whole",
-   "pct": 2.5,
+   "how": "basename_unique/whole_path",
+   "pct": 3.0,
    "gaps": 0
   },
   {
    "target": "workspace/deepseek-cli/taDone.md",
    "resolved": "workspace/deepseek-cli/taDone.md",
-   "how": "exact/whole",
-   "pct": 12.0,
+   "how": "exact/whole_path",
+   "pct": 99.7,
    "gaps": 0
   },
   {
    "target": "workspace/harmony_hub/TASK_QUEUE.md",
    "resolved": "harmony_hub/workspace/agent/TASK_QUEUE.md",
-   "how": "basename_unique/whole",
-   "pct": 2.5,
+   "how": "basename_unique/whole_path",
+   "pct": 1.6,
    "gaps": 0
   },
   {
    "target": "workspace/harmony_hub/taDone.md",
    "resolved": "workspace/harmony_hub/taDone.md",
-   "how": "exact/whole",
-   "pct": 4.5,
+   "how": "exact/whole_path",
+   "pct": 99.8,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/ECOSYSTEM_MAPPER_DOCS.md",
    "resolved": "workspace/llm_map/ECOSYSTEM_MAPPER_DOCS.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 51.6,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/README.md",
    "resolved": "workspace/llm_map/README.md",
-   "how": "exact/whole",
-   "pct": 1.4,
+   "how": "exact/whole_path",
+   "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/README.md",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/README.md",
-   "how": "exact/whole",
-   "pct": 2.3,
+   "how": "exact/whole_path",
+   "pct": 7.3,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/alias_scan.sh",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/alias_scan.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/apt_scan.sh",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/apt_scan.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
@@ -3809,28 +3928,29 @@
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/custom_scan.sh",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/custom_scan.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/post_refactor.py",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/post_refactor.py",
-   "how": "exact",
-   "pct": 74.2,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 74.5,
+   "gaps": 0,
+   "arbitrated_from": 74.2
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/ref_templates_scan.sh",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/ref_templates_scan.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/taxfind.py",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/taxfind.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -3843,14 +3963,14 @@
   {
    "target": "workspace/llm_map/add_task.py",
    "resolved": "workspace/llm_map/add_task.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 94.9,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/agent_proposals/proposal_template.json",
    "resolved": "workspace/llm_map/agent_proposals/proposal_template.json",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
@@ -3864,51 +3984,54 @@
   {
    "target": "workspace/llm_map/apply_bloat.py",
    "resolved": "workspace/llm_map/apply_bloat.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/build_all.py",
    "resolved": "workspace/llm_map/build_all.py",
-   "how": "exact",
-   "pct": 10.9,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 99.9,
+   "gaps": 0,
+   "arbitrated_from": 10.9
   },
   {
    "target": "workspace/llm_map/build_ast_hash_index.py",
    "resolved": "workspace/llm_map/build_ast_hash_index.py",
-   "how": "exact",
-   "pct": 35.4,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 35.4
   },
   {
    "target": "workspace/llm_map/build_ast_index_from_existing.py",
    "resolved": "workspace/llm_map/build_ast_index_from_existing.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/build_final.py",
    "resolved": "workspace/llm_map/build_final.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/build_final_all.py",
    "resolved": "workspace/llm_map/build_final_all.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/build_final_all_profile.py",
    "resolved": "workspace/llm_map/build_final_all_profile.py",
-   "how": "exact",
-   "pct": 7.3,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 85.4,
+   "gaps": 0,
+   "arbitrated_from": 7.3
   },
   {
    "target": "workspace/llm_map/build_fresh_ast.py",
@@ -3919,100 +4042,105 @@
   {
    "target": "workspace/llm_map/build_graph_fast.py",
    "resolved": "workspace/llm_map/build_graph_fast.py",
-   "how": "exact",
-   "pct": 61.7,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 61.7
   },
   {
    "target": "workspace/llm_map/build_llm_index.py",
    "resolved": "workspace/llm_map/build_llm_index.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/build_tool_taxonomy.sh",
    "resolved": "workspace/llm_map/build_tool_taxonomy.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 10.4,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/deepcli_send.py",
    "resolved": "workspace/llm_map/deepcli_send.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.8,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/depgraph.sh",
    "resolved": "workspace/llm_map/depgraph.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.7,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/depmenu.sh",
    "resolved": "workspace/llm_map/depmenu.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/discover_projects.py",
    "resolved": "workspace/llm_map/discover_projects.py",
-   "how": "exact",
-   "pct": 34.3,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 34.3
   },
   {
    "target": "workspace/llm_map/enrich_time.py",
    "resolved": "workspace/llm_map/enrich_time.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/finalize.py",
    "resolved": "workspace/llm_map/finalize.py",
-   "how": "exact",
-   "pct": 2.4,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 2.4
   },
   {
    "target": "workspace/llm_map/func_indexer.py",
    "resolved": "workspace/llm_map/func_indexer.py",
-   "how": "exact",
-   "pct": 75.7,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 75.7
   },
   {
    "target": "workspace/llm_map/generate_final.py",
    "resolved": "workspace/llm_map/generate_final.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/generate_system_map.sh",
    "resolved": "workspace/llm_map/generate_system_map.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/graph_fzf.sh",
    "resolved": "workspace/llm_map/graph_fzf.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/graph_query.py",
    "resolved": "workspace/llm_map/graph_query.py",
-   "how": "exact",
-   "pct": 27.5,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 27.5
   },
   {
    "target": "workspace/llm_map/graph_tui.sh",
@@ -4023,9 +4151,10 @@
   {
    "target": "workspace/llm_map/integrate_all.py",
    "resolved": "workspace/llm_map/integrate_all.py",
-   "how": "exact",
-   "pct": 21.5,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 21.5
   },
   {
    "target": "workspace/llm_map/llm_mapper_pro.py",
@@ -4037,14 +4166,14 @@
   {
    "target": "workspace/llm_map/modules/apt_scan.sh",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/apt_scan.sh",
-   "how": "basename_unique/whole",
-   "pct": 100.0,
+   "how": "basename_unique/whole_path",
+   "pct": 73.9,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/cargo_scan.sh",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/cargo_scan.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 96.8,
    "gaps": 0
   },
@@ -4058,92 +4187,93 @@
   {
    "target": "workspace/llm_map/modules/common.sh",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/common.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 87.5,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/custom_scan.sh",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/custom_scan.sh",
-   "how": "basename_unique/whole",
-   "pct": 100.0,
+   "how": "basename_unique/whole_path",
+   "pct": 92.0,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/delta_maker.py",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/delta_maker.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 59.8,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/help_snapper.py",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/help_snapper.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 76.5,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/npm_scan.sh",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/npm_scan.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 89.1,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/ref_templates_scan.sh",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/ref_templates_scan.sh",
-   "how": "basename_unique/whole",
-   "pct": 99.9,
+   "how": "basename_unique/whole_path",
+   "pct": 82.1,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/termux_api_scan.sh",
    "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/termux_api_scan.sh",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 93.9,
    "gaps": 0
   },
   {
    "target": "workspace/llm_map/profile_filter.py",
    "resolved": "workspace/llm_map/profile_filter.py",
-   "how": "exact",
-   "pct": 78.6,
-   "gaps": 0
+   "how": "exact/whole_path",
+   "pct": 100.0,
+   "gaps": 0,
+   "arbitrated_from": 78.6
   },
   {
    "target": "workspace/llm_map/refresh_final.py",
    "resolved": "workspace/llm_map/refresh_final.py",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 99.9,
    "gaps": 0
   },
   {
    "target": "workspace/scripts/enforce_workspace_hierarchy.sh",
    "resolved": "workspace/scripts/enforce_workspace_hierarchy.sh",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 100.0,
    "gaps": 0
   },
   {
    "target": "workspace/taDone.md",
    "resolved": "workspace/taDone.md",
-   "how": "exact/whole",
+   "how": "exact/whole_path",
    "pct": 42.1,
    "gaps": 0
   },
   {
    "target": "workspace/termux-multi-agent/TASK_QUEUE.md",
    "resolved": "harmony_hub/workspace/agent/TASK_QUEUE.md",
-   "how": "basename_unique/whole",
-   "pct": 2.5,
+   "how": "basename_unique/whole_path",
+   "pct": 7.4,
    "gaps": 0
   },
   {
    "target": "workspace/termux-multi-agent/taDone.md",
    "resolved": "workspace/termux-multi-agent/taDone.md",
-   "how": "exact/whole",
-   "pct": 4.1,
+   "how": "exact/whole_path",
+   "pct": 99.8,
    "gaps": 0
   },
   {
@@ -4156,7 +4286,7 @@
   {
    "target": "write_main.py",
    "resolved": "workspace/maxc/write_main.py",
-   "how": "basename_unique/whole",
+   "how": "basename_unique/whole_path",
    "pct": 100.0,
    "gaps": 0
   }
@@ -4165,6 +4295,6 @@
   "present": 149,
   "absent": 15
  },
- "whole_scored": 270,
+ "whole_scored": 400,
  "gapfill": 149
 }

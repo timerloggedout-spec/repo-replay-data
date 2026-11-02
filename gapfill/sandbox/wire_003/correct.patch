@@ -1,37 +1,12 @@
 <<<<<<< SEARCH
-    refactor_goal = "Refactor compute to intercept and handle ZeroDivisionError scenario profiles cleanly."  # fallback
-env_goal = os.environ.get("REFACTOR_GOAL")
-if env_goal:
-    refactor_goal = env_goal
-else:
-    task_file = os.path.join(workspace_path, "current_task.txt")
-    if os.path.exists(task_file):
-        with open(task_file) as f:
-            content = f.read().strip()
-            if content:
-                refactor_goal = content
+        subprocess.run(['python3', str(SIMPLE_AGENT), task_id])
 =======
-    refactor_goal = None
-    task_id = os.environ.get("TASK_ID")
-    if task_id:
-        master_tasks = os.path.join(os.path.expanduser("~"), "workspace/llm_map/master_tasks.json")
-        if os.path.exists(master_tasks):
-            import json
-            with open(master_tasks) as f:
-                tasks = json.load(f)
-            task = next((t for t in tasks if t["id"] == task_id), None)
-            if task:
-                refactor_goal = task.get("title","") + "\n" + task.get("instructions","")
-    if not refactor_goal:
-        refactor_goal = "Refactor compute to intercept and handle ZeroDivisionError scenario profiles cleanly."  # fallback
-        env_goal = os.environ.get("REFACTOR_GOAL")
-        if env_goal:
-            refactor_goal = env_goal
-        else:
-            task_file = os.path.join(workspace_path, "current_task.txt")
-            if os.path.exists(task_file):
-                with open(task_file) as f:
-                    content = f.read().strip()
-                    if content:
-                        refactor_goal = content
+        import subprocess as sp
+        env = os.environ.copy()
+        env['TASK_ID'] = task_id
+        result = sp.run(
+            ['python3', str(ORCHESTRATOR)],
+            cwd=str(sandbox), capture_output=True, text=True, timeout=120, env=env
+        )
+        print(result.stdout[-500:] if result.stdout else result.stderr[:500])
 >>>>>>> REPLACE
