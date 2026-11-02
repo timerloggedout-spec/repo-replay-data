@@ -1,80 +1,90 @@
 {
  "targets": 616,
- "scored": 182,
- "no_oracle": 278,
+ "scored": 452,
+ "no_oracle": 8,
  "fetch_fail": 156,
  "rows": [
   {
    "target": ".bashrc",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": ".bashrc",
+   "how": "exact/whole",
+   "pct": 50.3,
+   "gaps": 0
   },
   {
    "target": ".config/bat/syntaxes/maxup.sublime-syntax",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": ".config/bat/syntaxes/maxup.sublime-syntax",
+   "how": "exact/whole",
+   "pct": 44.8,
+   "gaps": 0
   },
   {
    "target": ".zshrc",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": ".zshrc",
+   "how": "exact/whole",
+   "pct": 29.8,
+   "gaps": 0
   },
   {
    "target": "CHANGELOG.md",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/CHANGELOG.md",
+   "how": "ambiguous/whole",
+   "pct": 78.9,
+   "gaps": 0
   },
   {
    "target": "CMakeLists.txt",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "Cargo.toml",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "appliedSxi/maxc/Cargo.toml",
+   "how": "ambiguous/whole",
+   "pct": 99.4,
+   "gaps": 0
   },
   {
    "target": "README.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "README.md",
+   "how": "exact/whole",
+   "pct": 1.2,
+   "gaps": 0
   },
   {
    "target": "REFERENCE.md",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/REFERENCE.md",
+   "how": "basename_unique/whole",
+   "pct": 64.8,
+   "gaps": 0
   },
   {
    "target": "SYNTHEGRATION_PLAN.md",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "TOOL_INDEX.md",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/TOOL_INDEX.md",
+   "how": "ambiguous/whole",
+   "pct": 50.4,
+   "gaps": 0
   },
   {
    "target": "TUI_ARCHAEOLOGY.md",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/TUI_ARCHAEOLOGY.md",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "access_policy.json",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/access_policy.json",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "agent_shell.py",
@@ -99,57 +109,66 @@
   },
   {
    "target": "archwiz/ARCHWIZARD_TASKS.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/ARCHWIZARD_TASKS.md",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "archwiz/CONCEPT_INDEX.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/CONCEPT_INDEX.md",
+   "how": "exact/whole",
+   "pct": 92.8,
+   "gaps": 0
   },
   {
    "target": "archwiz/CONSIDERATIONS.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/CONSIDERATIONS.md",
+   "how": "exact/whole",
+   "pct": 26.2,
+   "gaps": 0
   },
   {
    "target": "archwiz/LEARNINGS.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/LEARNINGS.md",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "archwiz/METHODOLOGY_INDEX.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/METHODOLOGY_INDEX.md",
+   "how": "exact/whole",
+   "pct": 90.6,
+   "gaps": 0
   },
   {
    "target": "archwiz/POINTER_INDEX.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/POINTER_INDEX.md",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "archwiz/ROADMAP.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/ROADMAP.md",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "archwiz/TOOL_INDEX.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/TOOL_INDEX.md",
+   "how": "exact/whole",
+   "pct": 35.1,
+   "gaps": 0
   },
   {
    "target": "archwiz/USER_MANUAL.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/USER_MANUAL.md",
+   "how": "exact/whole",
+   "pct": 86.5,
+   "gaps": 0
   },
   {
    "target": "archwiz/activity_listener.py",
@@ -167,9 +186,10 @@
   },
   {
    "target": "archwiz/agent_shell.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "archwiz/agent_shell.py",
+   "how": "exact/whole",
+   "pct": 2.6,
+   "gaps": 0
   },
   {
    "target": "archwiz/archaeo_sweep.py",
@@ -194,15 +214,17 @@
   },
   {
    "target": "archwiz/archwiz.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "archwiz/archwiz.sh",
+   "how": "exact/whole",
+   "pct": 84.8,
+   "gaps": 0
   },
   {
    "target": "archwiz/audit_aliases.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/audit_aliases.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "archwiz/auto_repair.py",
@@ -227,9 +249,10 @@
   },
   {
    "target": "archwiz/build_reference_hub.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/build_reference_hub.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "archwiz/build_tool_index.py",
@@ -239,15 +262,16 @@
   },
   {
    "target": "archwiz/check_provenance_against_downloads.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/check_provenance_against_downloads.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "archwiz/clean_zshrc.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "archwiz/cmp_dirs.py",
@@ -257,15 +281,17 @@
   },
   {
    "target": "archwiz/commit_notes.py",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "termux-multi-agent/workspace/commit_notes.py",
+   "how": "ambiguous/whole",
+   "pct": 9.7,
+   "gaps": 0
   },
   {
    "target": "archwiz/compare_exports_by_sha.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/compare_exports_by_sha.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "archwiz/correlation_scout.py",
@@ -276,9 +302,10 @@
   },
   {
    "target": "archwiz/dangle_detector.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "archwiz/dangle_detector.py",
+   "how": "exact/whole",
+   "pct": 96.2,
+   "gaps": 0
   },
   {
    "target": "archwiz/debug_daemon.py",
@@ -289,21 +316,24 @@
   },
   {
    "target": "archwiz/dedup_zshrc.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/dedup_zshrc.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "archwiz/export_poller.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/export_poller.sh",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "archwiz/find_dup_exports.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/find_dup_exports.sh",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "archwiz/forensic_toolchain.py",
@@ -356,9 +386,10 @@
   },
   {
    "target": "archwiz/manifest_to_cache.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/manifest_to_cache.py",
+   "how": "exact/whole",
+   "pct": 92.4,
+   "gaps": 0
   },
   {
    "target": "archwiz/metrics_viewer.py",
@@ -397,9 +428,10 @@
   },
   {
    "target": "archwiz/pipeline_update.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/pipeline_update.sh",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "archwiz/pointer_index.py",
@@ -431,9 +463,10 @@
   },
   {
    "target": "archwiz/refactor_dispatch.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/refactor_dispatch.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "archwiz/refactor_rune.py",
@@ -465,9 +498,10 @@
   },
   {
    "target": "archwiz/sandbox/agent_shell_v2/patches/cockpit_integration.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/sandbox/agent_shell_v2/patches/cockpit_integration.sh",
+   "how": "exact/whole",
+   "pct": 99.7,
+   "gaps": 0
   },
   {
    "target": "archwiz/send_helper.py",
@@ -499,9 +533,10 @@
   },
   {
    "target": "archwiz/test_archwiz.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/test_archwiz.sh",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "archwiz/timeline_editor.py",
@@ -512,27 +547,31 @@
   },
   {
    "target": "archwiz/trace_data_flow.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/trace_data_flow.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "archwiz/trace_data_flow_safe.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/trace_data_flow_safe.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "archwiz/trace_db_writers.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/trace_db_writers.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "archwiz/trace_jsonl_writers.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/trace_jsonl_writers.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "archwiz/trace_rw.py",
@@ -550,33 +589,36 @@
   },
   {
    "target": "archwiz/vision_1337.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/vision_1337.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "archwiz/xref_exports.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "archwiz/xref_exports.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "ast_diagnostic.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/ast_diagnostic.py",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "backend/go.mod",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "backend/main.go",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "backends/base.py",
@@ -652,49 +694,54 @@
    "target": "bin/cedar-bridge",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
-  },
-  {
-   "target": "bin/cedar-forge",
-   "how": "exact",
-   "gap": "NO_ORACLE",
    "session": "present"
   },
   {
+   "target": "bin/cedar-forge",
+   "resolved": "bin/cedar-forge",
+   "how": "exact/whole",
+   "pct": 26.7,
+   "gaps": 0
+  },
+  {
    "target": "bin/cedrlang",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "bin/cedrlang",
+   "how": "exact/whole",
+   "pct": 28.2,
+   "gaps": 0
   },
   {
    "target": "bin/env.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "capture-pow-solver.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-pow-solver.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "capture-upload-account2.cjs",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-upload-account2.cjs",
+   "how": "basename_unique/whole",
+   "pct": 72.4,
+   "gaps": 0
   },
   {
    "target": "capture-upload-api.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-upload-api.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "cedar_commands.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cedar_forge/capture/recorder.py",
@@ -783,13 +830,14 @@
    "target": "cli-synthegration/batch_export.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/batch_export_all.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/batch_export_all.py",
+   "how": "exact/whole",
+   "pct": 99.3,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/branch_manager.py",
@@ -800,9 +848,10 @@
   },
   {
    "target": "cli-synthegration/capture-expert-version.js",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/capture-expert-version.js",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/cedar_bridge.py",
@@ -854,27 +903,30 @@
   },
   {
    "target": "cli-synthegration/extract_bearer_from_cookies.js",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/extract_bearer_from_cookies.js",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/extract_cookie_token.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/extract_expert_headers.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/extract_expert_headers.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/extract_from_official_export.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/extract_from_official_export.py",
+   "how": "exact/whole",
+   "pct": 43.8,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/generate_handoff.py",
@@ -892,33 +944,37 @@
   },
   {
    "target": "cli-synthegration/http_sniffer.js",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/http_sniffer.js",
+   "how": "exact/whole",
+   "pct": 70.8,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/list_messages.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/live_export.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/live_export.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/live_message_search.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmonizer-prod_cli/workspace/staging/live_message_search.py",
+   "how": "basename_unique/whole",
+   "pct": 94.7,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/live_search.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/live_search.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/loop_optimizer.py",
@@ -945,13 +1001,14 @@
    "target": "cli-synthegration/rules/funcs.yml",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/rules/list-funcs.yml",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/rules/list-funcs.yml",
+   "how": "exact/whole",
+   "pct": 99.7,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/session_categories.py",
@@ -976,21 +1033,23 @@
   },
   {
    "target": "cli-synthegration/sync/selective_sync.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/sync/selective_sync.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/sync_pipeline.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/sync_pipeline.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/synth_version.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/synthegration_index.py",
@@ -1029,9 +1088,10 @@
   },
   {
    "target": "cli-synthegration/workspace/cedarscript/CEDARSCRIPT_REFERENCE.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/workspace/cedarscript/CEDARSCRIPT_REFERENCE.md",
+   "how": "exact/whole",
+   "pct": 0.9,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/compression_sandbox/ge",
@@ -1041,9 +1101,10 @@
   },
   {
    "target": "cli-synthegration/workspace/compression_sandbox/generate_loop.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "cli-synthegration/workspace/compression_sandbox/generate_loop.py",
+   "how": "exact/whole",
+   "pct": 91.4,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/compression_sandbox/synthegration_index.py",
@@ -1067,15 +1128,16 @@
   },
   {
    "target": "cli-synthegration/workspace/provenance/REFERENCE.md",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/REFERENCE.md",
+   "how": "basename_unique/whole",
+   "pct": 64.8,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/provenance/analyze_delays.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/build_all_versions.py",
@@ -1088,7 +1150,7 @@
    "target": "cli-synthegration/workspace/provenance/build_final_map.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/build_provenance.py",
@@ -1124,7 +1186,7 @@
    "target": "cli-synthegration/workspace/provenance/discover_codex.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/final_provenance.py",
@@ -1166,13 +1228,13 @@
    "target": "cli-synthegration/workspace/provenance/inspect_cedar.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/investigate_harvest.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/optimized_provenance.py",
@@ -1196,7 +1258,7 @@
    "target": "cli-synthegration/workspace/provenance/prov_query.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/prov_rich.py",
@@ -1226,25 +1288,25 @@
    "target": "cli-synthegration/workspace/provenance/refine_provenance.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/rematch_recent.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/rematch_temporal.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/sample_matches.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/scan_databases.py",
@@ -1256,13 +1318,13 @@
    "target": "cli-synthegration/workspace/provenance/scan_existing_functions.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/summary.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/tight_clean.py",
@@ -1274,7 +1336,7 @@
    "target": "cli-synthegration/workspace/provenance/true_delays.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/true_versions.py",
@@ -1292,31 +1354,32 @@
    "target": "cli-synthegration/workspace/provenance/tune_and_sample.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/unearth_blocks.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/versioned_provenance.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance/view_provenance.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/provenance_mapper.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "provenance_mapper.py",
+   "how": "basename_unique/whole",
+   "pct": 0.9,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/provenance_mapper_cli.py",
@@ -1326,9 +1389,10 @@
   },
   {
    "target": "cli-synthegration/workspace/staging/chronos/__init__.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/workspace/staging/chronos/__init__.py",
+   "how": "exact/whole",
+   "pct": 99.7,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/staging/chronos/versioner.py",
@@ -1339,9 +1403,10 @@
   },
   {
    "target": "cli-synthegration/workspace/staging/live_message_search.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmonizer-prod_cli/workspace/staging/live_message_search.py",
+   "how": "basename_unique/whole",
+   "pct": 94.7,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/staging/time_loop_accelerator.py",
@@ -1354,49 +1419,54 @@
    "target": "cli-synthegration/workspace/staging/workspace_tree.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/time_loop_accelerator/accelerator.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/workspace/time_loop_accelerator/accelerator.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/time_loop_accelerator/accelerator_v2.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "cli-synthegration/workspace/time_loop_accelerator/accelerator_v3.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
-  },
-  {
-   "target": "cli-synthegration/workspace/time_loop_accelerator/auto_refactor.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
    "session": "present"
   },
   {
+   "target": "cli-synthegration/workspace/time_loop_accelerator/auto_refactor.py",
+   "resolved": "cli-synthegration/workspace/time_loop_accelerator/auto_refactor.py",
+   "how": "exact/whole",
+   "pct": 23.7,
+   "gaps": 0
+  },
+  {
    "target": "cli-synthegration/workspace/time_loop_accelerator/inspect_chronos.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/workspace/time_loop_accelerator/inspect_chronos.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/time_loop_accelerator/integrate_chronos.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/workspace/time_loop_accelerator/integrate_chronos.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "cli-synthegration/workspace/time_loop_accelerator/session_productivity.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/workspace/time_loop_accelerator/session_productivity.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "cli.py",
@@ -1414,21 +1484,24 @@
   },
   {
    "target": "colab-cli/config/settings.yaml",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "colab-cli/config/settings.yaml",
+   "how": "exact/whole",
+   "pct": 99.8,
+   "gaps": 0
   },
   {
    "target": "colab-cli/scripts/validate.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "colab-cli/scripts/validate.sh",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "config.yaml",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "multi-ai-cli/config.yaml",
+   "how": "basename_unique/whole",
+   "pct": 18.8,
+   "gaps": 0
   },
   {
    "target": "context_cache.py",
@@ -1439,9 +1512,10 @@
   },
   {
    "target": "context_cache.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/context_cache.sh",
+   "how": "basename_unique/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "core/cache.py",
@@ -1472,9 +1546,10 @@
   },
   {
    "target": "current_task.txt",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "sandbox/run_patch_test/current_task.txt",
+   "how": "ambiguous/whole",
+   "pct": 99.7,
+   "gaps": 0
   },
   {
    "target": "data/data/com.termux/files/home/foxfire_d",
@@ -1484,9 +1559,10 @@
   },
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/ECOSYSTEM_MAPPER_DOCS.md",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/ECOSYSTEM_MAPPER_DOCS.md",
+   "how": "ambiguous/whole",
+   "pct": 51.6,
+   "gaps": 0
   },
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/abc_test.py",
@@ -1511,21 +1587,24 @@
   },
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/ast_snippets.json",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/ast_snippets.json",
+   "how": "basename_unique/whole",
+   "pct": 0.7,
+   "gaps": 0
   },
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/chunk_compressor.py",
    "how": "ambiguous",
    "gap": "NO_ORACLE",
+   "sub": "no_items",
    "session": "absent"
   },
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/commit_notes.py",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "termux-multi-agent/workspace/commit_notes.py",
+   "how": "ambiguous/whole",
+   "pct": 9.7,
+   "gaps": 0
   },
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/dedup_versions.py",
@@ -1543,14 +1622,16 @@
   },
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/expert_probe_task.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "termux-multi-agent/workspace/expert_probe_task.py",
+   "how": "basename_unique/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/extract_cli_queries.py",
    "how": "ambiguous",
    "gap": "NO_ORACLE",
+   "sub": "no_items",
    "session": "absent"
   },
   {
@@ -1585,18 +1666,21 @@
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/refactor_target.js",
    "how": "basename_unique",
    "gap": "NO_ORACLE",
+   "sub": "no_items",
    "session": "absent"
   },
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/refactor_target.mjs",
    "how": "basename_unique",
    "gap": "NO_ORACLE",
+   "sub": "no_items",
    "session": "absent"
   },
   {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/refactor_target.py",
    "how": "basename_unique",
    "gap": "NO_ORACLE",
+   "sub": "no_items",
    "session": "absent"
   },
   {
@@ -1631,25 +1715,27 @@
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/unified_extractor.py",
    "how": "ambiguous",
    "gap": "NO_ORACLE",
+   "sub": "no_items",
    "session": "absent"
   },
   {
    "target": "db_patches/extend_schema.sql",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "dedup_react_helper.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/workspace/dedup_react_helper.py",
+   "how": "basename_unique/whole",
+   "pct": 98.2,
+   "gaps": 0
   },
   {
    "target": "deep_recon.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepcli-tui/tui.py",
@@ -1660,21 +1746,24 @@
   },
   {
    "target": "deepcli.py",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "deepcli/deepcli.py",
+   "how": "ambiguous/whole",
+   "pct": 99.8,
+   "gaps": 0
   },
   {
    "target": "deepcli/README.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/README.md",
+   "how": "exact/whole",
+   "pct": 2.9,
+   "gaps": 0
   },
   {
    "target": "deepcli/__init__.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/__init__.py",
+   "how": "exact/whole",
+   "pct": 19.6,
+   "gaps": 0
   },
   {
    "target": "deepcli/cli.py",
@@ -1699,9 +1788,10 @@
   },
   {
    "target": "deepcli/deepcli.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "deepcli/deepcli.py",
+   "how": "exact/whole",
+   "pct": 99.8,
+   "gaps": 0
   },
   {
    "target": "deepcli/deepcli/core.py",
@@ -1719,21 +1809,24 @@
   },
   {
    "target": "deepcli/investigate_summary.patch",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigate_summary.patch",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/add_goodbye.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/add_goodbye.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/add_tui_back.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/add_tui_back.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/api_map.py",
@@ -1765,81 +1858,94 @@
   },
   {
    "target": "deepcli/investigator/final_fix.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/final_fix.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/finalize_tui.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/finalize_tui.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/finalize_v2.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/finalize_v2.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_all_remaining.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/fix_all_remaining.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_attach_errors.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/fix_attach_errors.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_attach_tui.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/fix_attach_tui.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_branch_and_branches.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/fix_branch_and_branches.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_flicker.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/fix_flicker.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_history_race.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/fix_history_race.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_import_select_persist.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/fix_import_select_persist.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_remaining.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/fix_remaining.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_test_branch.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/fix_test_branch.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/fix_tui_final.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/fix_tui_final.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/investigate.py",
@@ -1850,99 +1956,112 @@
   },
   {
    "target": "deepcli/investigator/patch_branch_api.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_branch_api.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_deepcli.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_deepcli.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_deepcli_v2.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_deepcli_v2.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_deepcli_v3.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_deepcli_v3.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_deepcli_v4.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_deepcli_v4.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_fork_error.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_fork_error.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_fork_test.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepcli/investigator/patch_fork_test_v2.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_fork_test_v2.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_remaining_fork_refs.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_remaining_fork_refs.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_session_persist.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_session_persist.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_test_api.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_test_api.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_test_branch.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_test_branch.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_tui_branch.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_tui_branch.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_tui_pager.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepcli/investigator/patch_tui_tree.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepcli/investigator/patch_tui_tree_v2.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/patch_tui_tree_v2.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/patch_upload_fix.py",
@@ -1952,9 +2071,10 @@
   },
   {
    "target": "deepcli/investigator/read_sse_sources.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/investigator/read_sse_sources.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "deepcli/investigator/test_failure_dump.py",
@@ -1972,9 +2092,10 @@
   },
   {
    "target": "deepcli/tests/debug_fork.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/tests/debug_fork.py",
+   "how": "exact/whole",
+   "pct": 99.5,
+   "gaps": 0
   },
   {
    "target": "deepcli/tests/test_api.py",
@@ -1997,261 +2118,292 @@
   },
   {
    "target": "deepseek-cli/capture-account2-final.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-account2-final.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-expert-headers.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-expert-headers.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-expert-simple.js",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepseek-cli/capture-expert-v2.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-expert-v2.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-expert-v3.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-expert-v3.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-expert-v4.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-expert-v4.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-fresh-account2.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-fresh-account2.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-fresh-ua.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-fresh-ua.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-token-account2.js",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepseek-cli/capture-token-v2.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-token-v2.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-upload-account2-v2.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-upload-account2-v2.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-upload-account2.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-upload-account2.cjs",
+   "how": "exact/whole",
+   "pct": 72.4,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/capture-via-proxy.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/capture-via-proxy.sh",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/extract-2nd-token.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/extract-2nd-token.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/extract-account2-token-final.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/extract-account2-token-final.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/extract-account2-token.cjs",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepseek-cli/extract_token_from_cookies.cjs",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepseek-cli/extract_token_from_cookies.js",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepseek-cli/get_token.js",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepseek-cli/inject-cookies.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/inject-cookies.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/inspect_ls.js",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepseek-cli/manual-login-account2.js",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/manual-login-account2.js",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/pow_solve_standalone.js",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepseek-cli/probe-expert-abc.mjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/probe-expert-abc.mjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-cli/probe-expert.mjs",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepseek-cli/probe-versions.mjs",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepseek-cli/test/api_probe.test.js",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/test/api_probe.test.js",
+   "how": "exact/whole",
+   "pct": 1.6,
+   "gaps": 0
   },
   {
    "target": "deepseek-debug-send.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek-debug-send.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-debug.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek-debug.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-debug2.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek-debug2.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-debug3.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek-debug3.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-diag-extract.js",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepseek-diag.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek-diag.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-fork-inspect.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek-fork-inspect.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-inspect.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek-inspect.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-manual-login-x11.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek-manual-login-x11.js",
+   "how": "basename_unique/whole",
+   "pct": 60.3,
+   "gaps": 0
   },
   {
    "target": "deepseek-manual-login.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek-manual-login.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-profile.js",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "deepseek-record-interactions.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek-record-interactions.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-send-detective.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek-send-detective.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek-stable.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek-stable.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/deepseek.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek_harmonizer.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "deepseek_harmonizer.sh",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "deepseek_harvest_work/batch_merge.py",
@@ -2261,51 +2413,59 @@
   },
   {
    "target": "diagnose_branches.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/diagnose_branches.py",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "diagnose_memory.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/diagnose_memory.sh",
+   "how": "basename_unique/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "discover-upload.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepseek-cli/discover-upload.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "discover_bloat.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/workspace/caveman_map/discover_bloat.sh",
+   "how": "basename_unique/whole",
+   "pct": 91.2,
+   "gaps": 0
   },
   {
    "target": "dispatch_adaptive.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/dispatch_adaptive.sh",
+   "how": "basename_unique/whole",
+   "pct": 52.0,
+   "gaps": 0
   },
   {
    "target": "dispatch_all.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/dispatch_all.sh",
+   "how": "basename_unique/whole",
+   "pct": 99.8,
+   "gaps": 0
   },
   {
    "target": "dispatch_parallel.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/dispatch_parallel.sh",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "dispatch_queue.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/dispatch_queue.sh",
+   "how": "basename_unique/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "dispatch_task.py",
@@ -2316,9 +2476,10 @@
   },
   {
    "target": "ecosystem_prompt.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/ecosystem_prompt.sh",
+   "how": "basename_unique/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "estimate_mem.py",
@@ -2329,32 +2490,35 @@
   },
   {
    "target": "expand_sig_map.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/expand_sig_map.sh",
+   "how": "basename_unique/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "extract-token.js",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/extract-token.js",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "fast_scan.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "final_move.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "final_runtime_cleanup.py",
    "how": "exact",
    "gap": "NO_ORACLE",
+   "sub": "no_items",
    "session": "absent"
   },
   {
@@ -2366,15 +2530,17 @@
   },
   {
    "target": "fix_tui.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/fix_tui.py",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "fix_tui_syntax.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/fix_tui_syntax.py",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "forensic-indexer/scripts/batch_transcribe.py",
@@ -2416,7 +2582,7 @@
    "target": "forensic-indexer/scripts/test_suite.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "foresight_collect.py",
@@ -2427,21 +2593,23 @@
   },
   {
    "target": "foxfire_demo.max",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "foxfire_demo.max",
+   "how": "exact/whole",
+   "pct": 99.8,
+   "gaps": 0
   },
   {
    "target": "frontend/app.js",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "frontend/package.json",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/package.json",
+   "how": "ambiguous/whole",
+   "pct": 32.4,
+   "gaps": 0
   },
   {
    "target": "gemini-cli/gemini_gem_wrapper.py",
@@ -2479,67 +2647,76 @@
    "target": "get-cookies-devtools.js",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "harmonizer-prod_cli/src/main.rs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmonizer-prod_cli/src/main.rs",
+   "how": "exact/whole",
+   "pct": 7.8,
+   "gaps": 0
   },
   {
    "target": "harmonizer-prod_cli/workspace/SOURCE_MAP.md",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "harmonizer-prod_cli/workspace/reference/MODULES.toml",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmonizer-prod_cli/workspace/reference/MODULES.toml",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "harmonizer-prod_cli/workspace/staging/live_message_search.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmonizer-prod_cli/workspace/staging/live_message_search.py",
+   "how": "exact/whole",
+   "pct": 94.7,
+   "gaps": 0
   },
   {
    "target": "harmonizer-prod_cli/workspace/sync/selective_sync.py",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/sync/selective_sync.py",
+   "how": "ambiguous/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/bin/fts_search.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/bin/fts_search.sh",
+   "how": "exact/whole",
+   "pct": 99.8,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/config/AGENT_TOOL_MATRIX.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/config/AGENT_TOOL_MATRIX.md",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/config/GRIMOIRE_DICTIONARY.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/config/GRIMOIRE_DICTIONARY.md",
+   "how": "exact/whole",
+   "pct": 8.0,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/config/grimoire/1337_D1CT10N4RY.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/config/grimoire/1337_D1CT10N4RY.md",
+   "how": "exact/whole",
+   "pct": 99.1,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/config/prune_rules.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/config/prune_rules.md",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/src/db_sync_guard.py",
@@ -2570,39 +2747,44 @@
   },
   {
    "target": "harmony_hub/utility_belt/README.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/README.md",
+   "how": "exact/whole",
+   "pct": 0.7,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/account-activity",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/account-activity",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/batch_export.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "harmony_hub/utility_belt/export_session.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/export_session.sh",
+   "how": "exact/whole",
+   "pct": 99.8,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/fetch-session.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/fetch-session.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/find-fork-point.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/find-fork-point.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/forensic-query",
@@ -2613,27 +2795,31 @@
   },
   {
    "target": "harmony_hub/utility_belt/fts-query",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/fts-query",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/list-messages.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/list-messages.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/list-sessions.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/list-sessions.py",
+   "how": "exact/whole",
+   "pct": 99.7,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/map-query.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/map-query.sh",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/session-file",
@@ -2643,75 +2829,87 @@
   },
   {
    "target": "harmony_hub/utility_belt/session-search",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/session-search",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/system-health",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/system-health",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/task-gantt",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/task-gantt",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/verify-session.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/verify-session.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/workflow",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/workflow",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/utility_belt/workspace-check",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/utility_belt/workspace-check",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/PROTOCOL.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/workspace/PROTOCOL.md",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/SYSTEM_MAP.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/workspace/SYSTEM_MAP.md",
+   "how": "exact/whole",
+   "pct": 98.7,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/CHRONOMANCER_SPEC.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/workspace/agent/CHRONOMANCER_SPEC.md",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/LINGUIST_SPEC.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/workspace/agent/LINGUIST_SPEC.md",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/TASK_QUEUE.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/workspace/agent/TASK_QUEUE.md",
+   "how": "exact/whole",
+   "pct": 2.5,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/TIME_LOOP_AGENT_SPEC.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/workspace/agent/TIME_LOOP_AGENT_SPEC.md",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/chronomancer.py",
@@ -2722,21 +2920,24 @@
   },
   {
    "target": "harmony_hub/workspace/agent/direct_task.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/workspace/agent/direct_task.py",
+   "how": "exact/whole",
+   "pct": 6.5,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/promote.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "harmony_hub/workspace/agent/promote.py",
+   "how": "exact/whole",
+   "pct": 2.4,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/agent/task_with_context.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/workspace/agent/task_with_context.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/workspace/archwizard/archwizard.py",
@@ -2762,25 +2963,25 @@
    "target": "harmony_hub/workspace/tui_repair/tui_field_fix.cedar",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "harvesters/capture-claude.cjs",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "harvesters/capture-gemini.cjs",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "harvesters/capture-mistral.cjs",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "impact_oracle.py",
@@ -2803,21 +3004,22 @@
   },
   {
    "target": "inject_ast_hashes.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/inject_ast_hashes.py",
+   "how": "basename_unique/whole",
+   "pct": 97.0,
+   "gaps": 0
   },
   {
    "target": "inventory_deep.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "inventory_repos.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "investigate.py",
@@ -2841,9 +3043,10 @@
   },
   {
    "target": "map_final_with_watch.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "cli-synthegration/workspace/caveman_map/map_final_with_watch.sh",
+   "how": "basename_unique/whole",
+   "pct": 87.5,
+   "gaps": 0
   },
   {
    "target": "mapper_graph.py",
@@ -2875,19 +3078,20 @@
    "target": "modules/ref_readme_scan.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "modules/session_search.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "modules/taxapply.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/taxapply.py",
+   "how": "basename_unique/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "modules/token_vault.py",
@@ -2918,57 +3122,61 @@
   },
   {
    "target": "multi-ai-cli/config.yaml",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "multi-ai-cli/config.yaml",
+   "how": "exact/whole",
+   "pct": 18.8,
+   "gaps": 0
   },
   {
    "target": "multi-ai-cli/harvesters/capture-mistral-token.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "multi-ai-cli/harvesters/capture-mistral-token.cjs",
+   "how": "exact/whole",
+   "pct": 99.1,
+   "gaps": 0
   },
   {
    "target": "multi-ai-cli/harvesters/diag-mistral.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "multi-ai-cli/harvesters/diag-mistral.cjs",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "multi-ai-cli/harvesters/extract_claude_cookies.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "multi-ai-cli/harvesters/extract_mistral_cookies.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "multi-ai-cli/harvesters/extract_mistral_token.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "multi-ai-cli/harvesters/launch-claude.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "multi-ai-cli/harvesters/launch-mistral.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "multi-ai-cli/harvesters/mistral_cookies.cjs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "multi-ai-cli/harvesters/mistral_cookies.cjs",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "multi-ai-cli/sandbox/backends/mistral_v1.py",
@@ -2979,15 +3187,17 @@
   },
   {
    "target": "multi-ai-cli/utils/debug_deepseek.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "multi-ai-cli/utils/debug_deepseek.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "multi-ai-cli/utils/promote_backend.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "multi-ai-cli/utils/promote_backend.sh",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "my_script.py",
@@ -3000,31 +3210,33 @@
    "target": "organize_flywheel.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "patch_sandbox.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "patches/deepcli_token_vault.cedar",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "populate_reliability.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/populate_reliability.py",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "pow_solver.js",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "deepcli/pow_solver.js",
+   "how": "ambiguous/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "process_sets.py",
@@ -3041,15 +3253,16 @@
   },
   {
    "target": "provenance_mapper.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "provenance_mapper.py",
+   "how": "exact/whole",
+   "pct": 0.9,
+   "gaps": 0
   },
   {
    "target": "quick_recon.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "recon.py",
@@ -3068,7 +3281,7 @@
    "target": "recon_v2.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "refTemplates/trunk_builder.py",
@@ -3084,9 +3297,10 @@
   },
   {
    "target": "reliability_db.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/reliability_db.py",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "reliability_scan.py",
@@ -3099,19 +3313,22 @@
    "target": "report-1779418415307.json",
    "how": "basename_unique",
    "gap": "NO_ORACLE",
+   "sub": "no_items",
    "session": "absent"
   },
   {
    "target": "requirements.txt",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "_1-Projects/a/requirements.txt",
+   "how": "ambiguous/whole",
+   "pct": 22.9,
+   "gaps": 0
   },
   {
    "target": "roles_custom.json",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/roles_custom.json",
+   "how": "basename_unique/whole",
+   "pct": 33.3,
+   "gaps": 0
   },
   {
    "target": "router_agent.py",
@@ -3122,9 +3339,10 @@
   },
   {
    "target": "run_agent.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "termux-multi-agent/run_agent.sh",
+   "how": "basename_unique/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "safe_chunk.py",
@@ -3149,13 +3367,13 @@
    "target": "sandbox/wire_001/correct.patch",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "sandbox/wire_003/correct.patch",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "scripts/cedar-forge",
@@ -3168,7 +3386,7 @@
    "target": "scripts/compile_run.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "search_sessions.py",
@@ -3206,9 +3424,10 @@
   },
   {
    "target": "spec.max",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/maxc/spec.max",
+   "how": "basename_unique/whole",
+   "pct": 0.2,
+   "gaps": 0
   },
   {
    "target": "src/context_collector.py",
@@ -3226,39 +3445,43 @@
   },
   {
    "target": "src/emitter.rs",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "appliedSxi/maxc/src_prototype_bidir/emitter.rs",
+   "how": "ambiguous/whole",
+   "pct": 88.7,
+   "gaps": 0
   },
   {
    "target": "src/emitter_leptos.rs",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "appliedSxi/maxc/src_prototype_bidir/emitter_leptos.rs",
+   "how": "ambiguous/whole",
+   "pct": 90.2,
+   "gaps": 0
   },
   {
    "target": "src/fft_dispatcher.hpp",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "src/lexer.rs",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "appliedSxi/maxc/src/lexer.rs",
+   "how": "ambiguous/whole",
+   "pct": 81.6,
+   "gaps": 0
   },
   {
    "target": "src/main.cpp",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "src/main.rs",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "appliedSxi/maxc/src_prototype_bidir/main.rs",
+   "how": "ambiguous/whole",
+   "pct": 84.1,
+   "gaps": 0
   },
   {
    "target": "src/orchestrator.py",
@@ -3269,9 +3492,10 @@
   },
   {
    "target": "src/parser.rs",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "appliedSxi/maxc/src_prototype_bidir/parser.rs",
+   "how": "ambiguous/whole",
+   "pct": 89.3,
+   "gaps": 0
   },
   {
    "target": "src/session_indexer.py",
@@ -3290,19 +3514,20 @@
    "target": "surgical_recon.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "synthegration-cli/src/api.rs",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "synthegration-cli/src/main.rs",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "synthegration-cli/src/main.rs",
+   "how": "exact/whole",
+   "pct": 2.7,
+   "gaps": 0
   },
   {
    "target": "task_runner.py",
@@ -3313,15 +3538,17 @@
   },
   {
    "target": "task_watcher.sh",
-   "how": "ambiguous",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "termux-multi-agent/workspace/task_watcher.sh",
+   "how": "ambiguous/whole",
+   "pct": 72.9,
+   "gaps": 0
   },
   {
    "target": "termux-multi-agent/cedar-mcp-server.js",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "termux-multi-agent/cedar-mcp-server.js",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "termux-multi-agent/run.py",
@@ -3332,9 +3559,10 @@
   },
   {
    "target": "termux-multi-agent/sgconfig.yml",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "termux-multi-agent/sgconfig.yml",
+   "how": "exact/whole",
+   "pct": 99.5,
+   "gaps": 0
   },
   {
    "target": "termux-multi-agent/src/orchestrator.py",
@@ -3366,9 +3594,10 @@
   },
   {
    "target": "termux-multi-agent/workspace/expert_probe_task.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "termux-multi-agent/workspace/expert_probe_task.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "termux-multi-agent/workspace/test_script.py",
@@ -3381,7 +3610,7 @@
    "target": "test-pow.js",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "time_correlation_ws/time_correlator.py",
@@ -3393,19 +3622,19 @@
    "target": "tmp/arch-004_prompt.txt",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "tmp/research_state.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "tmp/tui_upgrade.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "tool_logger.py",
@@ -3418,7 +3647,7 @@
    "target": "tools/mapper.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "trunk_builder.py",
@@ -3447,27 +3676,31 @@
   },
   {
    "target": "workspace/CAVEMAN_INDEX.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/CAVEMAN_INDEX.md",
+   "how": "exact/whole",
+   "pct": 92.7,
+   "gaps": 0
   },
   {
    "target": "workspace/FORGE_OVERSIGHT.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/FORGE_OVERSIGHT.md",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "workspace/README.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/README.md",
+   "how": "exact/whole",
+   "pct": 1.6,
+   "gaps": 0
   },
   {
    "target": "workspace/cedar_forge/PLAN.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/cedar_forge/PLAN.md",
+   "how": "exact/whole",
+   "pct": 64.0,
+   "gaps": 0
   },
   {
    "target": "workspace/compression_sandbox/cedrlang/cid.py",
@@ -3480,79 +3713,91 @@
    "target": "workspace/compression_sandbox/prompts/cedr_system_prompt.txt",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "workspace/deepcli-tui/TASK_QUEUE.md",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/workspace/agent/TASK_QUEUE.md",
+   "how": "basename_unique/whole",
+   "pct": 2.5,
+   "gaps": 0
   },
   {
    "target": "workspace/deepcli-tui/taDone.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/deepcli-tui/taDone.md",
+   "how": "exact/whole",
+   "pct": 4.1,
+   "gaps": 0
   },
   {
    "target": "workspace/deepcli/taDone.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/deepcli/taDone.md",
+   "how": "exact/whole",
+   "pct": 14.1,
+   "gaps": 0
   },
   {
    "target": "workspace/deepseek-cli/TASK_QUEUE.md",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/workspace/agent/TASK_QUEUE.md",
+   "how": "basename_unique/whole",
+   "pct": 2.5,
+   "gaps": 0
   },
   {
    "target": "workspace/deepseek-cli/taDone.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/deepseek-cli/taDone.md",
+   "how": "exact/whole",
+   "pct": 12.0,
+   "gaps": 0
   },
   {
    "target": "workspace/harmony_hub/TASK_QUEUE.md",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/workspace/agent/TASK_QUEUE.md",
+   "how": "basename_unique/whole",
+   "pct": 2.5,
+   "gaps": 0
   },
   {
    "target": "workspace/harmony_hub/taDone.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/harmony_hub/taDone.md",
+   "how": "exact/whole",
+   "pct": 4.5,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/ECOSYSTEM_MAPPER_DOCS.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/ECOSYSTEM_MAPPER_DOCS.md",
+   "how": "exact/whole",
+   "pct": 51.6,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/README.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/README.md",
+   "how": "exact/whole",
+   "pct": 1.4,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/README.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/README.md",
+   "how": "exact/whole",
+   "pct": 2.3,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/alias_scan.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/alias_scan.sh",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/apt_scan.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/apt_scan.sh",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/categorize.py",
@@ -3563,9 +3808,10 @@
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/custom_scan.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/custom_scan.sh",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/post_refactor.py",
@@ -3576,33 +3822,37 @@
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/ref_templates_scan.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/ref_templates_scan.sh",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/modules/taxfind.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/taxfind.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/_TOOL_TAXONOMY/notes/strace_registration.md",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "workspace/llm_map/add_task.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/add_task.py",
+   "how": "exact/whole",
+   "pct": 94.9,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/agent_proposals/proposal_template.json",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/agent_proposals/proposal_template.json",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/agent_shell.py",
@@ -3613,9 +3863,10 @@
   },
   {
    "target": "workspace/llm_map/apply_bloat.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/apply_bloat.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/build_all.py",
@@ -3633,21 +3884,24 @@
   },
   {
    "target": "workspace/llm_map/build_ast_index_from_existing.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/build_ast_index_from_existing.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/build_final.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/build_final.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/build_final_all.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/build_final_all.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/build_final_all_profile.py",
@@ -3660,7 +3914,7 @@
    "target": "workspace/llm_map/build_fresh_ast.py",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "workspace/llm_map/build_graph_fast.py",
@@ -3671,33 +3925,38 @@
   },
   {
    "target": "workspace/llm_map/build_llm_index.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/build_llm_index.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/build_tool_taxonomy.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/build_tool_taxonomy.sh",
+   "how": "exact/whole",
+   "pct": 10.4,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/deepcli_send.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/deepcli_send.py",
+   "how": "exact/whole",
+   "pct": 99.8,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/depgraph.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/depgraph.sh",
+   "how": "exact/whole",
+   "pct": 99.7,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/depmenu.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/depmenu.sh",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/discover_projects.py",
@@ -3708,9 +3967,10 @@
   },
   {
    "target": "workspace/llm_map/enrich_time.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/enrich_time.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/finalize.py",
@@ -3728,21 +3988,24 @@
   },
   {
    "target": "workspace/llm_map/generate_final.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/generate_final.py",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/generate_system_map.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/generate_system_map.sh",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/graph_fzf.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/graph_fzf.sh",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/graph_query.py",
@@ -3755,7 +4018,7 @@
    "target": "workspace/llm_map/graph_tui.sh",
    "how": "absent",
    "gap": "FETCH_FAIL",
-   "session": "absent"
+   "session": "present"
   },
   {
    "target": "workspace/llm_map/integrate_all.py",
@@ -3773,15 +4036,17 @@
   },
   {
    "target": "workspace/llm_map/modules/apt_scan.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/apt_scan.sh",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/cargo_scan.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/cargo_scan.sh",
+   "how": "basename_unique/whole",
+   "pct": 96.8,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/categorize.py",
@@ -3792,45 +4057,52 @@
   },
   {
    "target": "workspace/llm_map/modules/common.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/common.sh",
+   "how": "basename_unique/whole",
+   "pct": 87.5,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/custom_scan.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/custom_scan.sh",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/delta_maker.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/delta_maker.py",
+   "how": "basename_unique/whole",
+   "pct": 59.8,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/help_snapper.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/help_snapper.py",
+   "how": "basename_unique/whole",
+   "pct": 76.5,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/npm_scan.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/npm_scan.sh",
+   "how": "basename_unique/whole",
+   "pct": 89.1,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/ref_templates_scan.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/ref_templates_scan.sh",
+   "how": "basename_unique/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/modules/termux_api_scan.sh",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/llm_map/_TOOL_TAXONOMY/modules/termux_api_scan.sh",
+   "how": "basename_unique/whole",
+   "pct": 93.9,
+   "gaps": 0
   },
   {
    "target": "workspace/llm_map/profile_filter.py",
@@ -3841,33 +4113,38 @@
   },
   {
    "target": "workspace/llm_map/refresh_final.py",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "present"
+   "resolved": "workspace/llm_map/refresh_final.py",
+   "how": "exact/whole",
+   "pct": 99.9,
+   "gaps": 0
   },
   {
    "target": "workspace/scripts/enforce_workspace_hierarchy.sh",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/scripts/enforce_workspace_hierarchy.sh",
+   "how": "exact/whole",
+   "pct": 100.0,
+   "gaps": 0
   },
   {
    "target": "workspace/taDone.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/taDone.md",
+   "how": "exact/whole",
+   "pct": 42.1,
+   "gaps": 0
   },
   {
    "target": "workspace/termux-multi-agent/TASK_QUEUE.md",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "harmony_hub/workspace/agent/TASK_QUEUE.md",
+   "how": "basename_unique/whole",
+   "pct": 2.5,
+   "gaps": 0
   },
   {
    "target": "workspace/termux-multi-agent/taDone.md",
-   "how": "exact",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/termux-multi-agent/taDone.md",
+   "how": "exact/whole",
+   "pct": 4.1,
+   "gaps": 0
   },
   {
    "target": "workspace/test_script.py",
@@ -3878,13 +4155,15 @@
   },
   {
    "target": "write_main.py",
-   "how": "basename_unique",
-   "gap": "NO_ORACLE",
-   "session": "absent"
+   "resolved": "workspace/maxc/write_main.py",
+   "how": "basename_unique/whole",
+   "pct": 100.0,
+   "gaps": 0
   }
  ],
  "gap_session": {
-  "present": 73,
-  "absent": 361
- }
+  "present": 149,
+  "absent": 15
+ },
+ "whole_scored": 270
 }
