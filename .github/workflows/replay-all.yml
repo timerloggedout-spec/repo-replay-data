@@ -30,9 +30,16 @@ jobs:
           git clone --filter=blob:none --no-checkout --depth 1 https://github.com/timerloggedout-spec/termux-monorepo /tmp/mono
           git -C /tmp/mono ls-tree -r --name-only HEAD > tree.txt
           wc -l tree.txt
+      - name: GitLab V2 snapshot clone (fail-soft)
+        continue-on-error: true
+        run: |
+          timeout 240 git clone --depth 1 https://gitlab.com/a-group2180532/termux-monorepo /tmp/v2 || echo "V2_CLONE_FAILED"
+          ls /tmp/v2 2>/dev/null | head -3 || true
       - name: Full-census replay (assistant-only)
         run: |
-          python3 engine/revwright/remote_run.py corpus/harvest/session_store db/stage_scores_assistant.db 0 tree.txt
+          V2ARG=""
+          if [ -d /tmp/v2 ]; then V2ARG="/tmp/v2"; fi
+          python3 engine/revwright/remote_run.py corpus/harvest/session_store db/stage_scores_assistant.db 0 tree.txt $V2ARG
           cp remote_summary.json summary.json
       - name: Commit results back
         run: |
