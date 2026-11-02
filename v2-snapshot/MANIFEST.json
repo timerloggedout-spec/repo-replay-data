@@ -1,18 +1,990 @@
 {
+ "pack_version": 3,
+ "kind": "git-objects",
  "source": "gitlab.com/a-group2180532/termux-monorepo",
+ "branches": {
+  "55-testing-environment-termux-sandbox-setup-scripts": {
+   "head_sha": "c63f604887c51790f3c2969029704df85935c43a",
+   "files": 3417
+  },
+  "agent/repository-hygiene": {
+   "head_sha": "742bba7f7fcd24f32b07d306700e223e09fab885",
+   "files": 2831
+  },
+  "archive/pr232-pre-master-rebuild-20260817": {
+   "head_sha": "52dcc83ffb0010305bacfae24862c3440d5aa939",
+   "files": 3602
+  },
+  "bolt-perf-optimizations-15790717343466138866": {
+   "head_sha": "3abba56bdfa9a01b3281d823338631b4a89d87aa",
+   "files": 3525
+  },
+  "bolt-telemetry-optimization-1970989343525795534": {
+   "head_sha": "bd042deb32e7c4872fcb8d971e1abbfe9e0b275c",
+   "files": 3484
+  },
+  "bolt/lazy-load-urllib-model-router-5496201593274856732": {
+   "head_sha": "1bdfa467ffb8dcc089a713aa5c46968ead7044e6",
+   "files": 3611
+  },
+  "bolt/opt-telemetry-dashboard-17469447251531939756": {
+   "head_sha": "e1485c8bedc6fab0fe8b43a33055991cda4900ff",
+   "files": 3453
+  },
+  "bolt/optimize-mappers-incremental-indexing-11471883643834715163": {
+   "head_sha": "65bad0d96e05108daa0142cb89167994046722a5",
+   "files": 3528
+  },
+  "chore/promote-issue-192-to-master": {
+   "head_sha": "230f0aa110e31f8b577e0cc8c8326c97f8a77b92",
+   "files": 3816
+  },
+  "ci/deepseek-peer-routing-workflow": {
+   "head_sha": "c473be08162cd2f374cabbfecb348227bc68176d",
+   "files": 3483
+  },
+  "ci/jules-unconditional-skip-on-push": {
+   "head_sha": "6d3096ac5c7eb834818c08e312d5f21ae31bdc6f",
+   "files": 3499
+  },
+  "ci/promote-workflows-to-master": {
+   "head_sha": "f1d2eef16b75d73f90e7f94759740e805b50d991",
+   "files": 3473
+  },
+  "coderabbitai/autofix/40feea7": {
+   "head_sha": "20e9c0be9fef85800ad5253d337d63f28a90b377",
+   "files": 3497
+  },
+  "coderabbitai/autofix/4408ea7": {
+   "head_sha": "f468eddf1d33662273f8644d269d3ed2bff2056f",
+   "files": 3475
+  },
+  "coderabbitai/chat/325a1f0": {
+   "head_sha": "325a1f00b22785ebc305d05da21bf97dba00529e",
+   "files": 3522
+  },
+  "coderabbitai/chat/567ed5b": {
+   "head_sha": "76edc79978fa8b845ff8fb74e6c9829bb33cd7e0",
+   "files": 3485
+  },
+  "coderabbitai/chat/57aa5f9": {
+   "head_sha": "57aa5f98780e85eb348408b9610cceb73c1ed097",
+   "files": 3483
+  },
+  "coderabbitai/chat/73559f1": {
+   "head_sha": "84aac65e06a8d03266937694f7fdc818deef9f7c",
+   "files": 3485
+  },
+  "coderabbitai/chat/bdcfe3f": {
+   "head_sha": "c9dbd63b994afe63ead9162d6ce6ad86154929ed",
+   "files": 3488
+  },
+  "coderabbitai/docstrings/76ff7b4": {
+   "head_sha": "3aa178bfcfd6ed7dd74b66bbec70fb2b455a8f5f",
+   "files": 3418
+  },
+  "coderabbitai/docstrings/96e7581": {
+   "head_sha": "3658da1f2fd21a7e30441740f573e6b209554b2b",
+   "files": 3418
+  },
+  "coderabbitai/docstrings/ed478f3": {
+   "head_sha": "9414073b6e9c201a363943db8af73e3bb20ac8b8",
+   "files": 3434
+  },
+  "continuity/github-master-20261022": {
+   "head_sha": "a9ad9cd345cd48f6c42bf3ba8afd012abd111eb1",
+   "files": 8460
+  },
+  "continuity/native-validation-20261022": {
+   "head_sha": "dc404b02e27ca0e99ecd2618937ec13e8c6f0d0a",
+   "files": 8462
+  },
+  "critical-proposal": {
+   "head_sha": "0de3a7efc06d9f2659414aa4772ef45eed8d3445",
+   "files": 3410
+  },
+  "deep_core/feat/reverse_engineered_deepseek_wasm_gh-worflows": {
+   "head_sha": "975e08cf7622c4a3c0f784be1c53226c4bd1dcc8",
+   "files": 3487
+  },
+  "dependabot/npm_and_yarn/deepseek-cli/npm_and_yarn-6aecbcff9c": {
+   "head_sha": "b2442e6b94691d7fa7f3adad60940358f052d5d3",
+   "files": 3525
+  },
+  "dependabot/pip/_1-Projects/a/pip-e8c35e66d3": {
+   "head_sha": "f959c22817c02835f975fcf216e865a632ff7540",
+   "files": 3511
+  },
+  "devin/1785650368-termux-mcp-integration": {
+   "head_sha": "9ce1b56a2e89eab661fcc203d7d7896ee3f834d3",
+   "files": 3416
+  },
+  "devin/ter-11-integrate-codex-termux_fork-as-submodule-deepcli-bridge": {
+   "head_sha": "f5d428d0ca0f0e6c84f62fa54e04fadd15af6e06",
+   "files": 3417
+  },
+  "docs-lane-consolidation-audit-rl19-1863392865914587957": {
+   "head_sha": "998ce3b2b9ca24a1c4ccf2a549e28ff604d4a1a5",
+   "files": 3526
+  },
+  "docs/agent-team-formation-draft": {
+   "head_sha": "ce17762905eb2a98a53fe3e0f6ac398a08f2f999",
+   "files": 3626
+  },
+  "docs/agents-md-comprehensive": {
+   "head_sha": "d0c128f75139c3a85e70f66da7114ea2ab57a195",
+   "files": 3506
+  },
+  "docs/ar08-issue175-status-alignment": {
+   "head_sha": "7048b361fd1d301ed638283038ddad002c12b31b",
+   "files": 3816
+  },
+  "docs/automation-decision-trees": {
+   "head_sha": "ed0fe8bd0b5e8616933f71de8ba81b722af33a22",
+   "files": 3862
+  },
+  "docs/cedrlang-obfuscation-boundary": {
+   "head_sha": "d6aaf4691d459700cadd1bc51178c4617abff64e",
+   "files": 3848
+  },
+  "docs/issue-192-action-integration-intake": {
+   "head_sha": "b749928140f7d99a40f7939d6e4f032718fd32c3",
+   "files": 3819
+  },
+  "docs/kimi-cloud-offload-evaluation": {
+   "head_sha": "992fd89db9d4dad30c13ac0f379dc3afe3b49563",
+   "files": 3428
+  },
+  "docs/pr-scope-discipline-ce22": {
+   "head_sha": "a68300477966e427ea5f25f2a03ac500de09620e",
+   "files": 3469
+  },
+  "docs/promote-archwiz-to-master": {
+   "head_sha": "70bfdeff314ae61e346e19434baa6c318097629e",
+   "files": 3452
+  },
+  "docs/readme-agents-reference": {
+   "head_sha": "05ac94d4211f3cc8070da737a896cdce5a76e7ef",
+   "files": 3506
+  },
+  "docs/record-issue-192-promotion": {
+   "head_sha": "64f2a4139a83d4c45f12affad66417edd78f3420",
+   "files": 3816
+  },
+  "docs/rl-05-status-2026-08-09": {
+   "head_sha": "736a459ba4883c52b1af4ce413635e937cce4c89",
+   "files": 3482
+  },
+  "docs/rl-board-2026-08-10": {
+   "head_sha": "439bc48d63a2398c2f595996c1e997ef3e011734",
+   "files": 3485
+  },
+  "docs/termux-mcp-lean-template": {
+   "head_sha": "b6487c77d8e00f006cbc2bac8060fccb3180f912",
+   "files": 3541
+  },
+  "ecc-tools/termux-monorepo-1785716077416": {
+   "head_sha": "0099d9437bed1800f34d7024892ca264994130e2",
+   "files": 3423
+  },
+  "feat/continuous-agent-ops": {
+   "head_sha": "74639b68ae36683908c48b4e6be90e422df366cd",
+   "files": 3486
+  },
+  "feat/deepcore-test-haiku-6055281599233888310": {
+   "head_sha": "558442b378cf5e15df04e81678686b47c4e86371",
+   "files": 3521
+  },
+  "feat/deepseek-ci-safe-109": {
+   "head_sha": "d9099d78d8ac876e146ed5cc323c8214ed097fb3",
+   "files": 3499
+  },
+  "feat/gh-actions/deepseek-integrates-itself": {
+   "head_sha": "e06aeb49b6d859902fe748ed2676c2f54fbc846b",
+   "files": 3513
+  },
+  "feat/gitlab-tribute-native": {
+   "head_sha": "0816a8c9e92d39bdc4ab1c9f7db863a40c4ef47f",
+   "files": 3879
+  },
+  "feat/icm-architect-submodule": {
+   "head_sha": "975f951bfc00dc6785bd3755b754dd9f19dc272e",
+   "files": 3611
+  },
+  "feat/jules-session-gating": {
+   "head_sha": "6567e175ef1b1abe808fb76ca333d2f6ceeaccd8",
+   "files": 3464
+  },
+  "feat/self-healing-engine-architecture": {
+   "head_sha": "e286dccba62a60c522eb14fa0150de407ed128b6",
+   "files": 3865
+  },
+  "feat/swe-performance-evaluation": {
+   "head_sha": "bfab9cc4c2c9ce7e63c5a9d5c4c871dd7d9e908e",
+   "files": 3751
+  },
+  "feature/agent-auto-resolve": {
+   "head_sha": "5f4830ad5131071d8b2101f89c0c008c3f75287e",
+   "files": 3452
+  },
+  "feature/agentic-autonomy": {
+   "head_sha": "ec9fc82c61d2324656c931640f0facc7ba55a351",
+   "files": 3833
+  },
+  "feature/agentic-cicd-gemini-free": {
+   "head_sha": "38b20c29d240840f05abededadcd9d8850889702",
+   "files": 3460
+  },
+  "feature/caveman-micro-seed-matrices": {
+   "head_sha": "da109a5469c69a44a36346a58680e220cfab2487",
+   "files": 3490
+  },
+  "feature/cedrlang-grimoire-a2a": {
+   "head_sha": "1217b5fb20b4caf35634847e8cfd280f135d575e",
+   "files": 3848
+  },
+  "feature/ci-gate-and-docs": {
+   "head_sha": "320c73beb9eaf834acb3efebcec8aeddbd44e6d7",
+   "files": 3410
+  },
+  "feature/debate-dock-structure": {
+   "head_sha": "be30f0ceaa9bc071beaf39ed5f5356b59bd5b7a8",
+   "files": 3478
+  },
+  "feature/deepseek-waf-persistent-session": {
+   "head_sha": "afd92c56186820d6965671f2790e31c3d4a6d75d",
+   "files": 3524
+  },
+  "feature/deepwiki-github-wiki-mirror": {
+   "head_sha": "5f8278440cc87096a1af5c55157cbbb7a1404567",
+   "files": 3427
+  },
+  "feature/exchange-connectors": {
+   "head_sha": "4e70b596b2d11b413c04b1032f947272a0f6c344",
+   "files": 3464
+  },
+  "feature/fb-01-openrouter-invoke-free": {
+   "head_sha": "cd94fb3107c60e77248e2449859bac450541101c",
+   "files": 3480
+  },
+  "feature/gitlab-bilateral-sync": {
+   "head_sha": "42d21b4bcffc3a43acdc0d1b953c1ef33b05fd75",
+   "files": 3868
+  },
+  "feature/integrate-mcp-servers-5681892105987975673": {
+   "head_sha": "2e9042db3a1d997aeaadb1faddd32cf45215f6e5",
+   "files": 3493
+  },
+  "feature/jules-ade": {
+   "head_sha": "f0c26703bed62e0ec9925525cac90d8705ef3836",
+   "files": 3468
+  },
+  "feature/jules-ade-project-manifest": {
+   "head_sha": "5bdf0f400b645ae61c58dc0bdfeb42699e634962",
+   "files": 3448
+  },
+  "feature/linguist-contact-projections": {
+   "head_sha": "a06a30e28ad40fa8d03e7f6ece95229634de673b",
+   "files": 3876
+  },
+  "feature/multi-ai-lightwrap-parity": {
+   "head_sha": "41ea128c6f677cbc0e856124c6fe4a12a34429bc",
+   "files": 3556
+  },
+  "feature/multi-ai-webwrapper-provider-hub": {
+   "head_sha": "a66632a99700d4921bcd55ce7741bbf5db303b0f",
+   "files": 3619
+  },
+  "feature/omni-first-primary-routing": {
+   "head_sha": "09fe1e45dfba3573342f493f686e3f9a11b7d738",
+   "files": 3482
+  },
+  "feature/peer-omni-openrouter-routing": {
+   "head_sha": "0123817ab103e98e5033da22d64bd0bebb4b3dca",
+   "files": 3482
+  },
+  "feature/proposal-vote-promote": {
+   "head_sha": "5d7631a7ecbf8d49ac0f857ecb599e5167077067",
+   "files": 3545
+  },
+  "feature/rate-limit-model-rotation-openrouter": {
+   "head_sha": "2870c611682f94235347884b9a951622bab3d212",
+   "files": 3478
+  },
+  "feature/recon-intel-and-nav": {
+   "head_sha": "7b68032448afdd8fe39afeef873f7a2e56296184",
+   "files": 3400
+  },
+  "feature/recovery-refTemplates": {
+   "head_sha": "a65bb22d125a3950e753f704f1a2c27cbf01c6f8",
+   "files": 3452
+  },
+  "feature/secure-credentials-permissions-15653439001895422600": {
+   "head_sha": "b0e290bebf9d1b333012ecd017d2ab07634540ac",
+   "files": 3453
+  },
+  "feature/sentinel-perms-rebase-20260804": {
+   "head_sha": "7e594ba35dbe5bca6f8ddee7f52bb868ee21fbf6",
+   "files": 3453
+  },
+  "feature/sentry-linear-integration": {
+   "head_sha": "400271fd061497dae08ab8cc3f400fc973793205",
+   "files": 3448
+  },
+  "feature/skyhook": {
+   "head_sha": "24dd7c1e05aaae83b3145a9d3f612313bd10178b",
+   "files": 3487
+  },
+  "feature/skyhook-16519492073297284927": {
+   "head_sha": "6e3e475f28e44252612d1f5dde3685b41321f97d",
+   "files": 3492
+  },
+  "feature/termux-agentic-hub": {
+   "head_sha": "ecbbe3ab2a84fc0c99c7a6612f88dd673ea03abb",
+   "files": 3534
+  },
+  "feature/workflows-consolidation": {
+   "head_sha": "881487829bd3139ddc0b823c55a04796e920d591",
+   "files": 3486
+  },
+  "fix-bin-cedrlang-launcher-13807068712582513766": {
+   "head_sha": "4fd0cd320b2fbfd678a543c083d58f1e8f78dfd4",
+   "files": 3546
+  },
+  "fix-model-router-exhaustive-fallback-5450365102026496177": {
+   "head_sha": "dee0f6fbda33c59a587485c00bbd9e6e6e54c687",
+   "files": 3482
+  },
+  "fix/actionlint-baseline-disposition": {
+   "head_sha": "f22d078604080bb775554b5f82f18489c5b010fc",
+   "files": 3862
+  },
+  "fix/after-peers-enable-or-omni": {
+   "head_sha": "a13c57991764fe00698d0bb1a6a0bb7f949bc2f9",
+   "files": 3482
+  },
+  "fix/ar01-automation-baseline": {
+   "head_sha": "da452fa63daaa6be742970b75c39a7fcff97dd47",
+   "files": 3779
+  },
+  "fix/ar10-provider-command-evidence-guards": {
+   "head_sha": "77aaa0186b9044577d532f9111745d1a1fe87ab2",
+   "files": 3837
+  },
+  "fix/automation-docs-review-findings": {
+   "head_sha": "17040ed4fe77e05c75278a9303d6166576fc5b9a",
+   "files": 3862
+  },
+  "fix/b3-available-model": {
+   "head_sha": "48fb2af75202baee256497791fbfa086ced74eb4",
+   "files": 3864
+  },
+  "fix/b3-runtime-evidence": {
+   "head_sha": "b45d11a5e4f23bc639dadb083834a50e526b71a9",
+   "files": 3863
+  },
+  "fix/deepseek-ci-cookie-import": {
+   "head_sha": "8c0924f1e59043d853e1545b32a0f8f511ffbc7b",
+   "files": 3499
+  },
+  "fix/deepseek-ci-devin-threads": {
+   "head_sha": "19615cba79847ff47e77c00127b53c6471a3d308",
+   "files": 3484
+  },
+  "fix/deepseek-ci-rebase-134": {
+   "head_sha": "66d672c39f529f3e66e3fba8df99ea3cb5c83289",
+   "files": 3491
+  },
+  "fix/deepseek-create-chat-session-nullguard": {
+   "head_sha": "8a118734a39b5b8ba6c5eeead9a00316f189c6a5",
+   "files": 3520
+  },
+  "fix/deepseek-create-session-null-guard": {
+   "head_sha": "63f63925f28cf19c2ae0515345a64f183059dd57",
+   "files": 3520
+  },
+  "fix/deepseek-credential-probe-184": {
+   "head_sha": "ee742955f9f5e692d70fdb3530d6ac03d6ffe22a",
+   "files": 3520
+  },
+  "fix/dynamic-continuous-ops-cron-5720376583248325329": {
+   "head_sha": "c750d0866d9ae77db888b11fb147936b85f455ce",
+   "files": 3496
+  },
+  "fix/gemini-dispatch-startup-inputs-268": {
+   "head_sha": "93576cc6efbac27afeb9db9b4590a48c6575628f",
+   "files": 3816
+  },
+  "fix/jules-workflow-reliability": {
+   "head_sha": "997dfd252c706b45493d3626e0db305e1737038a",
+   "files": 3838
+  },
+  "fix/linear-sync-syntax": {
+   "head_sha": "717cb99f51a328209428cb57dc679f91d9e13f09",
+   "files": 3827
+  },
+  "fix/peer-orchestrator-reliability": {
+   "head_sha": "a73c4d6038ec2100107c6ef3f7f3692b65199c6b",
+   "files": 3838
+  },
+  "fix/proposal-registry-orphans": {
+   "head_sha": "f144be3002539e8abeadd07441f2d475ea3bbc71",
+   "files": 3827
+  },
+  "fix/publish-wiki-hygiene-268": {
+   "head_sha": "e2dc5a0df959549e04b5ee3a77aa9db4be7a0b3f",
+   "files": 3862
+  },
+  "fix/session-context-management-118": {
+   "head_sha": "9b6707281ee5a71f6e46f67d828685e4cadfca63",
+   "files": 3488
+  },
+  "hotfix/ci-comment-1786690260": {
+   "head_sha": "29437a5d453634b7391a2fb22e808c98199204c1",
+   "files": 3522
+  },
+  "hotfix/ci-comment-1786690697": {
+   "head_sha": "e06aeb49b6d859902fe748ed2676c2f54fbc846b",
+   "files": 3513
+  },
+  "hotfix/ci-comment-1786691223": {
+   "head_sha": "e06aeb49b6d859902fe748ed2676c2f54fbc846b",
+   "files": 3513
+  },
+  "hotfix/ci-comment-1786692230": {
+   "head_sha": "e06aeb49b6d859902fe748ed2676c2f54fbc846b",
+   "files": 3513
+  },
+  "hotfix/ci-comment-1786692552": {
+   "head_sha": "c0edd018a6f1060a715d85b0db14781c4b45359e",
+   "files": 3522
+  },
+  "hotfix/ci-comment-1786692925": {
+   "head_sha": "c0edd018a6f1060a715d85b0db14781c4b45359e",
+   "files": 3522
+  },
+  "hotfix/deepseek-ci-review-comment": {
+   "head_sha": "a39c3174978b530330cc604bda9f383f907b918d",
+   "files": 3522
+  },
+  "hotfix/deepseek-hard-fail-no-softskip": {
+   "head_sha": "dbd74d666c0ff2e98960a026e2834b73f59c335d",
+   "files": 3522
+  },
+  "jules-10011837884402998277-8685be83": {
+   "head_sha": "57d3c5af00ce6907dfd740631e22bdd84dd63c6e",
+   "files": 3464
+  },
+  "jules-10304992770218953835-e2fd4e8f": {
+   "head_sha": "f6c97d11f3fcf3fa1c78916c4cde134cbba66516",
+   "files": 3545
+  },
+  "jules-10623504202529550216-5ad793c0": {
+   "head_sha": "1adbb44a346edb5167b91c773af8e8cf26629f4f",
+   "files": 3413
+  },
+  "jules-10860501094381520395-732bb1e0": {
+   "head_sha": "ac4c491b88be4b06b3764206100d6e38835b7109",
+   "files": 3524
+  },
+  "jules-11423580203011499799-40c3bb80": {
+   "head_sha": "4babfb0a4583d859ef5968b620be36882021ca47",
+   "files": 3472
+  },
+  "jules-11451681596732133032-fee850bf": {
+   "head_sha": "31b4b68445d76040f5115fdcb506fdca512dfc5d",
+   "files": 3485
+  },
+  "jules-12161437624324795566-f922e7b4": {
+   "head_sha": "c07c4b5baa056741ee3ebc58c48b61471c94afc4",
+   "files": 3490
+  },
+  "jules-12292744322971487197-f3d564f8": {
+   "head_sha": "95c45d8c43c161af105a72b5f3255bb877ce82df",
+   "files": 3482
+  },
+  "jules-13583310724671355149-5b65227f": {
+   "head_sha": "c6ea259d29fae1fac8e332417608590a53113c3c",
+   "files": 3525
+  },
+  "jules-14387055473036742921-a1c3cf6d": {
+   "head_sha": "297eb2d1518fca929e4dbf8a2bd844f8191cd952",
+   "files": 3488
+  },
+  "jules-1495461354256476986-ae20f73a": {
+   "head_sha": "f9887d6807ae7ec57d8f8db3cd2640a3a08f8535",
+   "files": 3613
+  },
+  "jules-15323815183277779859-78d041cf": {
+   "head_sha": "90af3c2c2709d8c0c278cd1e654237b8b0b49080",
+   "files": 3492
+  },
+  "jules-15347835481072433758-75bb5a32": {
+   "head_sha": "5b67abb210ae85156903469f7643f3a46e38be2a",
+   "files": 3497
+  },
+  "jules-15654894309244006545-0d005086": {
+   "head_sha": "0027a7cffa31151f930933f56cb10febf33ac28c",
+   "files": 3452
+  },
+  "jules-16590950676661808941-a88ae611": {
+   "head_sha": "1ea051a159c73357c1b50b7f1340822d73e7b6df",
+   "files": 3468
+  },
+  "jules-1663579523888605237-e4c3c56f": {
+   "head_sha": "12b8be4b6ec2e323411500667715fa345a8e8389",
+   "files": 3525
+  },
+  "jules-1701349674700425201-a9a9f5f0": {
+   "head_sha": "0a9b52dad08671dfa787d3f3006b69da20bcbf2d",
+   "files": 3464
+  },
+  "jules-17224968503919413216-93abf7a2": {
+   "head_sha": "810ee46062f0bccd4722989ffb3322df4e33ab18",
+   "files": 3465
+  },
+  "jules-17257168954055571445-0978545e": {
+   "head_sha": "440d6a4df5789384d06a1ea049541096c3f33949",
+   "files": 3527
+  },
+  "jules-17811186755726420080-8fc3a425": {
+   "head_sha": "cad47a6d2a90907a799e9daf00387683fda5b219",
+   "files": 3522
+  },
+  "jules-18029638198170202712-76e2cdc1": {
+   "head_sha": "ac69e4cdd39d7c25592688d5fa78dbc2b926a23d",
+   "files": 3504
+  },
+  "jules-18159263747193417058-81c1dd6e": {
+   "head_sha": "75a66b8377da851e1ff316faaac7ee6f5ad229ca",
+   "files": 3526
+  },
+  "jules-1836679097993804434-63742b66": {
+   "head_sha": "0dbc7a86f877d50f5ba5119922d517c91bd0b975",
+   "files": 3488
+  },
+  "jules-2169995421231016752-fb43002d": {
+   "head_sha": "3a0ac910291925c2e6fd893c71ef73cbc3a1431d",
+   "files": 3418
+  },
+  "jules-2574645897473246620-c73f5f02": {
+   "head_sha": "06af26e59efb5ea2a2beeb23b1da32c0f57875e1",
+   "files": 3520
+  },
+  "jules-2617305464768520619-aa21aaf1": {
+   "head_sha": "3d57d9c7d7e358c6ace8fcb5a137e8ee6b61c318",
+   "files": 3611
+  },
+  "jules-2691021271237147321-7a30476c": {
+   "head_sha": "a85f635687833913b473209c4e9b12e4d43e0f59",
+   "files": 3522
+  },
+  "jules-2707077858576905053-6e8130e3": {
+   "head_sha": "03b91e0a668c860b8a91df68e08045678211a4ad",
+   "files": 3521
+  },
+  "jules-2888738922379511665-fd1b8f1a": {
+   "head_sha": "3d25f9646e34712256728186b73d8d7722fa612b",
+   "files": 3507
+  },
+  "jules-3254466231027190902-9947774b": {
+   "head_sha": "3222d1701c04667dc7af77b9b571e49cdb87896d",
+   "files": 3499
+  },
+  "jules-3359099756114716988-8a9652be": {
+   "head_sha": "44f23bdd606870d7c722af8f2a1a55e474d940d2",
+   "files": 3487
+  },
+  "jules-5118449608716874585-f16551c8": {
+   "head_sha": "db93a6cb604bfe78b6125b6b924c845cb42fb4e4",
+   "files": 3487
+  },
+  "jules-5337317287194452659-19f1d79f": {
+   "head_sha": "c94a9bb2d1ad0a1b00ee018efb7728b126e90eea",
+   "files": 3473
+  },
+  "jules-5458954567256735255-3cc21bcb": {
+   "head_sha": "a811ead4cae88acbd86da482a66dc07ecc909204",
+   "files": 3502
+  },
+  "jules-579305096289475229-1f35e6cd": {
+   "head_sha": "06c45c5a8611e9eacbd93a9434290f0b519de715",
+   "files": 3464
+  },
+  "jules-823741540797873999-ac27aa25": {
+   "head_sha": "1391a5d7c3535e7d51c429321cfc381cfca8dbd6",
+   "files": 3418
+  },
+  "jules-8311972480156399434-f49664a8": {
+   "head_sha": "5d20ba36a62f6446255c0a521a1de8543bc724de",
+   "files": 3509
+  },
+  "jules-9367184884023395199-ec282237": {
+   "head_sha": "802d0d4c43ca57aa1f2f0a0b6b2a5dee5fb71670",
+   "files": 3501
+  },
+  "jules-haiku-test-18200393848927605610": {
+   "head_sha": "1da6c21a069576da8d67e6b465d76354f79fba26",
+   "files": 3500
+  },
+  "leader/gemini-maximization-p0": {
+   "head_sha": "378d354d4489702ae038d5a6daf54810b9a1d3ae",
+   "files": 3816
+  },
+  "leader/lego-fork-smod-template": {
+   "head_sha": "5396acba11375aee46f717c2165e373f0c7ec629",
+   "files": 3820
+  },
+  "linguist-agentic-compression-perf-13775007783316480470": {
+   "head_sha": "526b0270338cc9fb812dd1a8a448d85db5ce498b",
+   "files": 3491
+  },
+  "linguist/cedrlang-fastpath-opt-13615129338970705191": {
+   "head_sha": "041044d1eb0302249a37a5003d27cb4ece834ac4",
+   "files": 3526
+  },
+  "main": {
+   "head_sha": "7b08a2b6f8d2574355ddad425e3fda29e6bbd6a0",
+   "files": 1
+  },
+  "manus/automate-provider-review-requests": {
+   "head_sha": "9a0a66bf0d6e634b59e5055c394fdb066344ac1f",
+   "files": 3824
+  },
+  "manus/coderabbit-cooldown-evidence": {
+   "head_sha": "dde625e731a419620ff53e9ad9362dedbd85aab6",
+   "files": 3678
+  },
+  "manus/context-graph-master-promotion": {
+   "head_sha": "f2e374ac5a63f12c568df28178e3696998a6d9d7",
+   "files": 3678
+  },
+  "manus/context-relationship-graph": {
+   "head_sha": "2f80f2bd042d827c21a239d66efd8a384fc26980",
+   "files": 3734
+  },
+  "manus/dependency-phase-automation": {
+   "head_sha": "2e0708ca0220c821786b2cb5514a826b32fb9d7f",
+   "files": 3734
+  },
+  "manus/interactive-peer-gate": {
+   "head_sha": "66b2a3a3fbc98218c89b8ffa3490fa898112141e",
+   "files": 3612
+  },
+  "manus/jules-provider-control-guard": {
+   "head_sha": "0c0c1f224c499a5a3b6e185515d21543c397f625",
+   "files": 3613
+  },
+  "manus/novel-work": {
+   "head_sha": "de6cd260561d3991ba7d6c2f0ac4eb427cabbcb2",
+   "files": 3839
+  },
+  "manus/project-credential-precedence": {
+   "head_sha": "ae03079ea0247e1ad95751f7a0e98e4d02bed48d",
+   "files": 3646
+  },
+  "manus/project-sync-retry-resilience": {
+   "head_sha": "dad02b741f213e18a0c0b91bd9e81dd7fb4c5967",
+   "files": 3646
+  },
+  "manus/provider-command-library": {
+   "head_sha": "971d2ed6b5d4da3153f55c293f8780ee72fbd1a9",
+   "files": 3829
+  },
+  "manus/publish-sync-audit-2026-08-20": {
+   "head_sha": "5659bad0afb65cde038c978dc1a5b9c59640198c",
+   "files": 3823
+  },
+  "manus/readme-deepwiki-validation-integration": {
+   "head_sha": "79234418029b7afed1bac1a7c80ffe0b40a94932",
+   "files": 3833
+  },
+  "manus/record-project-reconciliation": {
+   "head_sha": "a624bcdb1640d586c11830b988dc273966bf7c54",
+   "files": 3678
+  },
+  "manus/repository-surface-reconciler": {
+   "head_sha": "f7886aac3ffa4984c77238cb5da2846e7a0eec5f",
+   "files": 3821
+  },
+  "manus/repository-wide-devin-wiki-steering": {
+   "head_sha": "51b0fcee1c9915a318899788fa25477149fa622a",
+   "files": 3837
+  },
+  "manus/required-provider-review-gate": {
+   "head_sha": "2e5cc53b41449133822dc7af5b43ef8e6893cca1",
+   "files": 3678
+  },
+  "manus/rest-issue-creation": {
+   "head_sha": "307e8dd821c1c63d8443737572cdbb5a0eeb22b9",
+   "files": 3646
+  },
+  "manus/rest-pr-evidence": {
+   "head_sha": "9cc43fdfc5a99f29faca3ac45a91b6a59246d761",
+   "files": 3646
+  },
+  "manus/sync-audit-2026-08-21": {
+   "head_sha": "f81904ca910caaa024480130ccf95921ccf6c3ca",
+   "files": 3833
+  },
+  "manus/sync-audit-20260817": {
+   "head_sha": "d4e394a034182f40a0a702349b2c9105046beb31",
+   "files": 3546
+  },
+  "manus/sync-audit-20260818": {
+   "head_sha": "ad7f8021bec1f08baf7aba488413439f97b81d53",
+   "files": 3613
+  },
+  "master": {
+   "head_sha": "88cf5cc2aa3cdf46d380092fe33c1456571fa6e0",
+   "files": 3872
+  },
+  "master-staging": {
+   "head_sha": "9bf783ce411f32cdf328195207cd7af1f6c48eda",
+   "files": 3848
+  },
+  "master-staging-1107353267763572049": {
+   "head_sha": "437f2980aafadb6d6839992227c21e6186c6d5d4",
+   "files": 3508
+  },
+  "mistral/fixes-config-security": {
+   "head_sha": "cbe0d30727c82786e88531f235d96db5dbf68952",
+   "files": 3405
+  },
+  "ops/connectors-authorize-expand-capacity": {
+   "head_sha": "b6b1c5639e7626da816e0c3eec3ce504077318cb",
+   "files": 3492
+  },
+  "ops/continuous-ops-context-key": {
+   "head_sha": "16c40fe5562834371c4bcb11f34d28eeb92dd7a3",
+   "files": 3525
+  },
+  "ops/credential-activation-184": {
+   "head_sha": "b1b7ff047e33ada4ceaf3e73857e966da2c99c59",
+   "files": 3506
+  },
+  "ops/deepcore-issue-comment-reply-l337s33k": {
+   "head_sha": "9f3cef11df7553ba1d5b3ae888eaee06de4a972a",
+   "files": 3520
+  },
+  "ops/deepseek-agentic-moniker-secret": {
+   "head_sha": "7849ab83985237caccdb4dbaaf7004f124ac0cf4",
+   "files": 3499
+  },
+  "ops/jules-concurrency-job-level": {
+   "head_sha": "7da40b6a7cfc1d3c9f333e3048382362b8228539",
+   "files": 3499
+  },
+  "ops/jules-concurrency-no-issue-access": {
+   "head_sha": "4dedd49bf24ff9c6f4128ea84f97e8ac5bddfee9",
+   "files": 3499
+  },
+  "ops/jules-concurrency-safe-expr": {
+   "head_sha": "b97edbcc39388e0a225f316289a7700064d6f6ca",
+   "files": 3499
+  },
+  "ops/jules-context-key-minimal-145": {
+   "head_sha": "bc05011048a4746a1aa9c3d7800b9281ac4ff03e",
+   "files": 3525
+  },
+  "ops/jules-push-concurrency-safe": {
+   "head_sha": "f515065949516976e783e9df7530f391211a4fd1",
+   "files": 3499
+  },
+  "ops/jules-push-noop-guard": {
+   "head_sha": "cadcd6e1b49bec923f9bc72671f49e8a55881033",
+   "files": 3499
+  },
+  "ops/jules-remove-concurrency-final": {
+   "head_sha": "2d44c44fd1a83c4d2419eed890ef0978a871c5ad",
+   "files": 3499
+  },
+  "ops/jules-session-management-145": {
+   "head_sha": "b404ee4656802641cafcac6ded6bca57d20d7072",
+   "files": 3556
+  },
+  "ops/monikers-and-continuous-ops-perf": {
+   "head_sha": "d52cc90b4d61afe840f0972da6123702d936334d",
+   "files": 3493
+  },
+  "ops/rebase-clean-156-153": {
+   "head_sha": "e163d852aae31153bfd2ddc7d752db39ab318edb",
+   "files": 3502
+  },
+  "ops/review-signal-alignment-146": {
+   "head_sha": "f32d181c524a09c357df8d5ef4d480cb8cbb1f49",
+   "files": 3518
+  },
+  "palette-commingle-swarm-a11y-ux-17770764719461573429": {
+   "head_sha": "887bae2e15630d088446cf27c0240ceba8cd660e",
+   "files": 3612
+  },
+  "palette-pwa-reactive-ux-17363121820248065992": {
+   "head_sha": "f4db9952bb67fa46ada5329f8e58865498a2e3df",
+   "files": 3522
+  },
+  "palette-pwa-ux-refactor-10982374116280510134": {
+   "head_sha": "f486ff7956fd58ccad851294d616f28fd828ba23",
+   "files": 3681
+  },
+  "perf/cedrlang-single-pass-regex-15882572024041502551": {
+   "head_sha": "ebfaa356474b0fe3c80d2dd77b6c0422e4823c6f",
+   "files": 3524
+  },
+  "perf/sqlite-batching-opt-11274228245989312171": {
+   "head_sha": "713ce5bb494174474da96bcd0c90236fcd45f376",
+   "files": 3414
+  },
+  "production/catalog-security-20261022": {
+   "head_sha": "dfeeda1577850d54345cd4ece88bf7191b1c6614",
+   "files": 8463
+  },
+  "proposal/archwiz-ui-protocol": {
+   "head_sha": "7d4c33d0541c9b63143b36cb06af8c43bedca913",
+   "files": 3865
+  },
+  "recreate/refTemplates-skeleton": {
+   "head_sha": "11b61f8139c2e4689eebfbfa20d0678133d476b3",
+   "files": 3562
+  },
+  "reverse_engineering-and-3x9l017_D3v/watchlist-and-exceptions": {
+   "head_sha": "c2c0cc8c2fd48c18a0d9d2d9432a7c898d9b2f4f",
+   "files": 3511
+  },
+  "sentinel-harden-cache-path-account-9858042245649941064": {
+   "head_sha": "db8b2f43b090f9056a53d9f8b3a2aaef5e0a5dab",
+   "files": 3524
+  },
+  "sentinel-nexuscli-security-hardening-1144520540131189380": {
+   "head_sha": "ad54b76c85fa19e94c05b55a368f367484be0353",
+   "files": 3529
+  },
+  "sentinel-privilege-restrictions-16877168996669109419": {
+   "head_sha": "8185e660b01b02ec73dc453e99149a71a730803e",
+   "files": 3506
+  },
+  "sentinel-secure-local-privileges-12862907780546633398": {
+   "head_sha": "ca60d7cd35d5adcc89ee4b01acf14c13cf8f7829",
+   "files": 3489
+  },
+  "sentinel-symlink-cache-hardening-3872163149174229289": {
+   "head_sha": "0b517307681e635c28636c9468c6ccb96ee1f77a",
+   "files": 3611
+  },
+  "sentinel/deepcli-privilege-restrictions-15131132121060765729": {
+   "head_sha": "1a97aed4570e4f81442604a8f9f2cb8cdedc2257",
+   "files": 3475
+  },
+  "sentinel/fix-session-key-collision-14877069485349839471": {
+   "head_sha": "89deb197fc552401cdccc8804dc9be5751d42b94",
+   "files": 3525
+  },
+  "sentinel/local-privilege-restrictions-7494953203873633494": {
+   "head_sha": "24754069da0aa30f6ae0521a83e525c42739d30b",
+   "files": 3522
+  },
+  "tembo/agent-quota-loadbalancer": {
+   "head_sha": "9d983361bf4bc66af5839457356739e472205bbc",
+   "files": 3473
+  },
+  "tembo/fix-connector-manager-bugs": {
+   "head_sha": "4f28f8298c0c4954d34ae71054239b1695582697",
+   "files": 3474
+  },
+  "tembo/fix-gemini-continue-on-error": {
+   "head_sha": "e747dac83fa742a58489155391abf83eda88bbe9",
+   "files": 3464
+  },
+  "ter-41-hub-server-standalone": {
+   "head_sha": "7839eeb7da8040ee22217f907867fabf62d6f160",
+   "files": 3470
+  },
+  "termux-monorepo": {
+   "head_sha": "4cac6140e1f2aab420af4121e559149d8dee3283",
+   "files": 3418
+  },
+  "termux-smoke": {
+   "head_sha": "d5116612803ab8207f7aa37902a383e269f57926",
+   "files": 3509
+  },
+  "timerloggedout-spec-patch-1": {
+   "head_sha": "5862ebe8d5a6f0764a5bd51aee6320613765fc75",
+   "files": 3399
+  },
+  "timerloggedout-spec-patch-2": {
+   "head_sha": "eea4276cac2d2b5116d40a24af17a7a2530a1af0",
+   "files": 3464
+  },
+  "timerloggedout-spec-patch-3/feat/deep_core-init": {
+   "head_sha": "6fa2b98c1c6dc14adee7de4a281ebefb9f7f1c6b",
+   "files": 3483
+  },
+  "timerloggedout-spec-patch-4/coderabbitai_yaml": {
+   "head_sha": "d37c2bf36ca22c329d2fe72eaa53d87feba46536",
+   "files": 3482
+  },
+  "timerloggedout/ter-40-llm-api-hub-and-kai9000-split": {
+   "head_sha": "5fecc3b48d63e5f35c177fc8c25df7c5b43a594e",
+   "files": 3521
+  },
+  "timerloggedout/ter-5-p0-log-dispatch-failures-no-silent-except-pass": {
+   "head_sha": "5b5cc9c9d4ec74042687f530838f70fae588b7c0",
+   "files": 3410
+  },
+  "timerloggedout/ter-69-67-120-secure-and-optimize-gha-workflows-11057082102884077388": {
+   "head_sha": "e0d98549a458f538c4c144527640e39139fa5f5e",
+   "files": 3472
+  },
+  "timerloggedout/ter-9-fix-vibe-silent-dispatch-provider-aware-stores-mark-scaffold": {
+   "head_sha": "8483f335b8e2e1c05abeff5ef0d4c0e3a97ec4c1",
+   "files": 3484
+  },
+  "v0/timerloggedout-5184-43474d34": {
+   "head_sha": "f5d428d0ca0f0e6c84f62fa54e04fadd15af6e06",
+   "files": 3417
+  },
+  "vibe/deepcode-cli_phased-fusion_fc54fa": {
+   "head_sha": "3f1ef9279179508d380c8454daf32cdad3242997",
+   "files": 3436
+  },
+  "vibe/mistralai-vibe-code-wrapper-6055d2": {
+   "head_sha": "7295991d190d56833c0697c2704e383c71b32f0f",
+   "files": 3434
+  },
+  "vibe/nexuscli_phased-fusion_fc54fa": {
+   "head_sha": "3f1ef9279179508d380c8454daf32cdad3242997",
+   "files": 3436
+  },
+  "vibe/project-management-refresh-48caeb": {
+   "head_sha": "f1011e36c8fd4d5b4ee550e931a2f1e002858275",
+   "files": 3475
+  },
+  "vibe/project-management-refresh-48caeb-staging": {
+   "head_sha": "0f86d259ae31c5fae3a4fe83ae65f3d1dc7a76dd",
+   "files": 3475
+  },
+  "vibe/skyhook-integration-8475f1": {
+   "head_sha": "d90c37b5dfda789b91c62309d63a00ac544d1b81",
+   "files": 3520
+  },
+  "workflows_add/proposed-n-in-process": {
+   "head_sha": "2c978030bce53b02c002dd7b2b91b91327e09756",
+   "files": 3428
+  }
+ },
  "head_sha": "88cf5cc2aa3cdf46d380092fe33c1456571fa6e0",
- "files": 3814,
- "tar_sha256": "0b5a2ed4e127eff99a1979d35757b6d30fa19f0e2b94398a163019a589af4880",
- "tar_bytes": 51039489,
- "packed_at": "2026-11-02T10:35:44.650248Z",
+ "files": 871500,
+ "tar_sha256": "0459057bde8f521d2cdc705789389e81a1f95d60da3e8c3b0a955db064a92193",
+ "tar_bytes": 77881840,
+ "packed_at": "2026-11-02T12:07:34.034737Z",
  "chunks": [
   {
    "name": "part-aa",
-   "sha256": "c903f837f5371a1aa5057466ce2bf0f288a24e27ae2557e0534f63f5b224ceaf"
+   "sha256": "3bc22d56e2a02a99467b0038bb9191c74d36e453ab51368f5b4034d22a219f5f"
   },
   {
    "name": "part-ab",
-   "sha256": "28410e2d99e545a292a9056f25af8b9125878a5d171645af150b75c180f56eb4"
+   "sha256": "45fe326cd4a6ee12b99fcbcbd1421d08e9e781ab06a98dc5af2473cc9a6c1a5e"
   }
  ]
 }
