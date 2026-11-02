@@ -1,13 +1,28 @@
 {
  "targets": 616,
- "scored": 149,
- "no_oracle": 467,
+ "scored": 180,
+ "no_oracle": 278,
+ "fetch_fail": 158,
  "rows": [
+  {
+   "target": "agent_shell.py",
+   "resolved": "workspace/llm_map/agent_shell.py",
+   "how": "ambiguous",
+   "pct": 99.9,
+   "gaps": 0
+  },
   {
    "target": "apply_chunked_refactors.py",
    "resolved": "workspace/llm_map/apply_chunked_refactors.py",
    "how": "basename_unique",
    "pct": 38.4,
+   "gaps": 0
+  },
+  {
+   "target": "archaeologist.py",
+   "resolved": "workspace/llm_map/archaeologist.py",
+   "how": "ambiguous",
+   "pct": 21.3,
    "gaps": 0
   },
   {
@@ -270,6 +285,13 @@
    "gaps": 0
   },
   {
+   "target": "backends/base.py",
+   "resolved": "multi-ai-cli/backends/base.py",
+   "how": "ambiguous",
+   "pct": 91.3,
+   "gaps": 0
+  },
+  {
    "target": "backends/claude_web.py",
    "resolved": "multi-ai-cli/backends/claude_web.py",
    "how": "basename_unique",
@@ -281,6 +303,13 @@
    "resolved": "multi-ai-cli/backends/colab.py",
    "how": "basename_unique",
    "pct": 73.7,
+   "gaps": 0
+  },
+  {
+   "target": "backends/deepseek.py",
+   "resolved": "multi-ai-cli/backends/deepseek.py",
+   "how": "ambiguous",
+   "pct": 89.5,
    "gaps": 0
   },
   {
@@ -305,6 +334,13 @@
    "gaps": 0
   },
   {
+   "target": "batch_resumer.py",
+   "resolved": "sandbox/chunking_refactor/batch_resumer.py",
+   "how": "ambiguous",
+   "pct": 74.9,
+   "gaps": 0
+  },
+  {
    "target": "cedar_forge/capture/recorder.py",
    "resolved": "workspace/cedar_forge/cedar_forge/capture/recorder.py",
    "how": "basename_unique",
@@ -316,6 +352,20 @@
    "resolved": "workspace/cedar_forge/cedar_forge/core/compression.py",
    "how": "basename_unique",
    "pct": 88.7,
+   "gaps": 0
+  },
+  {
+   "target": "cedar_forge/core/executor.py",
+   "resolved": "workspace/cedar_forge/cedar_forge/core/executor.py",
+   "how": "ambiguous",
+   "pct": 51.1,
+   "gaps": 0
+  },
+  {
+   "target": "cedar_forge/llm/client.py",
+   "resolved": "workspace/cedar_forge/cedar_forge/llm/client.py",
+   "how": "ambiguous",
+   "pct": 94.0,
    "gaps": 0
   },
   {
@@ -337,6 +387,13 @@
    "resolved": "workspace/llm_map/chunk_json.py",
    "how": "basename_unique",
    "pct": 80.7,
+   "gaps": 0
+  },
+  {
+   "target": "chunked_reader.py",
+   "resolved": "sandbox/chunking_refactor/chunked_reader.py",
+   "how": "ambiguous",
+   "pct": 45.2,
    "gaps": 0
   },
   {
@@ -536,6 +593,13 @@
    "gaps": 0
   },
   {
+   "target": "cli.py",
+   "resolved": "deepcli/workspace/reference/deepcli/cli.py",
+   "how": "ambiguous",
+   "pct": 97.6,
+   "gaps": 0
+  },
+  {
    "target": "colab-cli/bin/colab",
    "resolved": "colab-cli/bin/colab",
    "how": "exact",
@@ -564,10 +628,52 @@
    "gaps": 0
   },
   {
+   "target": "core/session_manager.py",
+   "resolved": "multi-ai-cli/core/session_manager.py",
+   "how": "ambiguous",
+   "pct": 71.1,
+   "gaps": 0
+  },
+  {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/abc_test.py",
    "resolved": "termux-multi-agent/workspace/abc_test.py",
    "how": "basename_unique",
    "pct": 14.9,
+   "gaps": 0
+  },
+  {
+   "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/activity_listener.py",
+   "resolved": "archwiz/activity_listener.py",
+   "how": "ambiguous",
+   "pct": 48.5,
+   "gaps": 0
+  },
+  {
+   "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/agent_shell.py",
+   "resolved": "workspace/llm_map/agent_shell.py",
+   "how": "ambiguous",
+   "pct": 99.9,
+   "gaps": 0
+  },
+  {
+   "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/dedup_versions.py",
+   "resolved": "termux-multi-agent/workspace/dedup_versions.py",
+   "how": "ambiguous",
+   "pct": 91.4,
+   "gaps": 0
+  },
+  {
+   "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/error_extractor.py",
+   "resolved": "termux-multi-agent/workspace/error_extractor.py",
+   "how": "ambiguous",
+   "pct": 10.0,
+   "gaps": 0
+  },
+  {
+   "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/generate_diff_report.py",
+   "resolved": "termux-multi-agent/workspace/generate_diff_report.py",
+   "how": "ambiguous",
+   "pct": 27.1,
    "gaps": 0
   },
   {
@@ -578,10 +684,31 @@
    "gaps": 0
   },
   {
+   "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/promote.py",
+   "resolved": "she/promote.py",
+   "how": "ambiguous",
+   "pct": 1.4,
+   "gaps": 6
+  },
+  {
+   "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/provision_agent.py",
+   "resolved": "harmonizer-prod_cli/workspace/provision_agent.py",
+   "how": "ambiguous",
+   "pct": 0.0,
+   "gaps": 1
+  },
+  {
    "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/refactor_target.txt",
    "resolved": "termux-multi-agent/workspace/refactor_target.txt",
    "how": "basename_unique",
    "pct": 55.3,
+   "gaps": 0
+  },
+  {
+   "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/run.py",
+   "resolved": "harmonizer-prod_cli/workspace/run.py",
+   "how": "ambiguous",
+   "pct": 55.4,
    "gaps": 0
   },
   {
@@ -592,10 +719,31 @@
    "gaps": 0
   },
   {
+   "target": "data/data/com.termux/files/home/termux-multi-agent/workspace/tui.py",
+   "resolved": "deepcli-tui/workspace/reference/tui.py",
+   "how": "ambiguous",
+   "pct": 54.1,
+   "gaps": 0
+  },
+  {
    "target": "deepcli-tui/tui.py",
    "resolved": "deepcli-tui/tui.py",
    "how": "exact",
    "pct": 48.0,
+   "gaps": 0
+  },
+  {
+   "target": "deepcli/cli.py",
+   "resolved": "deepcli/workspace/reference/deepcli/cli.py",
+   "how": "ambiguous",
+   "pct": 97.6,
+   "gaps": 0
+  },
+  {
+   "target": "deepcli/core.py",
+   "resolved": "deepcli/workspace/reference/deepcli/core.py",
+   "how": "ambiguous",
+   "pct": 74.5,
    "gaps": 0
   },
   {
@@ -662,11 +810,25 @@
    "gaps": 0
   },
   {
+   "target": "deepcli/organizer.py",
+   "resolved": "deepcli/deepcli/organizer.py",
+   "how": "ambiguous",
+   "pct": 99.6,
+   "gaps": 0
+  },
+  {
    "target": "deepcli/tests/test_api.py",
    "resolved": "deepcli/tests/test_api.py",
    "how": "exact",
    "pct": 13.7,
    "gaps": 1
+  },
+  {
+   "target": "dispatch_task.py",
+   "resolved": "workspace/llm_map/dispatch_task.py",
+   "how": "ambiguous",
+   "pct": 30.5,
+   "gaps": 0
   },
   {
    "target": "estimate_mem.py",
@@ -695,6 +857,13 @@
    "how": "basename_unique",
    "pct": 0.0,
    "gaps": 1
+  },
+  {
+   "target": "generate_diff_report.py",
+   "resolved": "termux-multi-agent/workspace/generate_diff_report.py",
+   "how": "ambiguous",
+   "pct": 27.1,
+   "gaps": 0
   },
   {
    "target": "harmony_hub/src/db_sync_guard.py",
@@ -743,6 +912,20 @@
    "resolved": "harmony_hub/workspace/tui_repair/message_adapter.py",
    "how": "exact",
    "pct": 95.9,
+   "gaps": 0
+  },
+  {
+   "target": "impact_oracle.py",
+   "resolved": "workspace/llm_map/impact_oracle.py",
+   "how": "ambiguous",
+   "pct": 89.5,
+   "gaps": 0
+  },
+  {
+   "target": "investigate.py",
+   "resolved": "deepcli/investigator/investigate.py",
+   "how": "ambiguous",
+   "pct": 96.3,
    "gaps": 0
   },
   {
@@ -802,6 +985,20 @@
    "gaps": 0
   },
   {
+   "target": "promote.py",
+   "resolved": "she/promote.py",
+   "how": "ambiguous",
+   "pct": 1.4,
+   "gaps": 6
+  },
+  {
+   "target": "recon.py",
+   "resolved": "archwiz/recon.py",
+   "how": "ambiguous",
+   "pct": 80.0,
+   "gaps": 0
+  },
+  {
    "target": "reliability_scan.py",
    "resolved": "workspace/llm_map/reliability_scan.py",
    "how": "basename_unique",
@@ -820,6 +1017,13 @@
    "resolved": "workspace/llm_map/safe_chunk_parallel.py",
    "how": "basename_unique",
    "pct": 99.9,
+   "gaps": 0
+  },
+  {
+   "target": "scripts/cedar-forge",
+   "resolved": "workspace/cedar_forge/scripts/cedar-forge",
+   "how": "ambiguous",
+   "pct": 27.0,
    "gaps": 0
   },
   {
@@ -890,6 +1094,20 @@
    "resolved": "termux-multi-agent/run.py",
    "how": "exact",
    "pct": 49.8,
+   "gaps": 0
+  },
+  {
+   "target": "termux-multi-agent/src/orchestrator.py",
+   "resolved": "termux-multi-agent/workspace/reference/src/orchestrator.py",
+   "how": "ambiguous",
+   "pct": 95.9,
+   "gaps": 0
+  },
+  {
+   "target": "termux-multi-agent/src/parallel_agents.py",
+   "resolved": "termux-multi-agent/workspace/reference/src/parallel_agents.py",
+   "how": "ambiguous",
+   "pct": 92.3,
    "gaps": 0
   },
   {
