@@ -30,10 +30,20 @@ jobs:
           git clone --filter=blob:none --no-checkout --depth 1 https://github.com/timerloggedout-spec/termux-monorepo /tmp/mono
           git -C /tmp/mono ls-tree -r --name-only HEAD > tree.txt
           wc -l tree.txt
-      - name: GitLab V2 snapshot clone (fail-soft)
+      - name: Unpack V2 snapshot pack (hash-verified)
+        run: |
+          if [ -f v2-snapshot/MANIFEST.json ]; then
+            cat v2-snapshot/part-* > /tmp/v2.tar.gz
+            python3 -c "import json,hashlib; m=json.load(open('v2-snapshot/MANIFEST.json')); h=hashlib.sha256(open('/tmp/v2.tar.gz','rb').read()).hexdigest(); assert h==m['tar_sha256'], 'TAR SHA MISMATCH'; print('pack sha OK', m['head_sha'], m['files'])"
+            mkdir -p /tmp/v2 && tar -xzf /tmp/v2.tar.gz -C /tmp/v2
+          fi
+          ls /tmp/v2 2>/dev/null | head -3 || true
+      - name: GitLab V2 snapshot clone (fail-soft, only if no pack)
         continue-on-error: true
         run: |
-          timeout 240 git clone --depth 1 https://gitlab.com/a-group2180532/termux-monorepo /tmp/v2 || echo "V2_CLONE_FAILED"
+          if [ ! -d /tmp/v2 ]; then
+            timeout 240 git clone --depth 1 https://gitlab.com/a-group2180532/termux-monorepo /tmp/v2 || echo "V2_CLONE_FAILED"
+          fi
           ls /tmp/v2 2>/dev/null | head -3 || true
       - name: Full-census replay (assistant-only)
         run: |
