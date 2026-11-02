@@ -1,0 +1,1049 @@
+{
+ "stage": "remote-v9",
+ "files": 149,
+ "rows": [
+  {
+   "target": "CMakeLists.txt",
+   "method": "raw_latest",
+   "versions": 3,
+   "bytes": 538,
+   "sha256": "024a89ce1f3895e23c53571e742cafe8eda3b0471a294660e5d7364b3e41300b"
+  },
+  {
+   "target": "SYNTHEGRATION_PLAN.md",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2225,
+   "sha256": "017a7348a76444e9118fe00e6b66dd51d9d5e1df5ed810593756aa9b601dc924"
+  },
+  {
+   "target": "archwiz/build_tool_index.py",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 2477,
+   "sha256": "560fc9a70e3f045c5d1259e4d2df85d5f1ffa5f257a0bec6998d8edda6d92796"
+  },
+  {
+   "target": "archwiz/clean_zshrc.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2083,
+   "sha256": "5115be6a5d8573b805f30e63463d6b89220f52a2b53f9904c0c76b5d0f8c72e3"
+  },
+  {
+   "target": "archwiz/cmp_dirs.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1291,
+   "sha256": "73b2f790fcbfb3871fea56bef7fe504871a2d4716f90a37c0f215aade43c75e4"
+  },
+  {
+   "target": "backend/go.mod",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 64,
+   "sha256": "0dc4cc3e106c287b1e888127f551c9f23ec0a35eb53701d2baa30ca4b0c3979a"
+  },
+  {
+   "target": "backend/main.go",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 368,
+   "sha256": "a5bdab6a5b4b832d7cc36bb9a898da527787ba9a003b86a64d7568122612cd17"
+  },
+  {
+   "target": "bin/cedar-bridge",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 489,
+   "sha256": "968289ae09b3e0a5126677ee19a956c55fc831813195fa7a9155e8394827576d"
+  },
+  {
+   "target": "bin/env.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 80,
+   "sha256": "163ed022cf62184f00c329f321829a6962ba87b064f7ca821a92f5fb4beb7a7a"
+  },
+  {
+   "target": "cedar_commands.py",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 2594,
+   "sha256": "72a367f08eb3c88b7055570ba446039d04ed79d1deccf1833d6deace8b99dd4e"
+  },
+  {
+   "target": "cli-synthegration/batch_export.sh",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 459,
+   "sha256": "cec7164287d381079ce22f19eae52e9c19f76076afffc6a0cd09f94b8b2cc874"
+  },
+  {
+   "target": "cli-synthegration/extract_cookie_token.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1099,
+   "sha256": "82e102fa5d8171b1f5ced4d525b2c547246c0028f2e040142e0f2290c4ed9f68"
+  },
+  {
+   "target": "cli-synthegration/list_messages.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1237,
+   "sha256": "68b07e7975326f685f6aa2a718dc01c2a3155f79427befa39fda932dfa7f16dd"
+  },
+  {
+   "target": "cli-synthegration/rules/funcs.yml",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 158,
+   "sha256": "87bf923c7aef11cc50b20e66b7488de74d2506866c0f853e53ac95f0ae1fabbf"
+  },
+  {
+   "target": "cli-synthegration/synth_version.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1462,
+   "sha256": "89e50c070f9587f5bc1803546b03bcc3ec5d4dc64399ecb81fc46c105886a16f"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/analyze_delays.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 5055,
+   "sha256": "51306ff7e71ede71a490ca5589a06203a97216eb0dc9e5ffd57e122893bcbb51"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/build_final_map.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 3779,
+   "sha256": "fb753432a9130d869476b8d741f61f0d12443d793effe7c85d5d4f1c3a309301"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/build_provenance.py",
+   "method": "whole_snapshot",
+   "versions": 8,
+   "bytes": 8122,
+   "sha256": "0e0434a3b8094a272342dbb9fa6649bd3f716b9590e89590cf9b1a13c6b9cab7"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/build_provenance_final.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 8003,
+   "sha256": "1394f706956b70f0faca726b213655815074cfe2c1c802302ccfd092f2a2e7a2"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/comprehensive_fast.py",
+   "method": "whole_snapshot",
+   "versions": 2,
+   "bytes": 11646,
+   "sha256": "33f4f3831377a310535d5ec586b2c9a16524dc958156ac05c78c9cea5e56d43a"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/comprehensive_provenance.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 10039,
+   "sha256": "f3c1072d759dfd29f234147f47ae456fe73e8f9aa53d2926ca48cbbea8ec13c7"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/diagnose_and_match.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 10175,
+   "sha256": "541f2b2da175129bfe65f05196d1a14a77b4b7e607e24767fcd419fd0437b6d7"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/discover_codex.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2967,
+   "sha256": "6978b6fa368165c2ec1f841a45f1ede4dae2983f4a51962b631665c93cc9addc"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/final_provenance.py",
+   "method": "whole_snapshot",
+   "versions": 3,
+   "bytes": 9786,
+   "sha256": "ea95b6d03ac89650df671dae03df5d400dbde274d1b67a2c449e62e9f6a60660"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/fix_timestamps.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 6480,
+   "sha256": "3b4e331ff910d2eec2bce7fc698dfd1e62d51859f698d63404fb98aeee421f75"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/fragment_matcher.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 6893,
+   "sha256": "1d21b0a771cd7db9961da4c562bfd4161470b1901c8d32d70709ddbba3b2b0e7"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/fragment_matcher_fast.py",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 5173,
+   "sha256": "c3aa9aef6040c6e00324f810436d6128b69b0afd79cf1eb3516ee3ca2e1b1330"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/fragment_matcher_incremental.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 2552,
+   "sha256": "24f3846bb3c6bf074ee59f0ddb021abae82a1805417aa0f6054c39a3f713568f"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/fragment_provenance.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 7121,
+   "sha256": "f1ee03ed837f1686d48c7766ccdb48ce35e7363953b84c2e6a6131ba32777c95"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/inspect_cedar.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1405,
+   "sha256": "aff3fb34457f1c7a7a925c904f951e597d34c8e5774f7ed34e7e7703ba66c070"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/investigate_harvest.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 3782,
+   "sha256": "2878cc09632d6776ebfc39f8c0856fa41a74296822d6d06e3134311b62524fae"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/optimized_provenance.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 6449,
+   "sha256": "bf93a2c20f706bff04696034d3a1173309d105f4316495197136600a051de1d7"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/progress_tracker.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2898,
+   "sha256": "24baf427242383e9f215027677902ed2aa3b94fe4a7374d2ca6c815e67df9720"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/prov_curses.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 2853,
+   "sha256": "d0cbc9bc0cb0d2ef2918d41fa083ef994a4f26fa69a866d64439d214d512d0f7"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/prov_query.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 864,
+   "sha256": "90aa5072094a883638ee0cdf128657213ee4dff92ac6ff6d8e8e37ae4a181491"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/prov_rich.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 3568,
+   "sha256": "f7db9e61236415b3b6addd2cf0867f92e8101b29b1969685624cc8644963528a"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/prov_rich_v2.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 5883,
+   "sha256": "3873f1a7d192a3eea4d2dcff9fc703a1d65ef7703fb58988ad6a2e2e8cd48c15"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/provenance_api.py",
+   "method": "whole_snapshot",
+   "versions": 5,
+   "bytes": 1535,
+   "sha256": "3fd8ebb7d10cba651eda772388e55a6b4a1fe311443c0236015a81f199842d57"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/provenance_tui.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2394,
+   "sha256": "1112722170ea2b96a7e5d7823fd16ec4416b1c6b0de202174ce38d163be6e239"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/refine_provenance.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 3485,
+   "sha256": "d99439c8cf51621e25a4d2a844e1a9762b199b62b2fa060a20da89298fa650a2"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/rematch_recent.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 3448,
+   "sha256": "66513716eace8bdb9341325f9453636d70b141342b2bdadd00ea3961752c01b9"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/rematch_temporal.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 3604,
+   "sha256": "9c142c189dfbcedd8c6a2ba24fdbb57a782d85c1eed1eb706e03db04da242b63"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/sample_matches.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 751,
+   "sha256": "3d796bb5773bb9f50c12c25679f1aa335b341defcbe236ba7dc70b20493fc9bd"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/scan_databases.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 5906,
+   "sha256": "a65639032ef6d08bbd4e627ed1b9ec918f3958f393fcf10776475b96a54d0933"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/scan_existing_functions.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2535,
+   "sha256": "3102623bf775718a036ad664132c01c63c71c30a1df0596606e1cd2cfa888c1c"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/summary.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 271,
+   "sha256": "1b0fba4de8f370d267dbb3499f8c9ff4db1d9583886010d0520d3fc52cf65bef"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/tight_clean.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 3806,
+   "sha256": "c84dba8fd96d63f196378d94cae24ee1ffdc10e4b6f8d8c6b6df31d2c998d7f9"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/true_delays.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2686,
+   "sha256": "48f2274c2ffdc7fb10a66f5f82eb2271da52be0c31d8367030cd2312609e3a2f"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/true_versions.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 5849,
+   "sha256": "18d3d4f9c1e70a96e740cc810284f8c1a67a17a7e32ef8b488845687a476bfa7"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/true_versions_fast.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 7804,
+   "sha256": "92af62269845bda391f5ef5a65c95f13237d7cc01bb6e7b735d0cf48c59834e2"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/tune_and_sample.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 6338,
+   "sha256": "cc3890b1ae5e662d59ff32fbf3a15466dcd86e4c329b70b95973d594e879213c"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/unearth_blocks.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 3443,
+   "sha256": "9c607d4e9b5f4601e190a0a4fd860a64615386d33928bcd3fea94f37b2452207"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/versioned_provenance.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 7144,
+   "sha256": "774e6f40064ce9b414baa78ca2025774d63fbc9f288367a5f0869f879f7afa83"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance/view_provenance.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 665,
+   "sha256": "0a483b2f06547ac2cd205c068010710fe02228fa472c608067c4e3a65c3cd351"
+  },
+  {
+   "target": "cli-synthegration/workspace/provenance_mapper_cli.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 6308,
+   "sha256": "dc35ab132f2d3f7951ddeea251f8630ff845ae1598900878f30c32c107fb688c"
+  },
+  {
+   "target": "cli-synthegration/workspace/staging/workspace_tree.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 412,
+   "sha256": "ef67bc107d328e777bec59f0db26cd3c24aa7952a20e7ea9a608764e835b3fe1"
+  },
+  {
+   "target": "cli-synthegration/workspace/time_loop_accelerator/accelerator_v2.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1279,
+   "sha256": "a30f193dc7dd5347cbaebbf01e171fb5caeea1bcf7d35016f5879a6c7ca4e3ce"
+  },
+  {
+   "target": "cli-synthegration/workspace/time_loop_accelerator/accelerator_v3.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 757,
+   "sha256": "9e5f97b7bb3a2995709758be0ffd3030cc28cc8af2777f69e5473a1337efa4fd"
+  },
+  {
+   "target": "cpr.py",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 4473,
+   "sha256": "164475cd2c348404a8b482fa131b42be017bfd9c96e23823fc6f1d2f7f3a36ca"
+  },
+  {
+   "target": "db_patches/extend_schema.sql",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1041,
+   "sha256": "caf4d5d296270fa90598cb31074734c6b9acb48c4a6ab9c00a8c7712e46352bd"
+  },
+  {
+   "target": "deep_recon.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2549,
+   "sha256": "28e3d1b22cc05b4404eeb1f92289957293ff1032d633ced3c921518a63263c43"
+  },
+  {
+   "target": "deepcli/investigator/patch_fork_test.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1744,
+   "sha256": "eeea17b5f60692b4a0803f8b0c7a56265cb098b74c759ee6ac2a5717f9eabd7b"
+  },
+  {
+   "target": "deepcli/investigator/patch_tui_pager.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1685,
+   "sha256": "7e77708380e30113a159a66386efc2e992d199613a419a322da5c520c9175880"
+  },
+  {
+   "target": "deepcli/investigator/patch_tui_tree.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2083,
+   "sha256": "b10e152ef0f4ae2550f12cadc21ae38f018b03ba62f3e343120d41b131228cef"
+  },
+  {
+   "target": "deepcli/investigator/patch_upload_fix.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 5610,
+   "sha256": "202c9df074cb5a676a53550c6f13fd117a1dc00c241f0e3183c4751562ed7913"
+  },
+  {
+   "target": "deepcli/upload_file.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 3766,
+   "sha256": "47d663fb95a1576786e86cc5c7e63e11d98960348eb4e3b0899f5bef5392e601"
+  },
+  {
+   "target": "deepcli/upload_v2.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 3098,
+   "sha256": "046459f38a4cf3b3fdca50d90c1f32b62daad921fa02dcc5b3c616eb0d646400"
+  },
+  {
+   "target": "deepseek-cli/capture-expert-simple.js",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1418,
+   "sha256": "f1750e15ebd744ffa4a4331a8f067c177a897763be8f2cc0f12f3c82599c88c6"
+  },
+  {
+   "target": "deepseek-cli/capture-token-account2.js",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2617,
+   "sha256": "80d50eca502b808c83001ad612639aed0cfd01d59aec848cded43553e459669b"
+  },
+  {
+   "target": "deepseek-cli/extract-account2-token.cjs",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2005,
+   "sha256": "240c78649579dde1a6c1b531cb49620cc1f384e21307e6af1f027a01279161f1"
+  },
+  {
+   "target": "deepseek-cli/extract_token_from_cookies.cjs",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1688,
+   "sha256": "bbdffcb87220453f7eaa5a174528193bec9f28a9c4b5e812a1b35d14ee5d28b8"
+  },
+  {
+   "target": "deepseek-cli/extract_token_from_cookies.js",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1782,
+   "sha256": "24fc4b16d7dbb354f68e63a5f7d082803421817131031b1268822eda7ac9e45c"
+  },
+  {
+   "target": "deepseek-cli/get_token.js",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1316,
+   "sha256": "58c4f54bdaa5741269d070fabf35561af37465b62b56d7f068085b669e71dc17"
+  },
+  {
+   "target": "deepseek-cli/inspect_ls.js",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 856,
+   "sha256": "cb56ecfc452aa77093c54fa645999625ced6d9503eb87d1b0ca29da122a724d0"
+  },
+  {
+   "target": "deepseek-cli/pow_solve_standalone.js",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 427,
+   "sha256": "e2afa484549f5690297fad6d10351a073ce4aecad177d39503efd7a04bc945c0"
+  },
+  {
+   "target": "deepseek-cli/probe-expert.mjs",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2096,
+   "sha256": "a76949da1783f9ea7ad3654b2a10cb66b51ff2e7f56e9ef1acf40c32c334dd1e"
+  },
+  {
+   "target": "deepseek-cli/probe-versions.mjs",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2311,
+   "sha256": "e7e4092e91410768a6a16465660f6bb0aec9375d30b289da2f38d33bc08e7720"
+  },
+  {
+   "target": "deepseek-diag-extract.js",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2911,
+   "sha256": "ec3ddf05f6e87fcf8317704587d0eb7aabc3f90381952d4138f3d3feb526fcdb"
+  },
+  {
+   "target": "deepseek-profile.js",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2996,
+   "sha256": "2c6ea5719742d7b8cd1bf457fbfac993f4bdc40ca65ec6da53c3a2e47fa81c6a"
+  },
+  {
+   "target": "deepseek_harvest_work/batch_merge.py",
+   "method": "whole_snapshot",
+   "versions": 6,
+   "bytes": 12893,
+   "sha256": "639819dbf5f71f2a1b2a11fc7a3591546ed754f598622904591e9daef3f0a316"
+  },
+  {
+   "target": "fast_scan.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1331,
+   "sha256": "63e92e57ec5ed32690b0823dced820f2d1985d4f9ff9abeb3f6716a8cf713616"
+  },
+  {
+   "target": "final_move.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 5255,
+   "sha256": "c4a754abfa0ebc3a73ff31bf0e129356bdf1406c024aefe5a0141f70db4d093d"
+  },
+  {
+   "target": "forensic-indexer/scripts/batch_transcribe.py",
+   "method": "whole_snapshot",
+   "versions": 5,
+   "bytes": 7285,
+   "sha256": "f43421a87562bb07b3a492b86031996b96260d2194d14e3ba407b51f76234d5c"
+  },
+  {
+   "target": "forensic-indexer/scripts/indexer_diarize_layers.py",
+   "method": "whole_snapshot",
+   "versions": 3,
+   "bytes": 5713,
+   "sha256": "bbda33f2c4e62b586fdc98e4948b6d83c43ab2d99b45467540203bc91aaa34a4"
+  },
+  {
+   "target": "forensic-indexer/scripts/indexer_fast_accurate.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 7300,
+   "sha256": "40f7800ffac9eb9a763cae95d7778a5f6d2728f9ab36101191b3f2da5098e953"
+  },
+  {
+   "target": "forensic-indexer/scripts/indexer_full_scan_words.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 6297,
+   "sha256": "a6626ac3ba145ecbcaacd0fd785bda186aab438018e100e3ca4befd5cf8a824a"
+  },
+  {
+   "target": "forensic-indexer/scripts/indexer_full_upgrade.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 6513,
+   "sha256": "8e87a354d1a148ace8d76062aa4e7c55fb7763fa9c444e7d78f0b300e620e976"
+  },
+  {
+   "target": "forensic-indexer/scripts/indexer_full_upgrade_v2.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 8578,
+   "sha256": "43b8d1f6b2f7f65b4d0e296df1d0ceb6bbcff5a4e624f85b7c480f994d4578da"
+  },
+  {
+   "target": "forensic-indexer/scripts/test_suite.py",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 90,
+   "sha256": "b98dd7cbe35bfc4cda02cc2001d27548129faa85d2bd99bbba1caabb299762fd"
+  },
+  {
+   "target": "frontend/app.js",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 319,
+   "sha256": "a5c6256ecf627a3072b35043509de7a131eb44c6fc2e936af8d72c8c0eed9dcf"
+  },
+  {
+   "target": "gemini-cli/gemini_gem_wrapper.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 3543,
+   "sha256": "6be2bb2f5746239d6d3415d0ab190fe9903639211a3efdee978f480c794bcca9"
+  },
+  {
+   "target": "gemini-cli/gemini_standalone.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 8630,
+   "sha256": "5ae249d3877b3aeb7667d31c0f8b61cad673b1f3380a62fd58f1537af14fbb34"
+  },
+  {
+   "target": "gemini_wrapper.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2999,
+   "sha256": "40d3b26364464931e597311b83d7c4e9b86afa52fd222734359c7e2fecc7ed1d"
+  },
+  {
+   "target": "get-cookies-devtools.js",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1396,
+   "sha256": "ea7842a16ddb13dae4e6c995a841d086b20ab22ae7d00bed2dce24908846db33"
+  },
+  {
+   "target": "harmonizer-prod_cli/workspace/SOURCE_MAP.md",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2341,
+   "sha256": "5e4ea87fef2e230f6d5ea7172e0971827e23514e525cf6d2834d1caca23eea79"
+  },
+  {
+   "target": "harmony_hub/src/extract_token_bookmarklet.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2726,
+   "sha256": "d93da357ee40fa81096ad28c54adc32884a06ef2d8bc330d7b695067c933606c"
+  },
+  {
+   "target": "harmony_hub/utility_belt/batch_export.sh",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 459,
+   "sha256": "cec7164287d381079ce22f19eae52e9c19f76076afffc6a0cd09f94b8b2cc874"
+  },
+  {
+   "target": "harmony_hub/utility_belt/session-file",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 2280,
+   "sha256": "930a30f2130b57331f442b74e7185dc2f7f22f632152045887d0a15ab8a3e0e6"
+  },
+  {
+   "target": "harmony_hub/workspace/archwizard/archwizard.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 2456,
+   "sha256": "b2d5cc391c117759ea5fd0b926fae8f28a31dde3429dc281b1e26ebe3cb352cb"
+  },
+  {
+   "target": "harmony_hub/workspace/tui_repair/tui_field_fix.cedar",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 451,
+   "sha256": "1bb503b5fc317cf91dd716b0dadc05860df09956b2f5d00ecb6d02ae81453b3c"
+  },
+  {
+   "target": "harvesters/capture-claude.cjs",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1866,
+   "sha256": "8d485e81076cc44bc871c96753401323637d4e3de3875d8cd2fb17d50783642e"
+  },
+  {
+   "target": "harvesters/capture-gemini.cjs",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1913,
+   "sha256": "3322de3ac3f13bf82fa218eacfb4711646c55ac170d92bbea1fc654621794cec"
+  },
+  {
+   "target": "harvesters/capture-mistral.cjs",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1886,
+   "sha256": "0ea9c3ccf97b4300f223d12cc79d4af7ab74cffeb0f4b17786c540c08c18fe2c"
+  },
+  {
+   "target": "index_sessions.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 5299,
+   "sha256": "fa8d787274f962b0e3173495ea7e3b3c64c873266fb95c589f57df6fc2602f55"
+  },
+  {
+   "target": "indexer_scan_whisper_clean.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 8873,
+   "sha256": "cb168a063cb99d47d6594ac60c74254d26bb90ba410459125edf63d2762c743c"
+  },
+  {
+   "target": "inventory_deep.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 4327,
+   "sha256": "34beedbe9f43370b2137a27556076dc55f9cc50032dc16f7882de58017c47db9"
+  },
+  {
+   "target": "inventory_repos.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2782,
+   "sha256": "54f5648d3b12854320d0fc5d6e366a267b875d434f59103052acaa9db2cec82e"
+  },
+  {
+   "target": "lib/utils.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 650,
+   "sha256": "a681f4dbbbdf0c3e53a4b7e388bfbcebc2fad42116a762a430e588b9b552c470"
+  },
+  {
+   "target": "modules/apply_auto_tags.py",
+   "method": "raw_latest",
+   "versions": 3,
+   "bytes": 1028,
+   "sha256": "ff1ae0423d7c1bda49d9fc7c93841823f6d09195e11681c0067ff3222eb63a4a"
+  },
+  {
+   "target": "modules/harvest_blocks.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1096,
+   "sha256": "03844efe4b7e0931b9d354fd1838477d659b81593367ec3b2efae71a0f375a29"
+  },
+  {
+   "target": "modules/ref_readme_scan.sh",
+   "method": "raw_latest",
+   "versions": 4,
+   "bytes": 411,
+   "sha256": "9f24a6ff02cd5d1508d549b8585acdc41e35264b6298eb8f2a7522165e83f5dd"
+  },
+  {
+   "target": "modules/session_search.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 409,
+   "sha256": "6fd8cb33690b695d8d5816b7fa042c4f93b7af6f21da0323ca51b797a98d0873"
+  },
+  {
+   "target": "modules/token_vault.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 690,
+   "sha256": "025d2c27dc80c60c48d29d92c47bd76bc24e95dbb522d31038d4be40c9c9a94d"
+  },
+  {
+   "target": "multi-ai-cli/harvesters/extract_claude_cookies.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1545,
+   "sha256": "c7f76a92de2f2896fe31a03a8dedae1807162e768c1af661e13ed8e48c99f1a3"
+  },
+  {
+   "target": "multi-ai-cli/harvesters/extract_mistral_cookies.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1742,
+   "sha256": "24d8994c199b183fe4770aede5e2dfc4b9e8a2feb9b93b252c1cf18564c3b532"
+  },
+  {
+   "target": "multi-ai-cli/harvesters/extract_mistral_token.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1786,
+   "sha256": "4afc46509f308a4143f685e925fc13c0be30a3daca2802f0b7f560e40844fba8"
+  },
+  {
+   "target": "multi-ai-cli/harvesters/launch-claude.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 368,
+   "sha256": "99d43034965f70ae3068dd4aa4adc31f82a5840f4e52632c56797ba96c7b89d4"
+  },
+  {
+   "target": "multi-ai-cli/harvesters/launch-mistral.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 514,
+   "sha256": "d0ebb9f1fbe9bd043055046879a4727edb3cd1da6f88a9033fab6d08a6af7bdd"
+  },
+  {
+   "target": "organize_flywheel.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 3694,
+   "sha256": "dae9786f24ca3b2c1408e8d71e2a9247bc6f7860c08f83993ba8f3c2a455c331"
+  },
+  {
+   "target": "patch_sandbox.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 5844,
+   "sha256": "7f99038dac35b6f9caf5ffbf4f6163324109e3a44370ef5c3dc9b34ee0d63dc9"
+  },
+  {
+   "target": "patches/deepcli_token_vault.cedar",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 579,
+   "sha256": "4d9b13f1b7eb7b34b821e54c75dbf660310424dbf85158fb9873b52ef6efad6b"
+  },
+  {
+   "target": "process_sets.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 4922,
+   "sha256": "8eb8787d1075a9b7d2ccdba4a79c7aae244f9acff8cdc783a409ebd5e0897dad"
+  },
+  {
+   "target": "quick_recon.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1438,
+   "sha256": "f861388d3ccb2e39b4dd89b74cc59590110aa19ec5d27d319bdd42d98e119925"
+  },
+  {
+   "target": "recon_lag.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 7126,
+   "sha256": "fbf0b107e5ebc8eaf27282626827a3a3af9250fe88d9fc2ca3b26840f29b5099"
+  },
+  {
+   "target": "recon_v2.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1835,
+   "sha256": "bbb759e702f6ab00d7193837007ba1ce33b61515ff670d7cf06733c8ff442b1e"
+  },
+  {
+   "target": "refTemplates/trunk_builder.py",
+   "method": "whole_snapshot",
+   "versions": 4,
+   "bytes": 11992,
+   "sha256": "5dc3efa027d20d8548c44e3653aa466434fb7cf9e3da0aeda37190d1673ca23b"
+  },
+  {
+   "target": "safe_chunk.py",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 1396,
+   "sha256": "de097fba9c853399aaab30dce18e22eb4b63e423f1b843cb1f1b24391348c9b7"
+  },
+  {
+   "target": "sandbox/session_bridge/bridge_session_ids.py",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 29,
+   "sha256": "99fbb289c18302a6a6206f6b28b921a4727f40bd99b45403e4d3695854a81c50"
+  },
+  {
+   "target": "sandbox/wire_001/correct.patch",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 1552,
+   "sha256": "80c52520ebe85c9ed1ab226033ab585467491edf6125b9b1148ac98fd55dcd18"
+  },
+  {
+   "target": "sandbox/wire_003/correct.patch",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 1552,
+   "sha256": "80c52520ebe85c9ed1ab226033ab585467491edf6125b9b1148ac98fd55dcd18"
+  },
+  {
+   "target": "scripts/compile_run.sh",
+   "method": "raw_latest",
+   "versions": 3,
+   "bytes": 948,
+   "sha256": "2063ec11ef68c0da006fc0a6cc04cceea7c8f9c87e26e456dae0a4a74daf008b"
+  },
+  {
+   "target": "search_sessions.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1098,
+   "sha256": "e78d94ca16cb3ccd69294487b14f574ee4932b3186fa3e62f69dddd6eeff8aa9"
+  },
+  {
+   "target": "src/fft_dispatcher.hpp",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 212,
+   "sha256": "949f0f2eceec53559c89b433499e6f33a15d276c0e1a5bebc2791f945073a32a"
+  },
+  {
+   "target": "src/main.cpp",
+   "method": "raw_latest",
+   "versions": 3,
+   "bytes": 7609,
+   "sha256": "45a5f998abb5056c41bfdbb714fb077432d0d585ec524a415646bbf164471dfe"
+  },
+  {
+   "target": "src/session_indexer.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 1722,
+   "sha256": "644b993feaa620d1c4a3c0917ca620364242d1556ad711a7b87f5d1a8e434ba4"
+  },
+  {
+   "target": "surgical_recon.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2486,
+   "sha256": "cde4df7dba7ccb37733afb0a43bc69dda6c089792c209ecb6390ecf320545814"
+  },
+  {
+   "target": "synthegration-cli/src/api.rs",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 3123,
+   "sha256": "830d90474ba278897fa98334d938b3f1a3c745d0d0b2be88b1cf4c2bd4a78935"
+  },
+  {
+   "target": "test-pow.js",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 600,
+   "sha256": "77164be30db114fac5df63411e43e4ba85a1e99fed6d7265e34b9a2fc6e20969"
+  },
+  {
+   "target": "time_correlation_ws/time_correlator.py",
+   "method": "whole_snapshot",
+   "versions": 1,
+   "bytes": 4990,
+   "sha256": "020a46de556277e0243a70568e1a0b65b0a9de727405a76b6dde89469997d863"
+  },
+  {
+   "target": "tmp/arch-004_prompt.txt",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 468,
+   "sha256": "82fdd27b4d3d50646484eac0a754c0f79e67535eff76417f6297e96b48d08e4b"
+  },
+  {
+   "target": "tmp/research_state.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 2039,
+   "sha256": "298c6c742dbbe6332d928a81168d63366bc2860f2549fcecb6fc0f301da7dc93"
+  },
+  {
+   "target": "tmp/tui_upgrade.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 3908,
+   "sha256": "86f5afa44e8817ff730c3ee84f36d2ff1247908a3563f6b97ba6e4eaf41e6cbe"
+  },
+  {
+   "target": "tools/mapper.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 237,
+   "sha256": "e4a3f82254bff3ad43ffc127d876fb8453c30c054921c5299d2fd5adfba8b2cf"
+  },
+  {
+   "target": "trunk_builder.py",
+   "method": "whole_snapshot",
+   "versions": 4,
+   "bytes": 11992,
+   "sha256": "5dc3efa027d20d8548c44e3653aa466434fb7cf9e3da0aeda37190d1673ca23b"
+  },
+  {
+   "target": "vault/secure_token.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 988,
+   "sha256": "04800f6d2ae83610547d939c682478a56dbe3d19a0b2901b523060b4bf895239"
+  },
+  {
+   "target": "workspace/compression_sandbox/prompts/cedr_system_prompt.txt",
+   "method": "raw_latest",
+   "versions": 2,
+   "bytes": 214,
+   "sha256": "eaf732abb2eb878b8367b84aa7c4788d73c65bba236f4f36b68f798135c5ad29"
+  },
+  {
+   "target": "workspace/llm_map/_TOOL_TAXONOMY/notes/strace_registration.md",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 405,
+   "sha256": "4f0bdf3d65ee4531998b164064f6b91d728efa8aa5e1f53c0c3ac28d52e4f8e9"
+  },
+  {
+   "target": "workspace/llm_map/build_fresh_ast.py",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 3980,
+   "sha256": "e4d39d848c7852b05458ac535f0af05d8f1c5e7d0f9c695dc72ff4df354ee8d4"
+  },
+  {
+   "target": "workspace/llm_map/graph_tui.sh",
+   "method": "raw_latest",
+   "versions": 1,
+   "bytes": 508,
+   "sha256": "6d39b6db15c794634918f53de54f00f7822e45dc2b1573ddf6a896d85c462eb8"
+  }
+ ]
+}

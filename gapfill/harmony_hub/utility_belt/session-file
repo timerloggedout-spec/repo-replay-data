@@ -1,0 +1,66 @@
+#!/usr/bin/env python3
+"""session-file – show all sessions, code blocks, and promotions for a given file."""
+import json, sys, subprocess
+from pathlib import Path
+
+HOME = Path.home()
+
+def search_sessions(file_path):
+    """Find sessions mentioning the file."""
+    result = subprocess.run(['synthegration', 'search', file_path], capture_output=True, text=True, timeout=30)
+    sessions = set()
+    for line in result.stdout.split('\n'):
+        if '...' in line and '|' in line:
+            sid = line.split('|')[0].strip().replace('...','')
+            if len(sid) >= 8:
+                sessions.add(sid)
+    return sessions
+
+def fragment_matches(file_path):
+    """Find fragment match scores for the file."""
+    frag_file = HOME / 'cli-synthegration/workspace/provenance/fragment_provenance.json'
+    if not frag_file.exists():
+        return {}
+    frags = json.loads(frag_file.read_text())
+    return {k: v for k, v in frags.items() if file_path.split('/')[-1] in k}
+
+def promotion_history(file_path):
+    """Show promotion entries for the file."""
+    tv = json.loads((HOME / 'cli-synthegration/workspace/provenance/true_versions.json').read_text())
+    promotions = []
+    for k, v in tv.items():
+        if file_path.split('/')[-1] in k:
+            for entry in (v if isinstance(v, list) else [v]):
+                promotions.append((k, entry))
+    return promotions
+
+if __name__ == '__main__':
+    if len(sys.argv) < 2:
+        print("Usage: session-file <path>")
+        sys.exit(1)
+    target = sys.argv[1]
+
+    print(f"# Session‑File Report: {target}\n")
+
+    print("## 🔍 Sessions mentioning this file")
+    sessions = search_sessions(target)
+    for s in sorted(sessions)[:10]:
+        print(f"- {s}…")
+    if not sessions:
+        print("(none found)")
+    print()
+
+    print("## 🧩 Fragment Matches")
+    matches = fragment_matches(target)
+    for k, v in list(matches.items())[:5]:
+        print(f"- {k}: {v}")
+    if not matches:
+        print("(none found — run fragment_matcher.py first)")
+    print()
+
+    print("## 🚀 Promotions")
+    promos = promotion_history(target)
+    for k, v in promos[:10]:
+        print(f"- {k}: session {v.get('session','?')[:12]}… at {v.get('timestamp_utc','?')}")
+    if not promos:
+        print("(none found)")

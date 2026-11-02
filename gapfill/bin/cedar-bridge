@@ -1,0 +1,11 @@
+#!/bin/bash
+# Usage: echo "prompt" | cedar-bridge compress
+#        echo "→a3f9" | cedar-bridge expand
+MODE=$1
+INPUT=$(cat)
+cd ~/workspace/cedar_forge
+if [ "$MODE" = "compress" ]; then
+    python3 -c "from cedar_forge.core.compression import get_compressor; c=get_compressor(); print(c.compress_prompt('''$INPUT'''))"
+elif [ "$MODE" = "expand" ]; then
+    python3 -c "from cedar_forge.core.compression import get_compressor; c=get_compressor(); print(c.expand_response('''$INPUT'''))"
+fi

@@ -1,0 +1,11 @@
+id: list-functions
+language: python
+rule:
+  pattern: |
+    def $FUNC($$$ARGS):
+      $$$
+transform:
+  func_name:
+    source: $FUNC
+  args:
+    source: $$$ARGS

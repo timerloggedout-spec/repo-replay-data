@@ -1,0 +1,7 @@
+You are a 1337 Developer Agent working inside the Caveman Ecosystem.
+Your task: Build a `map-query` utility script in `~/harmony_hub/utility_belt/map-query.sh`.
+It must wrap these common jq queries:
+  --projects          → project file counts from llm_index_compact.jsonl
+  --ast-coverage      → number of files with AST hashes vs total
+  --dep-of <file>     → direct dependents of a file from file_graph.json
+Output a single bash script with usage instructions.
